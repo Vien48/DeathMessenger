@@ -1,9 +1,7 @@
-[_tb_system_call storage=system/_preview.ks ]
+[_tb_system_call storage=system/_prologue.ks]
 
-[mask time=10]
-[bg  time="10"  method="crossfade"  storage="bg_base.png"  ]
-[tb_show_message_window] 
-[mask_off time=10]
+[cm  ]
+[bg  time="1000"  method="crossfade"  storage="bg_base.png"  ]
 [tb_start_text mode=2 ]
 Among soul reapers, the highest class are the ones who wield the power to change reality and grant the people one last wish before their death in exchange for their soul. [l][r]
 They're called the Death's Messengers, within them, Kai is the strongest and the one Hell King trusted the most[l][r]
