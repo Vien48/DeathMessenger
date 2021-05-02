@@ -1,8 +1,6 @@
-[_tb_system_call storage=system/_preview.ks ]
+[_tb_system_call storage=system/_gallery.ks]
 
-[mask time=10]
-[tb_show_message_window] 
-[mask_off time=10]
+[cm  ]
 [tb_start_tyrano_code]
 [position   layer="message0" frame="mCharacter.png"]
 [position   layer="message1" frame="mNarrator.png" marginl="130" marginr="20" margint="60" marginb="10" left="300" top="458" width="1334" height="247"]
