@@ -4,7 +4,7 @@
 
 
 		
-			[position page=fore frame="background_street_1.png" margint=60 marginl=130 marginr=20 marginb=10 vertical=false ]
+			[position page=fore margint=60 marginl=130 marginr=20 marginb=10 vertical=false opacity="0" color="0x000000" ]
 		
 
 		[ptext name="chara_name_area" layer="message0" color=0xFFFFFF size=26 x=1060 y=470 bold="bold" edge="undefined" shadow="undefined"]
