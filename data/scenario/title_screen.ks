@@ -19,7 +19,7 @@
 
 [cm  ]
 [tb_keyconfig  flag="1"  ]
-[jump  storage="scene1.ks"  target=""  ]
+[jump  storage="prologue.ks"  target=""  ]
 [s  ]
 *load
 
