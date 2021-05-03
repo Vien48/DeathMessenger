@@ -6,39 +6,18 @@
 [mask_off time=10]
 [tb_start_tyrano_code]
 [position   layer="message0" frame="mCharacter.png"]
-[position   layer="message1" frame="mNarrator.png" marginl="130" marginr="20" margint="60" marginb="10" left="300" top="458" width="1034" height="247"]
+[position   layer="message1" frame="mNarrator.png" marginl="130" marginr="20" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
 
 [_tb_end_tyrano_code]
 
-[tb_start_tyrano_code]
-[layopt layer=message1 visible=true]
-[layopt layer=message0 visible=false]
+[tb_start_text mode=3 ]
+#Leader
+Send this to her parents as the final warning for the ransom[r]
+Or else this bitch is going to serve in the brothel[r]
 
-[current layer="message1"]
-[_tb_end_tyrano_code]
-
-[tb_start_text mode=2 ]
-A new guy came in and announced.[l][r]
-The whole gang cheered and drank.[l][r]
 [_tb_end_text]
 
-[cm  ]
 [tb_start_text mode=1 ]
-That whole night, An and Khai can't sleep.[p]
-The kidnappers took turn to watch over them.[p]
-The next morning, Khai was released.[p]
+ a few days before i cut her down to sale her organs.[p]
 [_tb_end_text]
-
-[tb_start_text mode=2 ]
-Sitting alone in the dark corner with all the creepy men surrounded.[l][r]
-An was more scared than ever. [l][r]
-[_tb_end_text]
-
-[cm  ]
-[tb_start_tyrano_code]
-[layopt layer=message1 visible=false]
-[layopt layer=message0 visible=true]
-
-[current layer="message0"]
-[_tb_end_tyrano_code]
 

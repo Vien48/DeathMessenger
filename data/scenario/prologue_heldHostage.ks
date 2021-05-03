@@ -110,12 +110,6 @@ The parents agreed to the ransom!![p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
-[position   layer="message0" frame="mCharacter.png"]
-[position   layer="message1" frame="mNarrator.png" marginl="130" marginr="20" margint="60" marginb="10" left="300" top="458" width="1034" height="247"]
-
-[_tb_end_tyrano_code]
-
-[tb_start_tyrano_code]
 [layopt layer=message1 visible=true]
 [layopt layer=message0 visible=false]
 
@@ -140,10 +134,175 @@ An was more scared than ever. [l][r]
 [_tb_end_text]
 
 [cm  ]
+[tb_start_text mode=1 ]
+Will brother be ok? [p]
+Will I be ok?[p]
+Can mom and dad pay all the ransom?[p]
+Will they do anything to me? God...Jesus...anyone...please...[p]
+[_tb_end_text]
+
+[tb_start_text mode=2 ]
+Another horrible sleepless night.[l][r]
+Tiredness, hunger, fear,...washes over her.[l][r]
+
+
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=2 ]
+She wish she could pass out. [l][r]
+Yet all she could do is to count every tick on the clock[l][r]
+And praying everything gonna be OK.[l][r]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=1 ]
+The morning finally comes.[p]
+The same guy that picked up Khai goes to pick up the money.[p]
+
+[_tb_end_text]
+
+[tb_start_text mode=2 ]
+Yet when the guy comes back.[l][r]
+Fear painted all over his face as he screamed[l][r]
+[_tb_end_text]
+
+[cm  ]
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=false]
 [layopt layer=message0 visible=true]
 
 [current layer="message0"]
 [_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+#Kidnapper A
+The parents lied to us!! [p]
+They called the cops!! [p]
+What's to do now, boss!?[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#Leader
+FUCKKKKKKK!!!![p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=true]
+[layopt layer=message0 visible=false]
+
+[current layer="message1"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+The boss let out a long scream before he started smashing the furnitures around.[p]
+It isn't long before he throws a chair at An, grabs her hair and throws me in the middle of the church.[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+#Kidnapper A
+YOU WORTHLESS BITCH!!!! [p]
+SEE HOW NOT EVEN YOUR PARENTS CARE ABOUT YOU NOW?[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#Kidnapper B
+HOW DOES IT FEELS TO BE LEFT OVER AFTER YOUR BROTHER HUH?!![p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=true]
+[layopt layer=message0 visible=false]
+
+[current layer="message1"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+The mans started to release their anger.[p]
+First it was a gun. The cold metal split An's head.[p]
+Then there was a table...Kicks...Punches.....[p]
+She couldn't feel anything anymore.[p]
+[_tb_end_text]
+
+[tb_start_text mode=3 ]
+The pain numbs her senses.[r]
+It's all getting blurry and all the insults keep getting far [r]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+and further away.[p]
+The boss's hand getting closer.[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+#Leader
+This is a present for those who betray their promise[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+*The boss pulls the eyeball out of the socket* IMAGE[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#An
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=true]
+[layopt layer=message0 visible=false]
+
+[current layer="message1"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+An scream with everything left inside of her.[p]
+The pain was too much to take.[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+Twirling my eyeball with his finger, the boss laughs[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=3 ]
+#Leader
+Send this to her parents as the final warning for the ransom[r]
+Or else this bitch is going to serve in the brothel[r]
+
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+ a few days before i cut her down to sale her organs.[p]
+[_tb_end_text]
+
+[tb_start_text mode=2 ]
+#An
+This is it. This is the ending of my life now.[l][r]
+
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+TODO: insert effect to rest[p]
+[_tb_end_text]
 
