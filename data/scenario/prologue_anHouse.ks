@@ -77,8 +77,9 @@ Suddenly someone took the slice of bread from me.[p]
 Yeah, I'll take that.[p]
 [_tb_end_text]
 
-[glink  color="black"  storage="prologue.ks"  size="20"  text="You&nbsp;meanie!!"  ]
-[glink  color="black"  storage="prologue.ks"  size="20"  text="*Pouting*"  ]
+[glink  color="black"  storage="prologue_anHouse.ks"  size="20"  target="*curse"  text="You&nbsp;meanie!!"  x="367"  y="369"  width=""  height=""  _clickable_img=""  ]
+[glink  color="black"  storage="prologue_anHouse.ks"  size="20"  text="*Pouting*"  target="*poute"  x="571"  y="367"  width=""  height=""  _clickable_img=""  ]
+[s  ]
 *curse
 
 [tb_start_text mode=1 ]
@@ -116,25 +117,20 @@ with schorlarship from many universities. [r]
 I'm a bit envious, if i must admit.[p]
 [_tb_end_text]
 
-[tb_start_tyrano_code]
-[position   layer="message0" frame="mCharacter.png"]
-[position   layer="message1" frame="mNarrator.png" marginl="130" marginr="20" margint="60" marginb="10" left="300" top="458" width="1334" height="247"]
-
-
-[_tb_end_tyrano_code]
-
 [tb_start_text mode=2 ]
 #Khai
 Well, today is our birthday.[l][r]
 What do you want to do?[l][r]
 [_tb_end_text]
 
+[cm  ]
 [tb_start_text mode=2 ]
 #An
 Let's go to the hospital.[l][r]
 I promised Mom to help her out.[l][r]
 [_tb_end_text]
 
+[cm  ]
 [tb_start_text mode=2 ]
 #Khai
 Great!.[l][r]
@@ -142,12 +138,14 @@ I'm also having a class at the hospital too.[l][r]
 
 [_tb_end_text]
 
+[cm  ]
 [tb_start_text mode=2 ]
 #Khai
 I'll pick you up at 5pm.[l][r]
 Then, we try the new ice cream flavour at B&A's  nearby.[l][r]
 [_tb_end_text]
 
+[cm  ]
 [tb_start_text mode=1 ]
 #An
 Yeah!![p]
