@@ -293,7 +293,7 @@ Or else this bitch is going to serve in the brothel[r]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
- a few days before i cut her down to sale her organs.[p]
+a few days before i cut her down to sale her organs.[p]
 [_tb_end_text]
 
 [tb_start_text mode=2 ]
@@ -303,6 +303,30 @@ This is it. This is the ending of my life now.[l][r]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-TODO: insert effect to rest[p]
+TODO: insert effect to rest. Add DESTINY node[p]
 [_tb_end_text]
 
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=true]
+[layopt layer=message0 visible=false]
+
+[current layer="message1"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+5 years later[p]
+[_tb_end_text]
+
+[bgmovie  time="1000"  volume="100"  loop="true"  ]
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+5 year later text[p]
+[_tb_end_text]
+
+[jump  storage="prologue_university.ks"  target=""  ]
