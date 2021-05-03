@@ -1,19 +1,11 @@
 [_tb_system_call storage=system/_prologue_anHouse.ks]
 
 [cm  ]
-[delay  speed="10"  ]
-[tb_start_tyrano_code]
-[position   layer="message0" frame="mCharacter.png"]
-[position   layer="message1" frame="mNarrator.png" marginl="130" marginr="20" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
-
-
-
-[_tb_end_tyrano_code]
-
 [bg  time="1000"  method="crossfade"  storage="background/background_kitchen_stairs.png"  ]
-[tb_start_text mode=1 ]
+[tb_show_message_window  ]
+[tb_start_text mode=3 ]
 #Mother
-An! Wake up, wake up!! [p]
+An! Wake up, wake up!! [r]
 [_tb_end_text]
 
 [tb_start_text mode=2 ]
@@ -44,9 +36,9 @@ Yeah, we're kind of busy these days after all.[p]
 
 [tb_start_text mode=3 ]
 #An
-My dad owns a small clinic [r]
+My dad owns a small clinic. [r]
 While my mom is a nurse at the City Hospital. [r]
-Since i was little, mom always brought me along to work [r]
+Since I was little, mom always brought me along to work.[r]
 
 
 [_tb_end_text]
@@ -57,14 +49,10 @@ Because she's so busy.[p]
 One day I'll become a nurse just like her.[p]
 [_tb_end_text]
 
-[tb_start_text mode=3 ]
+[tb_start_text mode=1 ]
 #An
-I ran downstair and picked a slice [r]
+I ran downstair and picked a slice of jam and butter bread for breakfast.[p]
 
-[_tb_end_text]
-
-[tb_start_text mode=2 ]
-Of jam and butter bread for breakfast.[l][r]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -93,30 +81,22 @@ The big meanie said as he ate the bread in front of me.[l][r]
 
 [_tb_end_text]
 
-[tb_start_text mode=3 ]
+[tb_start_text mode=2 ]
 #An
-This is Khai, my twin brother.[r]
-A smart guy that's good with everything except [r]
+This is Khai, my twin brother.[l][r]
+A smart guy that's good with everything except being nice with his little sister.[l][r]
 [_tb_end_text]
 
-[tb_start_text mode=1 ]
+[cm  ]
+[tb_start_text mode=2 ]
 #An
-being nice with his little sister.[p]
-[_tb_end_text]
-
-[tb_start_text mode=3 ]
-#An
-He planned to become a doctor and [r]
-has been  already welcomed [r]
-with schorlarship from many universities. [r]
+He planned to become a doctor and has been  already welcomed [l][r]
+with schorlarship from many universities. [l][r]
+I'm a bit envious, if i must admit.[l][r]
 
 [_tb_end_text]
 
-[tb_start_text mode=1 ]
-#An
-I'm a bit envious, if i must admit.[p]
-[_tb_end_text]
-
+[cm  ]
 [tb_start_text mode=2 ]
 #Khai
 Well, today is our birthday.[l][r]
@@ -159,17 +139,4 @@ TODO: route is not implemented[p]
 [_tb_end_text]
 
 [jump  storage="prologue_hospital.ks"  target=""  ]
-[tb_start_tyrano_code]
-[layopt layer=message1 visible=true]
-[layopt layer=message0 visible=false]
-
-[current layer="message1"]
-[_tb_end_tyrano_code]
-
-[tb_start_tyrano_code]
-[layopt layer=message1 visible=false]
-[layopt layer=message0 visible=true]
-
-[current layer="message0"]
-[_tb_end_tyrano_code]
-
+[s  ]

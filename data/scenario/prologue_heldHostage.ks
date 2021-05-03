@@ -8,7 +8,7 @@
 [current layer="message1"]
 [_tb_end_tyrano_code]
 
-[bg  time="1000"  method="crossfade"  storage="background/background_street_1.png"  ]
+[bg  time="1000"  method="puffIn"  storage="background/background_street_1.png"  ]
 [tb_start_text mode=2 ]
 "Notice how your children haven't came home yet?"[l][r]
 "You...What have you done to them???"[l][r]
@@ -231,14 +231,10 @@ Then there was a table...Kicks...Punches.....[p]
 She couldn't feel anything anymore.[p]
 [_tb_end_text]
 
-[tb_start_text mode=3 ]
-The pain numbs her senses.[r]
-It's all getting blurry and all the insults keep getting far [r]
-[_tb_end_text]
-
-[tb_start_text mode=1 ]
-and further away.[p]
-The boss's hand getting closer.[p]
+[tb_start_text mode=2 ]
+The pain numbs her senses.[l][r]
+It's all getting blurry and all the insults keep getting far and further away.[l][r]
+The boss's hands are getting closer.[l][r]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -254,7 +250,7 @@ This is a present for those who betray their promise[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-*The boss pulls the eyeball out of the socket* IMAGE[p]
+The boss pulls the eyeball out of the socket IMAGE[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -330,3 +326,23 @@ TODO: insert effect to rest. Add DESTINY node[p]
 [_tb_end_text]
 
 [jump  storage="prologue_university.ks"  target=""  ]
+[s  ]
+[tb_start_tyrano_code]
+[position   layer="message0" frame="mCharacter.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
+[position   layer="message1" frame="mNarrator.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
+[_tb_end_tyrano_code]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=true]
+[layopt layer=message0 visible=false]
+
+[current layer="message1"]
+[_tb_end_tyrano_code]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
+

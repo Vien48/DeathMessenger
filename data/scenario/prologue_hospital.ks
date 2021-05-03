@@ -7,32 +7,23 @@
 Good morning miss Kim! How's your back today?[p]
 [_tb_end_text]
 
-[tb_start_text mode=3 ]
+[tb_start_text mode=2 ]
 #Miss Kim
-Morning my dear.[r]
-It's still as painful as ever but at least [r]
-my mood got better since you're around.[r]
+Morning my dear. [l][r]
+It's still as painful as ever but at least my mood got better since you're around.[l][r]
+You're even more cheery than usual?[l][r]
 [_tb_end_text]
 
-[tb_start_text mode=1 ]
-#Miss Kim
-You're even more cheery than usual?[p]
-[_tb_end_text]
-
+[cm  ]
 [tb_start_text mode=1 ]
 #An
 Maybe it's because it's my birthday.[p]
 [_tb_end_text]
 
-[tb_start_text mode=3 ]
-#An
-I chat with miss Kim [r]
-
-[_tb_end_text]
-
 [tb_start_text mode=1 ]
 #An
-while helping her brushing her teeth.[p]
+I chat with miss Kim, while helping her brushing her teeth.[p]
+
 [_tb_end_text]
 
 [tb_start_text mode=2 ]
@@ -52,12 +43,10 @@ Happy birthday An![p]
 Aww, thank alot you two.[p]
 [_tb_end_text]
 
-[tb_start_text mode=3 ]
+[tb_start_text mode=2 ]
 #An
-I've been here for so long, [r]
-this hospital is like my second family now.[r]
-The patients always say my cheerful, bubbly nature [r]
-brightened their days at the hospital[r]
+I've been here for so long, this hospital is like my second family now.[l][r]
+The patients always say my cheerful, bubbly nature brightened their days at the hospital.[l][r]
 [_tb_end_text]
 
 [cm  ]
@@ -80,26 +69,19 @@ There's one patient that caught my attention the most though[p]
 
 [_tb_end_text]
 
-[tb_start_text mode=3 ]
+[tb_start_text mode=2 ]
 #An
-Mr Quang from the VIP special treatment room.[r]
-He's a lonely old man who once was the owner [r]
+Dr Quang from the VIP special treatment room. He's a lonely old man who once was the owner of this hospital.[l][r]
 [_tb_end_text]
 
+[tb_start_text mode=2 ]
+#An
+He's been here for so long, yet I has never seen anyone visiting him other than me.[l][r]
+[_tb_end_text]
+
+[cm  ]
 [tb_start_text mode=1 ]
-of this hospital.[p]
-[_tb_end_text]
-
-[tb_start_text mode=3 ]
-#An
-He's been here for so long [r]
-Yet I has never seen anyone visiting him other than me.[r]
-That's why since I was little, [r]
-[_tb_end_text]
-
-[tb_start_text mode=1 ]
-#An
-I saw him more often than others.[p]
+That's why since I was little, I saw him more often than others.[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -214,9 +196,9 @@ Just my luck[l][r]
 [_tb_end_text]
 
 [cm  ]
-[tb_start_text mode=3 ]
-
-At least you're lucky enough to have a big brother [r]
+[tb_start_text mode=2 ]
+#Khai
+At least you're lucky enough to have a big brother [l][r]
 
 [_tb_end_text]
 
@@ -282,3 +264,23 @@ The last image she saw before collapsing was a group of men ganging up around he
 [_tb_end_tyrano_code]
 
 [jump  storage="prologue_heldHostage.ks"  target=""  ]
+[s  ]
+[tb_start_tyrano_code]
+[position   layer="message0" frame="mCharacter.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
+[position   layer="message1" frame="mNarrator.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
+[_tb_end_tyrano_code]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=true]
+[layopt layer=message0 visible=false]
+
+[current layer="message1"]
+[_tb_end_tyrano_code]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
+

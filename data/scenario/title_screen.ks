@@ -1,5 +1,10 @@
 [_tb_system_call storage=system/_title_screen.ks]
 
+[tb_start_tyrano_code]
+[position   layer="message0" frame="mCharacter.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
+[position   layer="message1" frame="mNarrator.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
+[_tb_end_tyrano_code]
+
 [hidemenubutton]
 
 [tb_clear_images]
@@ -19,7 +24,7 @@
 
 [cm  ]
 [tb_keyconfig  flag="1"  ]
-[jump  storage="prologue.ks"  target=""  ]
+[jump  storage="prologue_anHouse.ks"  target=""  ]
 [s  ]
 *load
 

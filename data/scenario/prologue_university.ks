@@ -16,15 +16,9 @@ Guess I have to go to them asking about it then.[l][r]
 [_tb_end_text]
 
 [cm  ]
-[tb_start_text mode=3 ]
-#An
-In that moment i notice a group of girl [r]
-
-[_tb_end_text]
-
 [tb_start_text mode=1 ]
 #An
-looking at me from behind.[p]
+In that moment I notice a group of girl looking at me from behind.[p]
 [_tb_end_text]
 
 [tb_start_text mode=2 ]
@@ -186,13 +180,8 @@ and preparing for their final days?[l][r]
 [jump  storage="prologue_returnToHospital.ks"  target=""  ]
 [s  ]
 [tb_start_tyrano_code]
-[position   layer="message0" frame="mCharacter.png"]
-[position   layer="message1" frame="mNarrator.png" marginl="130" marginr="20" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
-[_tb_end_tyrano_code]
-
-[tb_start_tyrano_code]
-[position   layer="message0" frame="mCharacter.png"]
-[position   layer="message1" frame="mNarrator.png" marginl="130" marginr="20" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
+[position   layer="message0" frame="mCharacter.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
+[position   layer="message1" frame="mNarrator.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
 [_tb_end_tyrano_code]
 
 [tb_start_tyrano_code]
