@@ -54,21 +54,15 @@ what kind of girl could kill 6 men in such a cruel manner?[l][r]
 [_tb_end_text]
 
 [cm  ]
-[tb_start_text mode=3 ]
-#Girl B
-The police reported that most of the corpses got the head [r]
-[_tb_end_text]
-
 [tb_start_text mode=1 ]
 #Girl B
-smashed into pieces.[p]
+The police reported that most of the corpses got the head smashed into pieces.[p]
 [_tb_end_text]
 
 [tb_start_text mode=2 ]
 #Girl B
 Not to mention she sent flowers and letters to people.[l][r]
-Warnig them about how accidents might happen [l][r]
-And they should value their life[l][r]
+Warnig them about how accidents might happen and they should value their life[l][r]
 [_tb_end_text]
 
 [cm  ]
@@ -83,31 +77,21 @@ No way!!![p]
 [_tb_end_text]
 
 [chara_mod  name="An"  time="600"  cross="true"  ]
-[tb_start_text mode=3 ]
+[tb_start_text mode=1 ]
 #Girl B
-I remember she said she got the special ability to notice [r]
-the people who were about to die and some kind of [r]
-crazy black wings boy saved her that day but who [r]
+I remember she said she got the special ability to notice the people who were about to die and some kind of crazy black wings boy saved her that day but who on Earth would believe that?[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-on Earth would believe that?[p]
-[_tb_end_text]
-
-[tb_start_text mode=2 ]
 #Girl B
-But to be honest, I think she's probably cursed or something[l][r]
-I don't understand why does she even bother.[l][r]
-[_tb_end_text]
-
-[tb_start_text mode=3 ]
-The hospitals already stopped receiving flowers and [r]
+But to be honest, I think she's probably cursed or something.[p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #Girl B
-letters from her because the patients were scared.[p]
+I don't understand why does she even bother.[p]
+The hospitals already stopped receiving flowers and letters from her because the patients were scared.[p]
 [_tb_end_text]
 
 [tb_start_text mode=2 ]
@@ -131,17 +115,12 @@ Then she stand up and quietly take her leave.[l][r]
 [_tb_end_text]
 
 [cm  ]
-[tb_start_text mode=3 ]
-After the left eyeball magically returned to her eye socket [r]
-5 years ago.[r]
-She gained the ability to see black feathers around the [r]
-
+[tb_start_text mode=2 ]
+After the left eyeball magically returned to her eye socket 5 years ago.[l][r]
+She gained the ability to see black feathers around the people who are about to die[l][r]
 [_tb_end_text]
 
-[tb_start_text mode=1 ]
-people who are about to die[p]
-[_tb_end_text]
-
+[cm  ]
 [tb_start_text mode=2 ]
 She tried to told people about it in hope to stop their death.[l][r]
 But it never succeed[l][r]
