@@ -4,7 +4,7 @@
 [delay  speed="10"  ]
 [tb_start_tyrano_code]
 [position   layer="message0" frame="mCharacter.png"]
-[position   layer="message1" frame="mNarrator.png" marginl="130" marginr="20" margint="60" marginb="10" left="300" top="458" width="1334" height="247"]
+[position   layer="message1" frame="mNarrator.png" marginl="130" marginr="20" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
 
 
 
