@@ -151,14 +151,14 @@ Then, we try the new ice cream flavour at B&A's  nearby.[l][r]
 Yeah!![p]
 [_tb_end_text]
 
-[jump  storage="hostpital.ks"  target=""  ]
+[jump  storage="prologue_hospital.ks"  target=""  ]
 *poute
 
 [tb_start_text mode=1 ]
 TODO: route is not implemented[p]
 [_tb_end_text]
 
-[jump  storage="hostpital.ks"  target=""  ]
+[jump  storage="prologue_hospital.ks"  target=""  ]
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=true]
 [layopt layer=message0 visible=false]

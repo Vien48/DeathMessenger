@@ -1,11 +1,5 @@
 [_tb_system_call storage=system/_prologue_hospital.ks]
 
-[tb_start_tyrano_code]
-[position   layer="message0" frame="mCharacter.png"]
-[position   layer="message1" frame="mNarrator.png" marginl="130" marginr="20" margint="60" marginb="10" left="300" top="458" width="1334" height="247"]
-
-[_tb_end_tyrano_code]
-
 [cm  ]
 [bg  time="1000"  method="crossfade"  storage="background/background_hospital_outside.png"  ]
 [tb_start_text mode=1 ]
@@ -256,13 +250,6 @@ How's your day? [l][r]
 I see you're still as popular as ever[l][r]
 [_tb_end_text]
 
-[tb_start_tyrano_code]
-[position   layer="message0" frame="mCharacter.png"]
-[position   layer="message1" frame="mNarrator.png" marginl="130" marginr="20" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
-
-
-[_tb_end_tyrano_code]
-
 [tb_start_text mode=1 ]
 #Khai
 Just the usual.[p]
@@ -278,7 +265,20 @@ You're also very loved yourse-[p]
 
 [tb_start_text mode=2 ]
 She couldn't hear him finish his lines.[l][r]
-Her vision fades away then black out, as someone chroloformed her[l][r]
-The last image she saw before collapsing was a group of men ganging up around my brother[l][r]
+Her vision fades away then black out, as someone chroloformed her.[l][r]
+
 [_tb_end_text]
 
+[cm  ]
+[tb_start_text mode=1 ]
+The last image she saw before collapsing was a group of men ganging up around her brother.[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
+
+[jump  storage="prologue_heldHostage.ks"  target=""  ]
