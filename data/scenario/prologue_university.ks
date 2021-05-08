@@ -71,6 +71,10 @@ Warnig them about how accidents might happen and they should value their life[l]
 A short while after that, they all died.[p]
 [_tb_end_text]
 
+[tb_start_tyrano_code]
+
+[_tb_end_tyrano_code]
+
 [tb_start_text mode=1 ]
 #Girl C
 No way!!![p]
@@ -99,13 +103,6 @@ The hospitals already stopped receiving flowers and letters from her because the
 Some even asked her not to come. [l][r]
 That's what you get for being a frea-[l][r]
 [_tb_end_text]
-
-[tb_start_tyrano_code]
-[layopt layer=message1 visible=true]
-[layopt layer=message0 visible=false]
-
-[current layer="message1"]
-[_tb_end_tyrano_code]
 
 [tb_start_text mode=2 ]
 That's the last line. An've had enough.[l][r]
