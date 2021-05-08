@@ -3,9 +3,9 @@
 [cm  ]
 [bg  time="1000"  method="crossfade"  storage="background/background_kitchen_stairs.png"  ]
 [tb_show_message_window  ]
-[tb_start_text mode=3 ]
+[tb_start_text mode=1 ]
 #Mother
-An! Wake up, wake up!! [r]
+An! Wake up, wake up!! [p]
 [_tb_end_text]
 
 [tb_start_text mode=2 ]
@@ -34,19 +34,11 @@ Mom, can I come along and help you at the hospital today?[p]
 Yeah, we're kind of busy these days after all.[p]
 [_tb_end_text]
 
-[tb_start_text mode=3 ]
-#An
-My dad owns a small clinic. [r]
-While my mom is a nurse at the City Hospital. [r]
-Since I was little, mom always brought me along to work.[r]
-
-
-[_tb_end_text]
-
 [tb_start_text mode=1 ]
 #An
-Because she's so busy.[p]
+My dad owns a small clinic. While my mom is a nurse at the City Hospital. Since I was little, mom always brought me along to work. Because she's so busy.[p]
 One day I'll become a nurse just like her.[p]
+
 [_tb_end_text]
 
 [tb_start_text mode=1 ]

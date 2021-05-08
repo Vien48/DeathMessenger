@@ -1,54 +1,14 @@
 [_tb_system_call storage=system/_preview.ks ]
 
 [mask time=10]
+[bg  time="10"  method="crossfade"  storage="background/background_kitchen_stairs.png"  ]
 [tb_show_message_window] 
 [mask_off time=10]
-[bg  time="1000"  method="crossfade"  storage="background/background_kitchen_stairs.png"  ]
-[tb_show_message_window  ]
-[tb_start_text mode=3 ]
-#Mother
-An! Wake up, wake up!! [r]
-[_tb_end_text]
-
-[tb_start_text mode=2 ]
-#An
-I'm coming mom.[l][r]
-Hi, my name's An[l][r]
-I'm 16 because today is my birthday. [l][r]
-[_tb_end_text]
-
-[cm  ]
-[tb_start_text mode=2 ]
-Oh, this necklace? [l][r]
-It mysteriously appeared on my neck since i was born. [l][r]
-I consider it as a good luck charm now.[l][r]
-[_tb_end_text]
-
-[cm  ]
 [tb_start_text mode=1 ]
 #An
-Mom, can I come along and help you at the hospital today?[p]
-
-[_tb_end_text]
-
-[tb_start_text mode=1 ]
-#Mother
-Yeah, we're kind of busy these days after all.[p]
-[_tb_end_text]
-
-[tb_start_text mode=3 ]
-#An
-My dad owns a small clinic. [r]
-While my mom is a nurse at the City Hospital. [r]
-Since I was little, mom always brought me along to work.[r]
-
-
-[_tb_end_text]
-
-[tb_start_text mode=1 ]
-#An
-Because she's so busy.[p]
+My dad owns a small clinic. While my mom is a nurse at the City Hospital. Since I was little, mom always brought me along to work. Because she's so busy.[p]
 One day I'll become a nurse just like her.[p]
+
 [_tb_end_text]
 
 [tb_start_text mode=1 ]

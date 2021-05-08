@@ -1,6 +1,7 @@
 [_tb_system_call storage=system/_prologue_university.ks]
 
 [cm  ]
+[bg  time="1000"  method="crossfade"  storage="background/living_room.png"  ]
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=false]
 [layopt layer=message0 visible=true]
@@ -8,7 +9,6 @@
 [current layer="message0"]
 [_tb_end_tyrano_code]
 
-[bg  time="1000"  method="crossfade"  storage="background/An_room.png"  ]
 [tb_start_text mode=2 ]
 #An
 Still no response for the internship. [l][r]
@@ -80,7 +80,6 @@ A short while after that, they all died.[p]
 No way!!![p]
 [_tb_end_text]
 
-[chara_mod  name="An"  time="600"  cross="true"  ]
 [tb_start_text mode=1 ]
 #Girl B
 I remember she said she got the special ability to notice the people who were about to die and some kind of crazy black wings boy saved her that day but who on Earth would believe that?[p]
