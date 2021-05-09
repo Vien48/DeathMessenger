@@ -266,7 +266,7 @@ She stays in the hospital for regular check up, drug and chemotherapy. We become
 [current layer="message0"]
 [_tb_end_tyrano_code]
 
-[jump  storage="chapter_1_kaiJob.ks"  target=""  ]
+[jump  storage="chapter_1_backHome.ks"  target=""  ]
 [s  ]
 [tb_start_tyrano_code]
 [position   layer="message0" frame="mCharacter.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
