@@ -1,104 +1,92 @@
 [_tb_system_call storage=system/_preview.ks ]
 
 [mask time=10]
-[bg  time="10"  method="crossfade"  storage="background/background_kitchen_stairs.png"  ]
 [tb_show_message_window] 
 [mask_off time=10]
+[tb_start_tyrano_code]
+[position   layer="message0" frame="mCharacter.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
+[position   layer="message1" frame="mNarrator.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
+[_tb_end_tyrano_code]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=true]
+[layopt layer=message0 visible=false]
+
+[current layer="message1"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+After one week of internship, two familiar faces come to meet me to pick up the pills at the charity fund department.[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
+
 [tb_start_text mode=1 ]
 #An
-My dad owns a small clinic. While my mom is a nurse at the City Hospital. Since I was little, mom always brought me along to work. Because she's so busy.[p]
-One day I'll become a nurse just like her.[p]
-
+Is that...Lan? And Minh as well?[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-#An
-I ran downstair and picked a slice of jam and butter bread for breakfast.[p]
+#Lan
+Oh...An. You become a nurse now[p]
+[_tb_end_text]
 
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=true]
+[layopt layer=message0 visible=false]
+
+[current layer="message1"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+The girl and her boyfriend look at me shyly[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-#An
-Suddenly someone took the slice of bread from me.[p]
+Lan's a chef girl who was about my age with Sarcoma tumor behind Peritoneal cavity.[p]
+She already had 2 operations. The first time the tumor was about a hand size.[p]
+The 2nd time, after two years, it grew into 6kg. They had to cut a part of her liver and left ureter to take it out.[p]
+This type of tumor has low respond to drug and chemotherapy so the doctors thought it has a high chance to occur again.[p]
+I met her 5 years ago, before the kidnap. She was a cheerful girl who loved a boyfriend and saved money to open her own restaurant.[p]
+Cancer couldn't bring her down. Now after 5 years, it's nice to see that she still recognizes me, still loves her boyfriend, still not gives up against cancer and already has enough money to open her own restaurant.[p]
+Lan's more wary around me now, probably because of the rumours. But she's more friendly than most other patients.[p]
+She doesn't come to chemotherapy often enough and barely does examination though, as i check on her diagnose. Lan's getting less aware on her illness for quite awhile now.[p]
+Next time, i must talk to her.[p]
 [_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-#Khai
-Yeah, I'll take that.[p]
+
 [_tb_end_text]
 
-[glink  color="black"  storage="prologue_anHouse.ks"  size="20"  target="*curse"  text="You&nbsp;meanie!!"  x="367"  y="369"  width=""  height=""  _clickable_img=""  ]
-[glink  color="black"  storage="prologue_anHouse.ks"  size="20"  text="*Pouting*"  target="*poute"  x="571"  y="367"  width=""  height=""  _clickable_img=""  ]
 [s  ]
-*curse
+[tb_start_tyrano_code]
+[position   layer="message0" frame="mCharacter.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
+[position   layer="message1" frame="mNarrator.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
+[_tb_end_tyrano_code]
 
-[tb_start_text mode=1 ]
-#Khai
-Good morning shortie!!![p]
-[_tb_end_text]
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=true]
+[layopt layer=message0 visible=false]
 
-[tb_start_text mode=2 ]
-#An
-The big meanie said as he ate the bread in front of me.[l][r]
+[current layer="message1"]
+[_tb_end_tyrano_code]
 
-[_tb_end_text]
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
 
-[tb_start_text mode=2 ]
-#An
-This is Khai, my twin brother.[l][r]
-A smart guy that's good with everything except being nice with his little sister.[l][r]
-[_tb_end_text]
+[current layer="message0"]
+[_tb_end_tyrano_code]
 
-[cm  ]
-[tb_start_text mode=2 ]
-#An
-He planned to become a doctor and has been  already welcomed [l][r]
-with schorlarship from many universities. [l][r]
-I'm a bit envious, if i must admit.[l][r]
-
-[_tb_end_text]
-
-[cm  ]
-[tb_start_text mode=2 ]
-#Khai
-Well, today is our birthday.[l][r]
-What do you want to do?[l][r]
-[_tb_end_text]
-
-[cm  ]
-[tb_start_text mode=2 ]
-#An
-Let's go to the hospital.[l][r]
-I promised Mom to help her out.[l][r]
-[_tb_end_text]
-
-[cm  ]
-[tb_start_text mode=2 ]
-#Khai
-Great!.[l][r]
-I'm also having a class at the hospital too.[l][r]
-
-[_tb_end_text]
-
-[cm  ]
-[tb_start_text mode=2 ]
-#Khai
-I'll pick you up at 5pm.[l][r]
-Then, we try the new ice cream flavour at B&A's  nearby.[l][r]
-[_tb_end_text]
-
-[cm  ]
-[tb_start_text mode=1 ]
-#An
-Yeah!![p]
-[_tb_end_text]
-
-[jump  storage="prologue_hospital.ks"  target=""  ]
-*poute
-
-[tb_start_text mode=1 ]
-TODO: route is not implemented[p]
-[_tb_end_text]
-
-[jump  storage="prologue_hospital.ks"  target=""  ]
-[s  ]
