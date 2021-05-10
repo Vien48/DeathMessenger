@@ -116,7 +116,7 @@ Do you have a headache lately? Any sign of illusion or losing control over your 
 
 [tb_start_text mode=1 ]
 I put the palm on my face, slowly shaking my head. I don't want to do this anymore. Mother's treating me like a mental illness patient with those big puppy eyes looking like she's about to cry.[p]
- No one trusted me, not my mom, the police or all the people around me. And before i know it, everyone started to look at me with those eyes.[p]
+No one trusted me, not my mom, the police or all the people around me. And before i know it, everyone started to look at me with those eyes.[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
