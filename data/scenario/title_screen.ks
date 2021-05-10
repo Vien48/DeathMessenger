@@ -11,12 +11,11 @@
 
 [tb_keyconfig  flag="0"  ]
 [tb_hide_message_window  ]
-[bg  storage="background/Tittle_scene.png"  method="fadeIn"  time="500"  ]
+[bg  storage="background/menu_screen.png"  method="fadeIn"  time="500"  ]
 *title
 
-[button  storage="title_screen.ks"  target="*start"  graphic="New_game_btn.png"  width="254"  height="32"  x="16"  y="453"  _clickable_img=""  name="img_6"  ]
-[button  storage="title_screen.ks"  target="*load"  graphic="Load_game_btn.png"  width="282"  height="29"  x="31"  y="530"  _clickable_img=""  name="img_7"  ]
-[button  storage="title_screen.ks"  target="*gallery"  graphic="Gallery_btn.png"  width="211"  height="29"  x="140"  y="592"  _clickable_img=""  ]
+[button  storage="title_screen.ks"  target="*start"  graphic="new_game_button.png"  width="279"  height="76"  x="-8"  y="355"  _clickable_img=""  name="img_7"  ]
+[button  storage="title_screen.ks"  target="*load"  graphic="load_game_button.png"  width="378"  height="76"  x="0"  y="505"  _clickable_img=""  name="img_7"  ]
 [s  ]
 *start
 

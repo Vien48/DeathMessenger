@@ -1,2 +1,5 @@
-[preload  storage="./data/bgimage/background/background_kitchen_stairs.png"  ]
+[preload  storage="./data/bgimage/pROLOGUE_FINAL.png"  ]
+[preload  storage="./data/bgimage/An_room.png"  ]
+[preload  storage="./data/bgimage/living_room.png"  ]
+[preload  storage="./data/bgimage/background_kitchen_stairs.png"  ]
 [return]
