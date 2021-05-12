@@ -34,7 +34,8 @@ Kai opens the gift in front of me, there's a hand knitted sweater inside of it. 
 [tb_start_text mode=1 ]
 #An
 It takes quite some time but i want to finish it before i can properly tell you[p]
-thank you for everything. For saving me that day, for giving me this internship, for training me all this time, for saving Lan[p]
+Thank you for everything. For saving me that day, for giving me this internship, for training me all this time, for saving Lan[p]
+This sweater is too small compared to everything you did for me[p]
 ......[p]
 This sweater is too small compared to everything you did for me[p]
 [_tb_end_text]
@@ -56,7 +57,7 @@ And here i thought she already had a crush on someone else knitting this sweater
 
 [tb_start_text mode=1 ]
 #An
-Hm?[p]
+Hm.......?[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -73,13 +74,15 @@ One day, i saw the black feathers around my father.[p]
 [_tb_end_text]
 
 [tb_start_text mode=2 ]
+#An
 I was scared.[l][r]
 I tried telling my family about it but they all gave me those weird look as if i was crazy or delusional.[l][r]
 [_tb_end_text]
 
 [cm  ]
 [tb_start_text mode=1 ]
-At that time i was so fragile, so weaked will i gave up on convincing them.[p]
+#An
+At that time i was so fragile, so weaked. Will i gave up on convincing them.[p]
 My father passed away on a business trip, none of us managed to see him for the last time.[p]
 If i managed to convince my family, we could have spent more time with him. After having first hand experience of losing my loved one, i decided to not stay silent anymore.[p]
 [_tb_end_text]
@@ -154,8 +157,10 @@ So An, you don't have the burden yourself too hard with the responsibility to te
 I gave you that eye because even as a Death's Messenger i can't undo death, even just the death of an eye.[p]
 It was meant to be something to help you, no one else. God will determine each soul's end day by putting the death mark on them and us Death's messengers can see it as the black feathers.[p]
 You're just a poor human who got yourself into this madness because the kidnappers beat you up in the temple of the Gods of Death.[p]
-Which angered Hell King enough to give me a split oppoturnity to save you out. Bseside, i don't think the best way to help someone preparing for their death is to tell them when they're about to die.[p]
-I think the best way is to help them enjoy life like they have nothing to lose[p]
+Which angered Hell King enough to give me a split oppoturnity to save you out. Beside, i don't think the best way to help someone preparing for their death is to tell them when they're about to die.[p]
+I think the best way is to help them enjoy life as best they can. You loved your father so much when he's alive and i know he felt that too.[p]
+What happened to him wasn't your fault. And even when you think that's your responsibilities as a nurse with this power, you have me now, you're not alone.[p]
+o cheer up. For both the patients and yourself.[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -166,18 +171,7 @@ I think the best way is to help them enjoy life like they have nothing to lose[p
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-One day after finishing lecturing An about her duty as a nurse, Kai told her about his jobs as a Death's Messenger[p]
-There are two types of soul in this world: good and evil.[p]
-his eye is different from hers. Not only he can see the black feathers around people who are about to die, he can see everyone's soul colour.[p]
-If they do more bad things than good things, their soul will turn black, if not, it remains white.[p]
-God will determine each soul's end day by putting the death mark on them ad us Death's messengers can see it as the black feathers.[p]
-When the time comes, they'll take the black souls straight to hell.[p]
-he white souls will have two choices: either make a wish with the Death's messenger and vanish as they consume their soul or refuse the offer and regenerate into the next life. [p]
-With that, the people who still have something they have yet to do will have a chance to leave this world without regret.[p]
-An appologized for being rude to him when she first heard about dr Quang's death, she was just too upset for losing a friend.[p]
-Not mentioned he was the one that saved her that day and gave her his eye. She should have known it from just the eye patch yet she didn't even thank him properly.[p]
-Kai told her she shouldn't mind it, he's not that good of a guy like she thought. An smiled and asked why did he save her that day then?[p]
-Kai told her that because she was special.[p]
+I smile looking at Kai. It feels like a huge burden just lifted off from my heart.[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -187,7 +181,172 @@ Kai told her that because she was special.[p]
 [current layer="message0"]
 [_tb_end_tyrano_code]
 
-[jump  storage="chapter_1_kaiJob.ks"  target=""  ]
+[tb_start_text mode=1 ]
+#An
+Thank you...I'm not used to talking with others about things like this but i'm so relieved now just by talking with you.[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#Kai
+You're not scared of me anymore? I'm glad.[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#An
+No. It's because you're so straight forward and honest with words it feels easier to tell you everything.[p]
+You don't have those weird eyes of the people who doubted at me. It's nice to have someone who understands[p]
+
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=true]
+[layopt layer=message0 visible=false]
+
+[current layer="message1"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+I lightly touch the amber necklace. You don't know how many times did i pray to this necklace for you to appear in front of me, to tell me that i'm not crazy, to just have someone to talk to.[p]
+How much i longed for this day.[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+#Kai
+So you think i'm that kind of person...[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#An
+Hm?[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#Kai
+othing. Never mind.[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#An
+Can i ask you something?[p]
+
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#Kai
+Go ahead.[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#An
+I still don't know much about you. What is a Death's Messenger? [p]
+What's your job and why didn't you change my memories like you did everyone else? Was it because of dr Quang's wish or..?[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=true]
+[layopt layer=message0 visible=false]
+
+[current layer="message1"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+There's a bit of hesitation on Kai's face then he started speaking[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+#Kai
+There are two types of soul in this world: good and evil.[p]
+My eye is different from yours. Not only i can see the black feathers around people who are about to die, i can see everyone's soul colour.[p]
+If they do more bad things than good things, their soul will turn black, if not, it remains white.[p]
+When the time comes, soul reapers will take the black souls straight to hell. [p]
+The white souls will have two choices: either make a wish with the Death's messenger and vanish as they consume their soul or refuse the offer and regenerate into the next life.[p]
+With that, the people who still have something they have yet to do will have a chance to leave this world without regret.[p]
+That contract can be considered as their final judgement day, if they show thie real colors, become too evil/ greedy with their wish, we can still send them to hell.[p]
+Us Death's Messengers are the highest class of soul reapers with the power to mainipulate reality itself.[p]
+For me personally my only limitation is undoing death and changing someone's heart[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=true]
+[layopt layer=message0 visible=false]
+
+[current layer="message1"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+All those information brought a wave of shock into me.[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+#An
+So basically you can do anything?[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#Kai
+Yes, anything according to the wish.[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=true]
+[layopt layer=message0 visible=false]
+
+[current layer="message1"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+"Even if it wasn't for the soul exchange. Don't you think you could have done more to the poor woman in the gas exploision you mentioned" - i thought, but stay silent.[p]
+ No, what am i thinking. He has his rules to follow too. I'm sure he has reasons to not using power whenever he wants.[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+#An
+Such power and job, you're amazing Kai!!![p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+I'm not that good of a guy like you think, An.[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#An
+Why did you save me that day then? Was it because i was beaten in your church or...?[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#Kai
+No. It's because you're special.[p]
+[_tb_end_text]
+
+[jump  storage="chapter_1_backHome.ks"  target=""  ]
 [s  ]
 [tb_start_tyrano_code]
 [position   layer="message0" frame="mCharacter.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
