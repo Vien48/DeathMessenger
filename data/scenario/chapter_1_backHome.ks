@@ -9,60 +9,31 @@
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-After a long, hard day of working at the hospital. An came back home completely exhausted.[p]
-Lying on bed, she mumbled about how much she still sucked at her nurse job and feeling down.[p]
-Suddenly Kai appeared out of nowhere asking her if she needed someone to talk to which made An yelled out of surprise. She asked him what was he doing here, he shrugged and said he thought she was depressed[p]
+Home...at last[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+I dropped myself into bed. Another exhausted day passed.[p]
+Urgh ...it's almost a month and i still suck so bad at work[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+People might think being a nurse is easy since we only do chores and follow the doctor's orders. It's not.[p]
+You have to remember hundreds of drugs, tools,... know how to use, where to put them and make absoultely no mistake doing so.[p]
+You have to follow the patient's conditions carefully and write it down in details. You have to explain medical care for the patient and their family, sometimes take their anger as well. [p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-An blushed and said he shouldn't be concern about that. Kai shrugged again and changed the subject, he asked An if she wanted to go to the company's prom with him.[p]
-Apparently in the reality that he changed, "dr Quang" was just a 26 years old doctor with no history of marriage whatsoever so his family whom were owners of the hospital wanted him to bring a girlfriend home.[p]
-That's why he would like her to come with him. An blushed and declined immediately.[p]
-What kind of an internship nurse would she look like if she started dating the head doctor in just a week into her job? [p]
-She knew he only took care of her because of dr Quang's wish but he's been doing a great job already, this is taking too far.[p]
-Kai said he woudn't come to the prom then. An told him angrily that he had to go, the prom was a very important event as not only he would meet his family but also business partners with the hospital.[p]
-If he only needed a prom mate, she knew for sure many other girls would agree, established girls that can fit with his status.[p]
-Kai shaked his head and said he didn't want to go with any girl but her. An blushed and mumbled about how this guy was so dense he coudln't be reasoned with[p]
+There's a huge traffic accident today. 20 people with heavy injuries were sent to the hospital.[p]
+Not only did i spend the entire days struggle with blood, moths and the scream from the patients. 3 of them died immediately and i had to take the 3 corpses straight to the morgue all by herself. [p]
+Carrying 3 corpses on a stretcher under the dim light of the morgue, i couldn't even begin to describe how scared i was.[p]
+ Just when i arrived and started bringing the corpse out, a cold hand suddenly touched my and made my heart jumped out of my chest. Turned out it was just another corpse. I felt like i could have died right there.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-The day after that An went to the hospital and told Lan everything about "that one guy" who sneaked into her bed room in the middle of the night and told her to be meet his family in a prom as his girlfriend.[p]
-Surprisingly Lan gave her a very "know it all" smile and asked her if she received gifts recently.[p]
-An nodded and said for the past week, she often found small gifts like her favourite flowers, food, hair pieces,...on her table but she thought her brother prepared them, how could Lan know this?[p]
-Suddenly Lan bursted out laughing, mumbled something about "so he actually took it serious" while An looking more confused than ever.[p]
-That night she came home, An asked Khai about it yet he didn't know. Who could it be then?[p]
-[_tb_end_text]
-
-[tb_start_text mode=1 ]
-When Kai came to check on Lan, she told him with a smug smile on her face[p]
-[_tb_end_text]
-
-[tb_start_tyrano_code]
-[layopt layer=message1 visible=false]
-[layopt layer=message0 visible=true]
-
-[current layer="message0"]
-[_tb_end_tyrano_code]
-
-[tb_start_text mode=1 ]
-#Lan
-That girl you asked me for romance advice.! i will support you two wholeheartedly[p]
-[_tb_end_text]
-
-[tb_start_tyrano_code]
-[layopt layer=message1 visible=true]
-[layopt layer=message0 visible=false]
-
-[current layer="message1"]
-[_tb_end_tyrano_code]
-
-[tb_start_text mode=1 ]
-Lan asked Kai if she could go out of the hospital to buy stuffs preparing for her wedding.[p]
-Kai declined as she was still too weak, it's too dangerous for her to go outside without professional medical watch over.[p]
-an started pleading as it's a very important day, she wanted to prepare for it herself. Then she turned over An and asked maybe she could come along and watch over her while giving Kai a wink.[p]
-In the end, they came together along with Lan's fiance - Minh. They started with the wedding dress, the flowers,...and then the hotel where the wedding is gonna take place.[p]
-At that place, there was a sculpture of a skeleton with black wings holding a sleeping man and giving him a kiss on a forehead.[p]
+On a brighter note, i find another gift on the table. Lately the gifts have always arrived when i come home after work.[p]
+Inside it was chocolate and a note. "Today was more busy than usual but you did great"[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -74,7 +45,290 @@ At that place, there was a sculpture of a skeleton with black wings holding a sl
 
 [tb_start_text mode=1 ]
 #An
-Mephisto and Faust from Faust of Goether[p]
+Great? Depressingly bad more likely[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#Kai
+Do you want to find someone to talk with then?[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=true]
+[layopt layer=message0 visible=false]
+
+[current layer="message1"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+I almost choke on chocolate when i turn around and find Kai sitting on my windows with his casual clothe. It's a miracle i didn't yell out of surprise.[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+#An
+What are you doing here??[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#Kai
+I thought you were depressed?[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#An
+That's...that's none of your business[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=true]
+[layopt layer=message0 visible=false]
+
+[current layer="message1"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+I answer with a blush. The guy just shrugs and changes subject[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+#Kai
+Anyway. Apparently in the reality that i changed[p]
+"Dr Quang" was just a 26 years old doctor with no history of marriage whatsoever so "my family" who are owners of the hospital want me to bring a girlfriend home on the company's next evening ball[p]
+So do you want to come to the ball with me, An?[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#An
+W-What??? Come to the ball with you like a fake girlfriend? No way!![p]
+What kind of an internship nurse would i look like if she started dating the head doctor in just a month into my job?[p]
+I know you only take care of me because of Dr Quang's wish but you've been doing a great job already, this is taking too far.[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#Kai
+Fine, i will not come to the ball then[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#An
+No you can't. You have to go. The ball is a very important event as not only he will meet your family but also business partners with the hospital.[p]
+If you only need a prom mate, i know for sure many other girls would agree, established girls that can fit with your status.[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#Kai
+But i don't want to go with anyone but you.[p]
+
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=true]
+[layopt layer=message0 visible=false]
+
+[current layer="message1"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+He says with such a matter- of - fact face. This..this guy can't be serious. He's so dense he can't be reasoned with urghhhhh[p]
+
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+Right in the next day, i go to the hospital and tell Lan everything.[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+#An
+You're not gonna believe this, Lan. But there's this one guy that sneaked into my bed room in the middle of the night and told me to be meet his family in an evenening ball as his girlfriend.[p]
+How's crazy is that?[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=true]
+[layopt layer=message0 visible=false]
+
+[current layer="message1"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+To my surprise, Lan gives me a very know- it- all face[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+#Lan
+I guess you're receiving presents alot lately as well?[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#An
+Well...yeah, small presents. I thought it was my brother. But how did you know about this?[p]
+
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#Lan
+Muah ha ha ha ha!!! [p]
+He really took my advices serious, i can't believe it!![p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=true]
+[layopt layer=message0 visible=false]
+
+[current layer="message1"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+Lan suddenly bursts out laughing while i just stand there, not understanding a single thing.[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+That night when i home, i ask Khai about the gifts yet he doesn't know. Who could it be then?[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+#Kai
+Let's check your diagnose, Lan. You're still taking chemotherapy regularly right?[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#Lan
+Fu fu fu...Dr Quang... "that girl" you asked me for romance advice...[p]
+i will support you two wholeheartedly.[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#Kai
+......................?![p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#Lan
+Dr Quang, can i go out to prepare for my wedding?[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#Kai
+No.[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#Lan
+Please, it's a very very important day and i want to take care every detail myself[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#Kai
+Your Sarcoma tumor came back after 2 operations because you ignored your own health. In the last operation, it weighted 5 kg.[p]
+Your body is still too weak and chemotherapy is still not working as effective as expected. In another word: no. You aren't going anywhere out of my watch and that's final.[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#Lan
+But my health is improving everyday and An will come with me as well to make sure everything is ok, right An?[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#An
+Yes! I'll do my best to make sure nothing will go wrong![p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=true]
+[layopt layer=message0 visible=false]
+
+[current layer="message1"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+Suddenly Kai and Lan exchange some deep meaningful look.[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+#Kai
+...............[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#Lan
+.....................[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#Kai
+Fine. But you can only do it on my vacation because i'm coming along as well.[p]
+You will be sitting on a wheel chair and if i see you having any sign of exhausion we'll come back to the hospital immediately. Are we clear?[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#Lan
+Yay!![p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=true]
+[layopt layer=message0 visible=false]
+
+[current layer="message1"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+The day finally comes. Me and Kai tag along with Lan and her fiance- Minh. They start with the wedding dress, the flowers,...and then the hotel where the wedding is gonna take place.[p]
+At that place, there's a sculpture of a skeleton with black wings holding a sleeping man and giving him a kiss on a forehead.[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+#An
+Mephisto and Faust from Faust of Goether.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -102,17 +356,16 @@ What's that?[p]
 
 [tb_start_text mode=1 ]
 #Kai
-After throwing everything he had on Faust...all the tragedies, horrors, all the fame and wealth[p]
-Mephisto decided to pull one last move: making Faust falling in love with him. Not the kind of love that can be achieved with lust, desire or magic.[p]
-He gave himself a heart and feelings like a real human. After hundreds of years of being pursuaed by the Demon, that was the one time Faust was closest to abandoning his soul. [p]
-And yet that was also the biggest mistake Mephisto has ever made in his entire. At one point, they both truly loved each others.[p]
-The poor lonely man who had been discriminated and despite all his life with his demon as the only company for hundreds of years.[p]
+After throwing everything he had on Faust: all the tragedies, horrors, all the fame and wealth,... Mephisto decided to pull one last move: making Faust falling in love with him[p]
+Not the kind of love that can be achieved with lust, desire or magic. He gave himself a heart and feelings like a real human.[p]
+After hundreds of years of being pursuaed by the Demon, that was the one time Faust was closest to abandoning his soul. And yet that was also the biggest mistake Mephisto has ever made in his entire existance.[p]
+At one point, they both truly loved each others. The poor lonely man who had been discriminated and despised all his life with his demon as the only company for hundreds of years.[p]
 The Demon who was ready to give up everything: his bet with God, his power, his kingdom,...all to be with the man he was supposed to curse.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #An
-And in the end Faust still chose his God over Mephisto[p]
+And in the end Faust still chose his God over Mephisto.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -128,7 +381,7 @@ Leaving Mephisto's love sick self to suffer for the rest of eternity[p]
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-Kai looked at the statue with a smile half sorrowful, half mocking[p]
+Kai looks at the statue with a smile half sorrowful, half mocking[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -139,7 +392,7 @@ Kai looked at the statue with a smile half sorrowful, half mocking[p]
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-TODO: add node LOST or jump to node Lost[p]
+TODO: jump to LOST node[p]
 [_tb_end_text]
 
 [jump  storage="chapter_1_church.ks"  target=""  ]
