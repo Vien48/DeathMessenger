@@ -1,11 +1,10 @@
-[_tb_system_call storage=system/_chapter_1_kaiMonologue.ks]
+[_tb_system_call storage=system/_chapter_1_corpseHouse.ks]
 
 [cm  ]
 [tb_start_text mode=1 ]
 This is a new scenario file.[p]
 [_tb_end_text]
 
-[jump  storage="chapter_1_prom.ks"  target=""  ]
 [s  ]
 [tb_start_tyrano_code]
 [position   layer="message0" frame="mCharacter.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
