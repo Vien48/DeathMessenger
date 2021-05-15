@@ -480,11 +480,9 @@ tyrano.plugin.kag = {
   backTitle: function () {
     if ("appJsInterface" in window) appJsInterface.finishGame();
     else if (typeof TyranoPlayer == "function") location.href = "tyranoplayer-back://endgame";
-    else $.confirm($.lang("go_title"), function () {
+    else {
       location.href = "./index.html"
-    }, function () {
-      return false
-    })
+    }
   },
   cutTimeWithSkip: function (time) {
     if (this.kag.stat.is_skip == true)
