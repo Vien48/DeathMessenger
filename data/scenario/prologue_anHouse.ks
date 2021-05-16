@@ -1,8 +1,11 @@
 [_tb_system_call storage=system/_prologue_anHouse.ks]
 
 [cm  ]
-[bg  time="4000"  method="vanishIn"  storage="pROLOGUE_FINAL.png"  ]
-[wait  time="2960"  ]
+[bg  time="1000"  method="vanishIn"  storage="pROLOGUE_FINAL.png"  ]
+[clickable  storage="prologue_anHouse.ks"  x="0"  y="0"  width="1334"  height="750"  target="*toAnRoom"  _clickable_img=""  ]
+[s  ]
+*toAnRoom
+
 [bg  time="1000"  method="crossfade"  storage="An_room.png"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
