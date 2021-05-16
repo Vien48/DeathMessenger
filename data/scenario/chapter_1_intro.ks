@@ -383,7 +383,7 @@ How cancer might have taken a lot of things away from her but in the end she wil
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-fter the operation over and Lan was fine, Kai came out of the operation room scolding An for how she cried.[p]
+After the operation over and Lan was fine, Kai came out of the operation room scolding An for how she cried.[p]
 Within this job she wasn't allowed to look panic or helpless because that would make the patient panic too.[p]
 You had to be the place for them to lean on, especially in dangerous situations. In between her tears, An appologized.[p]
 She was so worried about Lan she couldn't do any better. Behind the door, Lan saw everything and smiled.[p]
