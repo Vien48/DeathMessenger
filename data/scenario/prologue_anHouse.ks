@@ -1,12 +1,12 @@
 [_tb_system_call storage=system/_prologue_anHouse.ks]
 
 [cm  ]
-[bg  time="1000"  method="vanishIn"  storage="pROLOGUE_FINAL.png"  ]
+[bg  time="1000"  method="vanishIn"  storage="prologue_final.png"  ]
 [clickable  storage="prologue_anHouse.ks"  x="0"  y="0"  width="1334"  height="750"  target="*toAnRoom"  _clickable_img=""  ]
 [s  ]
 *toAnRoom
 
-[bg  time="1000"  method="crossfade"  storage="An_room.png"  ]
+[bg  time="1000"  method="crossfade"  storage="background/an_room.png"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #Mother
@@ -47,7 +47,7 @@ One day I'll become a nurse just like her.[p]
 
 [_tb_end_text]
 
-[bg  time="1000"  method="crossfade"  storage="background_kitchen_stairs.png"  ]
+[bg  time="1000"  method="crossfade"  storage="background/kitchen_stairs.png"  ]
 [tb_start_text mode=1 ]
 #An
 I ran downstair and picked a slice of jam and butter bread for breakfast.[p]
