@@ -195,5 +195,4 @@ Yeah!![p]
 [_tb_end_text]
 
 [jump  storage="prologue_hospital.ks"  target=""  ]
-[jump  storage="prologue_hospital.ks"  target=""  ]
 [s  ]
