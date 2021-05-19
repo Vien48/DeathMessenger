@@ -13,13 +13,15 @@
 An! Wake up, wake up!! [p]
 [_tb_end_text]
 
+[chara_show  name="An"  time="1000"  wait="true"  storage="chara/1/An_small_smile.png"  width="610"  height="1086"  left="-69"  top="85"  reflect="false"  ]
 [tb_start_text mode=2 ]
 #An
 I'm coming mom.[l][r]
 Hi, my name's An[l][r]
-I'm 16 because today is my birthday. [l][r]
+I'm 17 years old because today is my birthday[l][r]
 [_tb_end_text]
 
+[chara_mod  name="An"  time="100"  cross="true"  storage="chara/1/An_laugh.png"  ]
 [cm  ]
 [tb_start_text mode=2 ]
 Oh, this necklace? [l][r]
@@ -28,13 +30,15 @@ I consider it as a good luck charm now.[l][r]
 [_tb_end_text]
 
 [cm  ]
-[bg  time="1000"  method="crossfade"  storage="living_room.png"  ]
+[chara_mod  name="An"  time="100"  cross="true"  storage="chara/1/An_small_smile.png"  ]
+[bg  time="1000"  method="crossfade"  storage="background/living_room.png"  ]
 [tb_start_text mode=1 ]
 #An
 Mom, can I come along and help you at the hospital today?[p]
 
 [_tb_end_text]
 
+[chara_show  name="An'smother"  time="1000"  wait="true"  storage="chara/4/Ans_mother.png"  width="180"  height="591"  left="659"  top="50"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #Mother
 Yeah, we're kind of busy these days after all.[p]

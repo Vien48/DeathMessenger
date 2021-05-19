@@ -1,9 +1,72 @@
 [_tb_system_call storage=system/_preview.ks ]
 
 [mask time=10]
-[bg  time="10"  method="crossfade"  storage="background_kitchen_stairs.png"  ]
-[tb_show_message_window] 
 [mask_off time=10]
+[cm  ]
+[bg  time="1000"  method="vanishIn"  storage="prologue_final.png"  ]
+[clickable  storage="prologue_anHouse.ks"  x="0"  y="0"  width="1334"  height="750"  target="*toAnRoom"  _clickable_img=""  ]
+[s  ]
+*toAnRoom
+
+[bg  time="1000"  method="crossfade"  storage="background/an_room.png"  ]
+[tb_show_message_window  ]
+[tb_start_text mode=1 ]
+#Mother
+An! Wake up, wake up!! [p]
+[_tb_end_text]
+
+[chara_show  name="An"  time="1000"  wait="true"  storage="chara/1/An_small_smile.png"  width="610"  height="1086"  left="52"  top="89"  reflect="false"  ]
+[tb_start_text mode=2 ]
+#An
+I'm coming mom.[l][r]
+Hi, my name's An[l][r]
+I'm 17 years old because today is my birthday[l][r]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=2 ]
+Oh, this necklace? [l][r]
+It mysteriously appeared on my neck since i was born. [l][r]
+I consider it as a good luck charm now.[l][r]
+[_tb_end_text]
+
+[cm  ]
+[bg  time="1000"  method="crossfade"  storage="living_room.png"  ]
+[tb_start_text mode=1 ]
+#An
+Mom, can I come along and help you at the hospital today?[p]
+
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#Mother
+Yeah, we're kind of busy these days after all.[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#An
+My dad owns a small clinic. While my mom is a nurse at the City Hospital. Since I was little, mom always brought me along to work. Because she's so busy.[p]
+One day I'll become a nurse just like her.[p]
+
+[_tb_end_text]
+
+[bg  time="1000"  method="crossfade"  storage="background/kitchen_stairs.png"  ]
+[tb_start_text mode=1 ]
+#An
+I ran downstair and picked a slice of jam and butter bread for breakfast.[p]
+
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#An
+Suddenly someone took the slice of bread from me.[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#Khai
+Yeah, I'll take that.[p]
+[_tb_end_text]
+
 [button  storage="prologue_anHouse.ks"  target="*curse"  graphic="YOU_MEANIE_BUTTON_UPDATE.png"  width="631"  height="92"  x="351"  y="127"  _clickable_img=""  name="img_18"  ]
 [button  storage="prologue_anHouse.ks"  target="*poute"  graphic="pouting_button.png"  width="631"  height="92"  x="353"  y="230"  _clickable_img=""  ]
 [s  ]
@@ -16,7 +79,7 @@ Good morning shortie!!![p]
 
 [tb_start_text mode=2 ]
 #An
-The big meanie said as he eats the bread in front of me.[l][r]
+The big meanie said as he eatsreturned the bread to me the bread in front of me.[l][r]
 
 [_tb_end_text]
 
@@ -134,6 +197,5 @@ Then, we try the new ice cream flavour at B&A's  nearby.[l][r]
 Yeah!![p]
 [_tb_end_text]
 
-[jump  storage="prologue_hospital.ks"  target=""  ]
 [jump  storage="prologue_hospital.ks"  target=""  ]
 [s  ]
