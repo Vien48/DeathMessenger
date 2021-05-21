@@ -13,7 +13,7 @@
 An! Wake up, wake up!! [p]
 [_tb_end_text]
 
-[chara_show  name="An"  time="1000"  wait="true"  storage="chara/1/An_small_smile.png"  width="610"  height="1086"  left="-69"  top="85"  reflect="false"  ]
+[chara_show  name="An"  time="1000"  wait="true"  storage="chara/1/An_small_smile.png"  width="610"  height="1086"  left="-56"  top="206"  reflect="false"  ]
 [tb_start_text mode=2 ]
 #An
 I'm coming mom.[l][r]
@@ -38,12 +38,15 @@ Mom, can I come along and help you at the hospital today?[p]
 
 [_tb_end_text]
 
-[chara_show  name="An'smother"  time="1000"  wait="true"  storage="chara/4/Ans_mother.png"  width="180"  height="591"  left="659"  top="50"  reflect="false"  ]
+[chara_show  name="AnMum"  time="1000"  wait="true"  storage="chara/4/Ans_mother.png"  width="232"  height="765"  left="648"  top="39"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #Mother
 Yeah, we're kind of busy these days after all.[p]
 [_tb_end_text]
 
+[chara_hide  name="AnMum"  time="1000"  wait="true"  pos_mode="true"  ]
+[chara_move  name="An"  anim="false"  time="300"  effect="linear"  wait="true"  left="-56"  top="206"  width="610"  height="1086"  ]
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_small_smile_blush.png"  ]
 [tb_start_text mode=1 ]
 #An
 My dad owns a small clinic. While my mom is a nurse at the City Hospital. Since I was little, mom always brought me along to work. Because she's so busy.[p]
@@ -52,17 +55,20 @@ One day I'll become a nurse just like her.[p]
 [_tb_end_text]
 
 [bg  time="1000"  method="crossfade"  storage="background/kitchen_stairs.png"  ]
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_small_smile.png"  ]
 [tb_start_text mode=1 ]
 #An
 I ran downstair and picked a slice of jam and butter bread for breakfast.[p]
 
 [_tb_end_text]
 
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_talk.png"  ]
 [tb_start_text mode=1 ]
 #An
 Suddenly someone took the slice of bread from me.[p]
 [_tb_end_text]
 
+[chara_show  name="Khai"  time="1000"  wait="true"  storage="chara/3/Khai_final.png"  width="321"  height="750"  left="572"  top="59"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #Khai
 Yeah, I'll take that.[p]
