@@ -1,7 +1,6 @@
-[_tb_system_call storage=system/_chapter_2_intro.ks]
+[_tb_system_call storage=system/_chapter_2_amusementPark.ks]
 
 [cm  ]
-[jump  storage="chapter_2_encounter.ks"  target=""  ]
 [s  ]
 [tb_start_tyrano_code]
 [position   layer="message0" frame="mCharacter.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]

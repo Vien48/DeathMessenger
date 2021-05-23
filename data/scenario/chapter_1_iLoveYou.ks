@@ -1,6 +1,7 @@
 [_tb_system_call storage=system/_chapter_1_iLoveYou.ks]
 
 [cm  ]
+[tb_eval  exp="f.decider+='C1'"  name="decider"  cmd="+="  op="t"  val="C1"  val_2="undefined"  ]
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=true]
 [layopt layer=message0 visible=false]

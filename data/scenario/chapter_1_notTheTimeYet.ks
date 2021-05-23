@@ -1,6 +1,7 @@
 [_tb_system_call storage=system/_chapter_1_notTheTimeYet.ks]
 
 [cm  ]
+[tb_eval  exp="f.decider+='C2'"  name="decider"  cmd="+="  op="t"  val="C2"  val_2="undefined"  ]
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=true]
 [layopt layer=message0 visible=false]

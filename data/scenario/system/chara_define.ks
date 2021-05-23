@@ -12,4 +12,5 @@
 
 ;=========変数宣言部分 
 [iscript] 
+f['decider']=''; 
 [endscript] 

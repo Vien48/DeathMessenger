@@ -298,6 +298,7 @@ We already did everything we could. Lan is not going to make it this time[p]
 [glink  color="black"  storage="chapter_1_lastDay.ks"  size="20"  text="beg&nbsp;Kai"  target="*begKai"  ]
 *watchKai
 
+[tb_eval  exp="f.decider+='B1'"  name="decider"  cmd="+="  op="t"  val="B1"  val_2="undefined"  ]
 [cm  ]
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=true]
@@ -802,6 +803,7 @@ Suddenly all of Lan's words come back to me.[p]
 [s  ]
 *begKai
 
+[tb_eval  exp="f.decider+='B2'"  name="decider"  cmd="+="  op="t"  val="B2"  val_2="undefined"  ]
 [cm  ]
 [tb_start_text mode=1 ]
 #An
