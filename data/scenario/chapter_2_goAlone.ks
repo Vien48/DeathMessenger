@@ -1,6 +1,7 @@
-[_tb_system_call storage=system/_chapter_2_amusementPark.ks]
+[_tb_system_call storage=system/_chapter_2_goAlone.ks]
 
 [cm  ]
+[tb_eval  exp="f.decider+='D2'"  name="decider"  cmd="+="  op="t"  val="D2"  val_2="undefined"  ]
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=true]
 [layopt layer=message0 visible=false]
@@ -9,7 +10,230 @@
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-A cotton candy in his mouth, Hoang walks in the amusement park between me and Kai, holding both of our hand. He seems much happier now, what a relief.[p]
+I arrive at the mansion alone.[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+#Bodyguard
+I'm sorry ma'am, young master can't meet anyone at this hour.[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#An
+Please, i only want to come check if he's ok. I'm his nurse and him being constantly in fear every night worries me.[p]
+Especially when he doesn't answer my calls and his last message 3 minutes ago was "I'm sorry"[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#Bodyguard
+That just won't do. I'm not allowed to let anyone in ma'am.[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=true]
+[layopt layer=message0 visible=false]
+
+[current layer="message1"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+No, i can't let it go like this. There's definitely something wrong with the diary pages. Hoang can be in danger.[p]
+If i can't enter the house, i need a sign, anything. That's when i start screaming.[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+#An
+Hoang!!!! Are you ok in there?? Can you hear me?!!![p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=true]
+[layopt layer=message0 visible=false]
+
+[current layer="message1"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+The bodyguard looks at me with fear in his face.[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+#Bodyguard
+Please go now, you don't know what you're getting yourself into!![p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#An
+HOANG!!! JUST ANSWER ME!![p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=true]
+[layopt layer=message0 visible=false]
+
+[current layer="message1"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+Suddenly a loud gun shot appears and Hoang's yelling.[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+#Hoang
+AN RUN NOW!!![p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=true]
+[layopt layer=message0 visible=false]
+
+[current layer="message1"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+I can hear loud foot steps coming from the house. Face whitened with fear, i run away while calling the police.[p]
+But before i can finish the phonecall, a heavy object hit my head and turned her unconcious. [p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+#An
+Ugh...where's this place?[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=true]
+[layopt layer=message0 visible=false]
+
+[current layer="message1"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+When i awake, she'm tied in a locked room stink of blood with all the bodyguard around me.[p]
+Hoang's father is right in front of me, smoking his cigarret.[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+#An
+Where's Hoang?[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#Mr. Phat
+I'll be worry about myself if i was you, miss nurse. Didn't i tell you and the doc to mind your own business?[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#An
+You...all the strange noises that Hoang heard at night. Does this blood smell came from all the guests that you invited over?[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=true]
+[layopt layer=message0 visible=false]
+
+[current layer="message1"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+I start yelling.[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+#Mr. Phat
+Ahh...and that's the line you should have stayed away from my dear[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=true]
+[layopt layer=message0 visible=false]
+
+[current layer="message1"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+The man pulls a gun on my head [p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+#Mr. Phat
+Consider this my appreciation for taking care of my son till now. Everything will be fast, don't worry[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=true]
+[layopt layer=message0 visible=false]
+
+[current layer="message1"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+............[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+I talk to myself[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+An is sleeping in my arms now, in her white pijama dress, completely unaffected by the dirty world around her.[p]
+The entire mansion is painted red in blood with corpses lying around them.[p]
+But An has to be clean, that's always the top priority[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -21,22 +245,7 @@ A cotton candy in his mouth, Hoang walks in the amusement park between me and Ka
 
 [tb_start_text mode=1 ]
 #Kai
-Your leg is still injured. You don't have to put yourself in pain because of this[p]
-[_tb_end_text]
-
-[tb_start_text mode=1 ]
-#Lan
-It's ok. You don'thave to remind me every 3 minutes Dr Quang[p]
-[_tb_end_text]
-
-[tb_start_text mode=1 ]
-#Kai
-Want me to carry you instead?[p]
-[_tb_end_text]
-
-[tb_start_text mode=1 ]
-#Lan
-What? No!! We're still in our working outfit, remember?[p]
+I truly lost my mind around you[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -47,7 +256,11 @@ What? No!! We're still in our working outfit, remember?[p]
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-Hoang tries the bumble car, merry-go-round,...and laughs innocently. Finally, the kid says he wants to try the haunted house.[p]
+But that's not an excuse[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+Hoang stays behind in a corner, holding what's left of his father crying[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -59,36 +272,93 @@ Hoang tries the bumble car, merry-go-round,...and laughs innocently. Finally, th
 
 [tb_start_text mode=1 ]
 #Kai
-No. You have heart disease remember?[p]
+Hoang...[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #Hoang
-I want to go!!! I really want to go!!!! I've never been there before and all of the kids in my class said it's so cool!![p]
+You...you killed daddy. You killed Thanh[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=true]
+[layopt layer=message0 visible=false]
+
+[current layer="message1"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+The kid breaks down in tears.[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+#Hoang
+You lied to me!![p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #Kai
-"I've been there. It's nothing special. You should worry about your own health first."[p]
+I can save you from all of this[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=true]
+[layopt layer=message0 visible=false]
+
+[current layer="message1"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+I reply with a shaking voice [p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+#Kai
+There's nothing i can do about their death. What's done was done. But i can rescue you from this place, this nightmare.[p]
+You can wake up not remembering a single thing. You know what your father did to everyone, to you, this is the matter of sooner or later.[p]
+I can make sure you will never have to go to sleep with fear anymore. I'll take care of you...[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #Hoang
-Nooooo!!!! [p]
-I want to go take a look. Even just for the sake of being able to say that i've been there is ok. [p]
-Please?[p]
+All that for the cost of my loved ones?[p]
 [_tb_end_text]
 
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=true]
+[layopt layer=message0 visible=false]
+
+[current layer="message1"]
+[_tb_end_tyrano_code]
+
 [tb_start_text mode=1 ]
-#Kai
-ine. But if only you promise me to close your eyes whenever i squish your hand to inform the scary parts.[p]
-And if you show any sign of being scared, we're going out right away. [p]
-Do we have a deal?[p]
+The kid starts yelling[p]
 [_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
 #Hoang
-Yayyyy!!!![p]
+And yet you told me i could live on without harming others??? I should have just died that day![p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -99,7 +369,8 @@ Yayyyy!!!![p]
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-The kid is cheering while Kai let out a sigh. He turns to me.[p]
+I stay silent. Hoang is right, all i can do is to keep lying over and over again, changing everyone's memory, changing reality until he could fit in it.[p]
+But how much more can i lie? How much magic needed to be put out before i lost the final line of sanity and returns to be the Demon crow i once was?[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -111,12 +382,7 @@ The kid is cheering while Kai let out a sigh. He turns to me.[p]
 
 [tb_start_text mode=1 ]
 #Kai
-That goes for you too. Hold my hand and don't push yourself too hard, ok?[p]
-[_tb_end_text]
-
-[tb_start_text mode=1 ]
-#An
-Y- Yeah[p]
+I'm sorry...i'm so sorry[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -127,68 +393,8 @@ Y- Yeah[p]
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-I give him an awkward nod. I'm not so fond of scary stuffs and luckily he knows me too well.[p]
-[_tb_end_text]
-
-[tb_start_text mode=1 ]
-Most of the haunted house journey goes smoothly. Kai holds Hoang with one arm and holds my hand with the other. We both put trust in Kai's guidance and manage to escape most of the jump scare.[p]
-Suddenly, we arrived at a dark and creepy corner. Hoang is having his eyes closed. I whispers into Kai's ears.[p]
-[_tb_end_text]
-
-[tb_start_tyrano_code]
-[layopt layer=message1 visible=false]
-[layopt layer=message0 visible=true]
-
-[current layer="message0"]
-[_tb_end_tyrano_code]
-
-[tb_start_text mode=1 ]
-#An
-Should i close my eyes too?[p]
-[_tb_end_text]
-
-[tb_start_text mode=1 ]
-#An
-Should i close my eyes too?[p]
-[_tb_end_text]
-
-[tb_start_text mode=1 ]
-#Kai
-Don't worry, nothing will happen.[p]
-[_tb_end_text]
-
-[tb_start_tyrano_code]
-[layopt layer=message1 visible=true]
-[layopt layer=message0 visible=false]
-
-[current layer="message1"]
-[_tb_end_tyrano_code]
-
-[tb_start_text mode=1 ]
-I trust him and keep my eyes wide open. But suddenly, out of nowhere a zombie covered in blood jumps right in front of my face.[p]
-[_tb_end_text]
-
-[tb_start_tyrano_code]
-[layopt layer=message1 visible=false]
-[layopt layer=message0 visible=true]
-
-[current layer="message0"]
-[_tb_end_tyrano_code]
-
-[tb_start_text mode=1 ]
-#An
-AAAAAAAAAAAAA!!!!!![p]
-[_tb_end_text]
-
-[tb_start_tyrano_code]
-[layopt layer=message1 visible=true]
-[layopt layer=message0 visible=false]
-
-[current layer="message1"]
-[_tb_end_tyrano_code]
-
-[tb_start_text mode=1 ]
-I scream my lungs out, surprise both Kai and Hoang.[p]
+These are all meaningless words now. But from the bottom of my heart i never wished for this day.[p]
+Never wanted to lie to An or make Hoang witness all these. Yet before i know it, my vision turned into red once again[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -200,12 +406,7 @@ I scream my lungs out, surprise both Kai and Hoang.[p]
 
 [tb_start_text mode=1 ]
 #Kai
-Wow, i didn't expect you to be so scared[p]
-[_tb_end_text]
-
-[tb_start_text mode=1 ]
-#An
-YOU MEANIE!!! YOU LIAR!!!! YOU -YOU...!!![p]
+This girl is everything to me. I'll fight Gods and human alike before anyone could harm her[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -216,7 +417,7 @@ YOU MEANIE!!! YOU LIAR!!!! YOU -YOU...!!![p]
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-I yell while hitting him but Kai just laughs it off[p]
+I pull my hand out, a magic circle appears[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -227,59 +428,13 @@ I yell while hitting him but Kai just laughs it off[p]
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-#Kai
-Ha ha, you're scaring the kid as well. Stop it.[p]
-[_tb_end_text]
-
-[tb_start_tyrano_code]
-[layopt layer=message1 visible=true]
-[layopt layer=message0 visible=false]
-
-[current layer="message1"]
-[_tb_end_tyrano_code]
-
-[tb_start_text mode=1 ]
-Hoang still has his eyes closed, not knowing what happened. In that moment a small shadow jumped out[p]
-[_tb_end_text]
-
-[tb_start_tyrano_code]
-[layopt layer=message1 visible=false]
-[layopt layer=message0 visible=true]
-
-[current layer="message0"]
-[_tb_end_tyrano_code]
-
-[tb_start_text mode=1 ]
-#Kai
-Ah![p]
-[_tb_end_text]
-
-[tb_start_tyrano_code]
-[layopt layer=message1 visible=true]
-[layopt layer=message0 visible=false]
-
-[current layer="message1"]
-[_tb_end_tyrano_code]
-
-[tb_start_text mode=1 ]
-Suddenly the music stops, everything stops, the black shadow stops in the middle of the air. Turned out it's just a black cat.[p]
-[_tb_end_text]
-
-[tb_start_tyrano_code]
-[layopt layer=message1 visible=false]
-[layopt layer=message0 visible=true]
-
-[current layer="message0"]
-[_tb_end_tyrano_code]
-
-[tb_start_text mode=1 ]
-#An
-Wait. Were you so scared by a cat you stopped time?[p]
+#Hoang
+Stay away from me you monster!!![p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #Kai
-F- Forget about it[p]
+In the end. I'm nothing but a selfish, selfish piece of trash[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -290,12 +445,13 @@ F- Forget about it[p]
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-He tries to hide his blush.[p]
+Those eyes glow into red once again.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-After the haunted house, we're finally done with the amusement park.[p]
-Kai goes to the souvenir shop to buy a diary and a box of crayons then gives them to Hoang.[p]
+Next morning, the news report that the Luu family was murdered due to the fight between 2 mafia families.[p]
+Luu Minh Phat's son was the sole survivor who was saved thanked to a doctor and nurse who sensed danger from his message.[p]
+The kid is staying with the police for the time being[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -305,161 +461,6 @@ Kai goes to the souvenir shop to buy a diary and a box of crayons then gives the
 [current layer="message0"]
 [_tb_end_tyrano_code]
 
-[tb_start_text mode=1 ]
-#Kai
-Remember to write your diary everyday, ok? If you can't find words to express your feelings, draw it out.[p]
-[_tb_end_text]
-
-[tb_start_tyrano_code]
-[layopt layer=message1 visible=true]
-[layopt layer=message0 visible=false]
-
-[current layer="message1"]
-[_tb_end_tyrano_code]
-
-[tb_start_text mode=1 ]
-The kid nods. In that moment the bodyguards and Hoang's father arrive in black limousines to take him home.[p]
-He becomes scared seeing them, the hand holding mine becomes shaking.[p]
-I kneel down and tell the kid[p]
-[_tb_end_text]
-
-[tb_start_tyrano_code]
-[layopt layer=message1 visible=false]
-[layopt layer=message0 visible=true]
-
-[current layer="message0"]
-[_tb_end_tyrano_code]
-
-[tb_start_text mode=1 ]
-#An
-Don't worry. We will meet tomorrow at the hospital. We can hang out more later on as well.[p]
-[_tb_end_text]
-
-[tb_start_tyrano_code]
-[layopt layer=message1 visible=true]
-[layopt layer=message0 visible=false]
-
-[current layer="message1"]
-[_tb_end_tyrano_code]
-
-[tb_start_text mode=1 ]
-His eyes get brighter.[p]
-[_tb_end_text]
-
-[tb_start_tyrano_code]
-[layopt layer=message1 visible=false]
-[layopt layer=message0 visible=true]
-
-[current layer="message0"]
-[_tb_end_tyrano_code]
-
-[tb_start_text mode=1 ]
-#Hoang's father
-Get in the car. [p]
-Now!!!![p]
-[_tb_end_text]
-
-[tb_start_tyrano_code]
-[layopt layer=message1 visible=true]
-[layopt layer=message0 visible=false]
-
-[current layer="message1"]
-[_tb_end_tyrano_code]
-
-[tb_start_text mode=1 ]
-The kid silently obeyed. He then turns to us.[p]
-[_tb_end_text]
-
-[tb_start_tyrano_code]
-[layopt layer=message1 visible=false]
-[layopt layer=message0 visible=true]
-
-[current layer="message0"]
-[_tb_end_tyrano_code]
-
-[tb_start_text mode=1 ]
-#Hoang's father
-Thank you both for taking care of my son today. [p]
-Now if you excuse me[p]
-[_tb_end_text]
-
-[tb_start_tyrano_code]
-[layopt layer=message1 visible=true]
-[layopt layer=message0 visible=false]
-
-[current layer="message1"]
-[_tb_end_tyrano_code]
-
-[tb_start_text mode=1 ]
-Before he goes into the car, Kai catchs up and whisper to him.[p]
-[_tb_end_text]
-
-[tb_start_tyrano_code]
-[layopt layer=message1 visible=false]
-[layopt layer=message0 visible=true]
-
-[current layer="message0"]
-[_tb_end_tyrano_code]
-
-[tb_start_text mode=1 ]
-#Kai
-Mr Phat, you should consider taking Hoang to some therapist.[p]
-The kid clearly showed signs of being unstable and even almost committed suicide today[p]
-[_tb_end_text]
-
-[tb_start_tyrano_code]
-[layopt layer=message1 visible=true]
-[layopt layer=message0 visible=false]
-
-[current layer="message1"]
-[_tb_end_tyrano_code]
-
-[tb_start_text mode=1 ]
-In return, the guy only gives Kai a cold chuckle.[p]
-[_tb_end_text]
-
-[tb_start_tyrano_code]
-[layopt layer=message1 visible=false]
-[layopt layer=message0 visible=true]
-
-[current layer="message0"]
-[_tb_end_tyrano_code]
-
-[tb_start_text mode=1 ]
-#Hoang's father
-Doc, there's nothing wrong with my son. The kid didn't do anything.[p]
-Dr Quang just took him out to play because he wanted to and he should just stay in his line if he knew what's best for him. So stick to your own business[p]
-[_tb_end_text]
-
-[tb_start_tyrano_code]
-[layopt layer=message1 visible=true]
-[layopt layer=message0 visible=false]
-
-[current layer="message1"]
-[_tb_end_tyrano_code]
-
-[tb_start_text mode=1 ]
-The man quickly drives away with his body guards.[p]
-[_tb_end_text]
-
-[tb_start_tyrano_code]
-[layopt layer=message1 visible=false]
-[layopt layer=message0 visible=true]
-
-[current layer="message0"]
-[_tb_end_tyrano_code]
-
-[tb_start_text mode=1 ]
-#Kai
-You noticed it too, right?[p]
-[_tb_end_text]
-
-[tb_start_text mode=1 ]
-#An
-Yeah, Hoang's aggressive attitude has to be influenced by someone else[p]
-[_tb_end_text]
-
-[jump  storage="chapter_2_theRain.ks"  target=""  ]
 [s  ]
 [tb_start_tyrano_code]
 [position   layer="message0" frame="mCharacter.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
