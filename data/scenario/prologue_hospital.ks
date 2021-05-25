@@ -277,4 +277,3 @@ The last image i see before collapsing is a group of men ganging up around my br
 [current layer="message0"]
 [_tb_end_tyrano_code]
 
-[chara_show  name="undefined"  time="1000"  wait="true"  ]

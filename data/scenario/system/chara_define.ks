@@ -13,6 +13,8 @@
 [chara_new  name="DrQuang"  jname="DrQuang"  storage="chara/6/Dr_Quang.png"  ]
 ;gangster1
 [chara_new  name="gangster1"  jname="gangster1"  storage="chara/7/gangster_1.png"  ]
+;boss
+[chara_new  name="boss"  jname="boss"  storage="chara/8/boss.png"  ]
 
 ;=========変数宣言部分 
 [iscript] 

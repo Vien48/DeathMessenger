@@ -1,7 +1,12 @@
 [_tb_system_call storage=system/_prologue_anHouse.ks]
 
+[tb_start_tyrano_code]
+[position   layer="message0" frame="mCharacter.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
+[position   layer="message1" frame="mNarrator.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
+[_tb_end_tyrano_code]
+
 [cm  ]
-[bg  time="1000"  method="vanishIn"  storage="prologue_final.png"  ]
+[bg  time="1000"  method="vanishIn"  storage="pROLOGUE_FINAL.png"  ]
 [clickable  storage="prologue_anHouse.ks"  x="0"  y="0"  width="1334"  height="750"  target="*toAnRoom"  _clickable_img=""  ]
 [s  ]
 *toAnRoom
