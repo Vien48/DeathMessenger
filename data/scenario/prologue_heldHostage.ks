@@ -1,6 +1,66 @@
 [_tb_system_call storage=system/_prologue_heldHostage.ks]
 
 [cm  ]
+[bg  time="1000"  method="crossfade"  storage="telephone_1.png"  ]
+[clickable  storage="prologue_heldHostage.ks"  x="0"  y="0"  width="1334"  height="750"  target="*telephone_2"  _clickable_img=""  ]
+[s  ]
+*telephone_2
+
+[bg  time="1000"  method="crossfade"  storage="telephone_2.png"  ]
+[clickable  storage="prologue_heldHostage.ks"  x="0"  y="0"  width="1334"  height="750"  target="*telephone_3"  _clickable_img=""  ]
+[s  ]
+*telephone_3
+
+[bg  time="1000"  method="crossfade"  storage="telephone_3.png"  ]
+[clickable  storage="prologue_heldHostage.ks"  x="0"  y="0"  width="1334"  height="750"  target="*telephone_4"  _clickable_img=""  ]
+[s  ]
+*telephone_4
+
+[bg  time="1000"  method="crossfade"  storage="telephone_4.png"  ]
+[clickable  storage="prologue_heldHostage.ks"  x="0"  y="0"  width="1334"  height="750"  target="*telephone_5"  _clickable_img=""  ]
+[s  ]
+*telephone_5
+
+[bg  time="1000"  method="crossfade"  storage="telephone_5.png"  ]
+[clickable  storage="prologue_heldHostage.ks"  x="0"  y="0"  width="1334"  height="750"  target="*telephone_6"  _clickable_img=""  ]
+[s  ]
+*telephone_6
+
+[bg  time="1000"  method="crossfade"  storage="telephone_6.png"  ]
+[clickable  storage="prologue_heldHostage.ks"  x="0"  y="0"  width="1334"  height="750"  target="*telephone_7"  _clickable_img=""  ]
+[s  ]
+*telephone_7
+
+[bg  time="1000"  method="crossfade"  storage="telephone_7.png"  ]
+[clickable  storage="prologue_heldHostage.ks"  x="0"  y="0"  width="1334"  height="750"  target="*telephone_8"  _clickable_img=""  ]
+[s  ]
+*telephone_8
+
+[bg  time="1000"  method="crossfade"  storage="telephone_8.png"  ]
+[clickable  storage="prologue_heldHostage.ks"  x="0"  y="0"  width="1334"  height="750"  target="*telephone_9"  _clickable_img=""  ]
+[s  ]
+*telephone_9
+
+[bg  time="1000"  method="crossfade"  storage="telephone_9.png"  ]
+[clickable  storage="prologue_heldHostage.ks"  x="0"  y="0"  width="1334"  height="750"  target="*telephone_10"  _clickable_img=""  ]
+[s  ]
+*telephone_10
+
+[bg  time="1000"  method="crossfade"  storage="telephone_10.png"  ]
+[clickable  storage="prologue_heldHostage.ks"  x="0"  y="0"  width="1334"  height="750"  target="*at_Satan_church"  _clickable_img=""  ]
+[s  ]
+*at_Satan_church
+
+[bg  time="1000"  method="crossfade"  storage="newbackground/Satan_church.png"  ]
+[clickable  storage="prologue_heldHostage.ks"  x="0"  y="0"  width="1334"  height="750"  target="*An_woke_up"  _clickable_img=""  ]
+[s  ]
+*An_woke_up
+
+[tb_start_tyrano_code]
+[position   layer="message0" frame="mCharacter.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
+[position   layer="message1" frame="mNarrator.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
+[_tb_end_tyrano_code]
+
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=true]
 [layopt layer=message0 visible=false]
@@ -8,45 +68,17 @@
 [current layer="message1"]
 [_tb_end_tyrano_code]
 
-[bg  time="1000"  method="puffIn"  storage="background/background_street_1.png"  ]
 [tb_start_text mode=2 ]
-"Notice how your children haven't came home yet?"[l][r]
-"You...What have you done to them???"[l][r]
-"Listen, i'm a man of few words."[l][r]
-[_tb_end_text]
-
-[cm  ]
-[tb_start_text mode=1 ]
-"If you want the kids back in one piece bring 300 000$ to the abbandoned gas station in North Street. Got it?"[p]
-"300 000$? [p]
-How on Earth can we get such a huge amount of money now!?"[p]
-"Ha ha let me make this easier for you then."[p]
-[_tb_end_text]
-
-[cm  ]
-[tb_start_text mode=2 ]
-"Hand over half of the money tomorrow, [l][r]
-we'll release one kid first, the day after that, the other. [l][r]
-And don't try anything funny you know? [l][r]
-You don't want the kids to be missing an ear [l][r]
-[_tb_end_text]
-
-[tb_start_text mode=1 ]
-or a leg don't you?"[p]
-[_tb_end_text]
-
-[tb_start_text mode=2 ]
-When An open her eyes, both her hands and feet are tied.[l][r]
-Her head hurts so bad,[l][r]
-she couldn't see things clearly at first.[l][r]
+When i open my eyes, both my hands and feet are tied.[l][r]
+My head hurts so bad, i can't see things clearly at first.[l][r]
 [_tb_end_text]
 
 [cm  ]
 [tb_start_text mode=2 ]
 Khai is tied in the opposite[l][r]
 Bruises all over his body. [l][r]
-They were held in an old, abandoned church.[l][r]
-An couldn't recognize the place[l][r]
+We are held in an old, abandoned church.[l][r]
+I can't recognize the place[l][r]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -74,9 +106,9 @@ Did we give you permission to talk?[p]
 [current layer="message1"]
 [_tb_end_tyrano_code]
 
-[tb_start_text mode=2 ]
-The big man hit Khai with his gun.[l][r]
-An have to hold herself back from crying or screaming.[l][r]
+[tb_start_text mode=1 ]
+The big man hit Khai with his gun.[p]
+I have to hold herself back from crying or screaming.[p]
 [_tb_end_text]
 
 [cm  ]
@@ -333,15 +365,9 @@ TODO: insert effect to rest. Add DESTINY node[p]
 [bg  time="1000"  method="crossfade"  storage="university_sequence/crossing_street_5.png"  ]
 [bg  time="1000"  method="crossfade"  storage="university_sequence/crossing_street_negative_3.png"  ]
 [bg  time="1000"  method="crossfade"  storage="university_sequence/crossing_street_negative_1.png"  ]
-[bg  time="1000"  method="crossfade"  storage="university_sequence/crossing_street_negative_3.png"  ]
 [bg  time="1000"  method="crossfade"  storage="university_sequence/crossing_street_negative_2.png"  ]
 [jump  storage="prologue_fiveYearsLater.ks"  target=""  ]
 [s  ]
-[tb_start_tyrano_code]
-[position   layer="message0" frame="mCharacter.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
-[position   layer="message1" frame="mNarrator.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
-[_tb_end_tyrano_code]
-
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=true]
 [layopt layer=message0 visible=false]

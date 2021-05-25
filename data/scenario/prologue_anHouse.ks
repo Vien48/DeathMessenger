@@ -30,7 +30,7 @@ I consider it as a good luck charm now.[l][r]
 [_tb_end_text]
 
 [cm  ]
-[chara_mod  name="An"  time="100"  cross="true"  storage="chara/1/An_small_smile.png"  ]
+[chara_mod  name="An"  time="100"  cross="false"  storage="chara/1/An_small_smile.png"  ]
 [bg  time="1000"  method="crossfade"  storage="background/living_room.png"  ]
 [tb_start_text mode=1 ]
 #An
@@ -44,9 +44,8 @@ Mom, can I come along and help you at the hospital today?[p]
 Yeah, we're kind of busy these days after all.[p]
 [_tb_end_text]
 
-[chara_hide  name="AnMum"  time="1000"  wait="true"  pos_mode="true"  ]
-[chara_move  name="An"  anim="false"  time="300"  effect="linear"  wait="true"  left="-56"  top="206"  width="610"  height="1086"  ]
-[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_small_smile_blush.png"  ]
+[chara_hide  name="AnMum"  time="1000"  wait="true"  pos_mode="false"  ]
+[chara_mod  name="An"  time="100"  cross="false"  storage="chara/1/An_small_smile_blush.png"  ]
 [tb_start_text mode=1 ]
 #An
 My dad owns a small clinic. While my mom is a nurse at the City Hospital. Since I was little, mom always brought me along to work. Because she's so busy.[p]
@@ -55,16 +54,30 @@ One day I'll become a nurse just like her.[p]
 [_tb_end_text]
 
 [bg  time="1000"  method="crossfade"  storage="background/kitchen_stairs.png"  ]
-[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_small_smile.png"  ]
+[chara_mod  name="An"  time="100"  cross="false"  storage="chara/1/An_small_smile.png"  ]
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=true]
+[layopt layer=message0 visible=false]
+
+[current layer="message1"]
+[_tb_end_tyrano_code]
+
 [tb_start_text mode=1 ]
-#An
+
 I ran downstair and picked a slice of jam and butter bread for breakfast.[p]
 
 [_tb_end_text]
 
-[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_talk.png"  ]
+[chara_mod  name="An"  time="100"  cross="false"  storage="chara/1/An_talk.png"  ]
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=true]
+[layopt layer=message0 visible=false]
+
+[current layer="message1"]
+[_tb_end_tyrano_code]
+
 [tb_start_text mode=1 ]
-#An
+
 Suddenly someone took the slice of bread from me.[p]
 [_tb_end_text]
 
@@ -79,6 +92,8 @@ Yeah, I'll take that.[p]
 [s  ]
 *curse
 
+[cm  ]
+[chara_mod  name="An"  time="100"  cross="false"  storage="chara/1/An_pout.png"  ]
 [tb_start_text mode=1 ]
 #Khai
 Good morning shortie!!![p]
@@ -86,7 +101,7 @@ Good morning shortie!!![p]
 
 [tb_start_text mode=2 ]
 #An
-The big meanie said as he eatsreturned the bread to me the bread in front of me.[l][r]
+The big meanie said as he eats the bread in front of me.[l][r]
 
 [_tb_end_text]
 
@@ -97,6 +112,7 @@ A smart guy that's good with everything except being nice with his little sister
 [_tb_end_text]
 
 [cm  ]
+[chara_mod  name="An"  time="100"  cross="false"  storage="chara/1/An_talk.png"  ]
 [tb_start_text mode=2 ]
 #An
 He plans to become a doctor and has been  already welcomed [l][r]
@@ -106,6 +122,7 @@ I'm a bit envious, if i must admit.[l][r]
 [_tb_end_text]
 
 [cm  ]
+[chara_mod  name="An"  time="100"  cross="false"  storage="chara/1/An_small_smile.png"  ]
 [tb_start_text mode=2 ]
 #Khai
 Well, today is our birthday.[l][r]
@@ -127,6 +144,7 @@ I'm also having a class at the hospital too.[l][r]
 
 [_tb_end_text]
 
+[chara_mod  name="Khai"  time="100"  cross="false"  storage="chara/3/Khai_small_smile.png"  ]
 [cm  ]
 [tb_start_text mode=2 ]
 #Khai
@@ -140,14 +158,17 @@ Then, we try the new ice cream flavour at B&A's  nearby.[l][r]
 Yeah!![p]
 [_tb_end_text]
 
+[chara_hide  name="Khai"  time="100"  wait="true"  pos_mode="false"  ]
 [jump  storage="prologue_hospital.ks"  target=""  ]
 *poute
 
+[cm  ]
 [tb_start_text mode=1 ]
 #Khai
 Just kidding[p]
 [_tb_end_text]
 
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_pout.png"  ]
 [tb_start_text mode=2 ]
 #An
 The big meanie said as he returns the bread to me[l][r]
@@ -161,11 +182,12 @@ A smart guy that's good with everything except being nice with his little sister
 [_tb_end_text]
 
 [cm  ]
-[tb_start_text mode=2 ]
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_talk.png"  ]
+[tb_start_text mode=1 ]
 #An
-He plans to become a doctor and has been  already welcomed [l][r]
-with schorlarship from many universities. [l][r]
-I'm a bit envious, if i must admit.[l][r]
+He plans to become a doctor and has been  already welcomed [p]
+with schorlarship from many universities. [p]
+I'm a bit envious, if i must admit.[p]
 
 [_tb_end_text]
 
@@ -177,6 +199,7 @@ What do you want to do?[l][r]
 [_tb_end_text]
 
 [cm  ]
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_small_smile.png"  ]
 [tb_start_text mode=2 ]
 #An
 Let's go to the hospital.[l][r]
@@ -204,5 +227,7 @@ Then, we try the new ice cream flavour at B&A's  nearby.[l][r]
 Yeah!![p]
 [_tb_end_text]
 
+[chara_hide  name="Khai"  time="100"  wait="true"  pos_mode="true"  ]
 [jump  storage="prologue_hospital.ks"  target=""  ]
 [s  ]
+[chara_mod  name="An"  time="600"  cross="true"  ]

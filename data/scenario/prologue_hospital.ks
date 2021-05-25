@@ -1,12 +1,15 @@
 [_tb_system_call storage=system/_prologue_hospital.ks]
 
 [cm  ]
-[bg  time="1000"  method="crossfade"  storage="background/background_hospital_outside.png"  ]
+[chara_show  name="An"  time="1000"  wait="true"  storage="chara/1/An_small_smile.png"  width="610"  height="1086"  left="-56"  top="206"  reflect="false"  ]
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_small_laugh.png"  ]
+[bg  time="1000"  method="crossfade"  storage="newbackground/background_hospital.png"  ]
 [tb_start_text mode=1 ]
 #An
 Good morning miss Kim! How's your back today?[p]
 [_tb_end_text]
 
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_small_smile.png"  ]
 [tb_start_text mode=2 ]
 #Miss Kim
 Morning my dear. [l][r]
@@ -15,6 +18,7 @@ You're even more cheery than usual?[l][r]
 [_tb_end_text]
 
 [cm  ]
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_laugh.png"  ]
 [tb_start_text mode=1 ]
 #An
 Maybe it's because it's my birthday.[p]
@@ -26,6 +30,7 @@ I chat with miss Kim, while helping her brushing her teeth.[p]
 
 [_tb_end_text]
 
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_small_smile.png"  ]
 [tb_start_text mode=2 ]
 #Miss Ha
 Morning birthday girl.[l][r]
@@ -38,6 +43,7 @@ Look who couldn't wait to see you![l][r]
 Happy birthday An![p]
 [_tb_end_text]
 
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_small_smile_blush.png"  ]
 [tb_start_text mode=1 ]
 #An
 Aww, thank alot you two.[p]
@@ -50,11 +56,14 @@ The patients always say my cheerful, bubbly nature brightened their days at the 
 [_tb_end_text]
 
 [cm  ]
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_laugh.png"  ]
 [tb_start_text mode=1 ]
 #An
 He he, one day i'll become a great nurse for sure.[p]
 [_tb_end_text]
 
+[bg  time="1000"  method="crossfade"  storage="newbackground/hospital_hall.png"  ]
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_small_smile.png"  ]
 [tb_start_text mode=2 ]
 #An
 Just like that I continue my work:[l][r]
@@ -82,42 +91,24 @@ He's been here for so long, yet I has never seen anyone visiting him other than 
 [cm  ]
 [tb_start_text mode=1 ]
 That's why since I was little, I saw him more often than others.[p]
-[_tb_end_text]
-
-[tb_start_tyrano_code]
-[layopt layer=message1 visible=true]
-[layopt layer=message0 visible=false]
-
-[current layer="message1"]
-[_tb_end_tyrano_code]
-
-[tb_start_text mode=3 ]
-After all those years, [r]
-An treated him as a wise old friend that [r]
-she enjoyed talking with [r]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-While he considered An like as his daughter.[p]
+After all those years, we became good friends[p]
 [_tb_end_text]
 
-[tb_start_tyrano_code]
-[layopt layer=message1 visible=false]
-[layopt layer=message0 visible=true]
-
-[current layer="message0"]
-[_tb_end_tyrano_code]
-
+[bg  time="1000"  method="crossfade"  storage="newbackground/VIP_room.png"  ]
 [tb_start_text mode=1 ]
 #An
-How's your heal today, Dr Quang?[p]
+How's your health today, Dr Quang?[p]
 [_tb_end_text]
 
+[chara_show  name="DrQuang"  time="1000"  wait="true"  storage="chara/6/Dr_Quang.png"  width="261"  height="490"  left="614"  top="120"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #Dr Quang
 Not much better, but I'm always glad to see you. [p]
-Happy birthday my dear. You're turning 16 today.[p]
+Happy birthday my dear. You're turning 17  today.[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -127,11 +118,13 @@ Happy birthday my dear. You're turning 16 today.[p]
 [current layer="message1"]
 [_tb_end_tyrano_code]
 
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_talk.png"  ]
 [tb_start_text mode=1 ]
-Dr Quang gave An a birthday present bag[p]
+He gives me a birthday bag.[p]
 There's a beautiful dress inside.[p]
 [_tb_end_text]
 
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_concern.png"  ]
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=false]
 [layopt layer=message0 visible=true]
@@ -151,9 +144,10 @@ Delivery services just do wonders at times.[l][r]
 [_tb_end_text]
 
 [cm  ]
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_haizz_smile.png"  ]
 [tb_start_text mode=2 ]
 #An
-You shouldn't concerned yourself with things like did. [l][r]
+You shouldn't concerned yourself with things like this. [l][r]
 You know that all I cared about is your health[l][r]
 [_tb_end_text]
 
@@ -166,10 +160,6 @@ who still cares about me.[l][r]
 [_tb_end_text]
 
 [cm  ]
-[tb_start_text mode=1 ]
-TODO: Missing context to go to next, Please check your script[p]
-[_tb_end_text]
-
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=true]
 [layopt layer=message0 visible=false]
@@ -177,6 +167,8 @@ TODO: Missing context to go to next, Please check your script[p]
 [current layer="message1"]
 [_tb_end_tyrano_code]
 
+[chara_hide  name="DrQuang"  time="1000"  wait="true"  pos_mode="false"  ]
+[bg  time="1000"  method="crossfade"  storage="newbackground/hospital_outside.png"  ]
 [tb_start_text mode=1 ]
 It's 5pm already.[p]
 
@@ -189,6 +181,7 @@ It's 5pm already.[p]
 [current layer="message0"]
 [_tb_end_tyrano_code]
 
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_pout.png"  ]
 [tb_start_text mode=2 ]
 #An
 Urgh, when I was about to go home, it started raining. [l][r]
@@ -196,15 +189,11 @@ Just my luck[l][r]
 [_tb_end_text]
 
 [cm  ]
+[chara_show  name="Khai"  time="1000"  wait="true"  storage="chara/3/Khai_final.png"  width="321"  height="750"  left="553"  top="25"  reflect="false"  ]
 [tb_start_text mode=2 ]
 #Khai
-At least you're lucky enough to have a big brother [l][r]
+At least you're lucky enough to have a big brother that's not so much of an airhead[l][r]
 
-[_tb_end_text]
-
-[tb_start_text mode=1 ]
-#Khai
-That's not so much of an airhead.[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -214,9 +203,10 @@ That's not so much of an airhead.[p]
 [current layer="message1"]
 [_tb_end_tyrano_code]
 
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_small_smile.png"  ]
 [tb_start_text mode=1 ]
 Khai comes with a red umbrella and cheeky smile. [p]
-They start talking while walking in the rain together[p]
+We start talking while walking in the rain together[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -226,18 +216,20 @@ They start talking while walking in the rain together[p]
 [current layer="message0"]
 [_tb_end_tyrano_code]
 
-[tb_start_text mode=2 ]
+[tb_start_text mode=1 ]
 #An
-How's your day? [l][r]
-I see you're still as popular as ever[l][r]
+How's your day? I see you're still as popular as ever[p]
 [_tb_end_text]
 
+[chara_mod  name="Khai"  time="600"  cross="true"  storage="chara/3/Khai_small_smile.png"  ]
 [tb_start_text mode=1 ]
 #Khai
 Just the usual.[p]
 You're also very loved yourse-[p]
 [_tb_end_text]
 
+[chara_hide  name="Khai"  time="100"  wait="true"  pos_mode="false"  ]
+[chara_show  name="gangster1"  time="1000"  wait="true"  storage="chara/7/gangster_1.png"  width="228"  height="838"  left="541"  top="-17"  reflect="false"  ]
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=true]
 [layopt layer=message0 visible=false]
@@ -245,15 +237,16 @@ You're also very loved yourse-[p]
 [current layer="message1"]
 [_tb_end_tyrano_code]
 
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_scared.png"  ]
 [tb_start_text mode=2 ]
-She couldn't hear him finish his lines.[l][r]
-Her vision fades away then black out, as someone chroloformed her.[l][r]
+I can't hear him finishing his lines.[l][r]
+My vision fades away then black out, as someone chroloformed me[l][r]
 
 [_tb_end_text]
 
 [cm  ]
 [tb_start_text mode=1 ]
-The last image she saw before collapsing was a group of men ganging up around her brother.[p]
+The last image i see before collapsing is a group of men ganging up around my brother.[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -284,3 +277,4 @@ The last image she saw before collapsing was a group of men ganging up around he
 [current layer="message0"]
 [_tb_end_tyrano_code]
 
+[chara_show  name="undefined"  time="1000"  wait="true"  ]
