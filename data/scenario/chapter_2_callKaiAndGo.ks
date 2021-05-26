@@ -1,7 +1,6 @@
 [_tb_system_call storage=system/_chapter_2_callKaiAndGo.ks]
 
 [cm  ]
-[tb_eval  exp="f.decider='D1'"  name="decider"  cmd="="  op="t"  val="D1"  val_2="undefined"  ]
 [tb_start_text mode=1 ]
 #Kai
 If the kid doesn't pick up the phone, maybe you should let me go there alone.[p]
