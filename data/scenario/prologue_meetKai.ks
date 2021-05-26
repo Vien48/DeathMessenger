@@ -1,6 +1,7 @@
 [_tb_system_call storage=system/_prologue_meetKai.ks]
 
 [cm  ]
+[bg  time="1000"  method="crossfade"  storage="background/an_room.png"  ]
 [tb_start_text mode=2 ]
 #Mother
 An...wake up, wake up!!![l][r]
@@ -8,6 +9,7 @@ AN!!![l][r]
 [_tb_end_text]
 
 [cm  ]
+[chara_show  name="An"  time="1000"  wait="true"  storage="chara/1/An_talk.png"  width="600"  height="1067"  left="-90"  top="139"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #An
 Yes...mother?[p]
@@ -20,6 +22,8 @@ Yes...mother?[p]
 [current layer="message1"]
 [_tb_end_tyrano_code]
 
+[chara_show  name="AnMum"  time="1000"  wait="true"  storage="chara/5/An_mum_cry.png"  width="228"  height="729"  left="635"  top="31"  reflect="false"  ]
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_concern.png"  ]
 [tb_start_text mode=2 ]
 It's still too early in the morning but the urgency in mother's voice atches my attention.[l][r]
 Her horrified face...something must have gone wrong[l][r]
@@ -39,6 +43,9 @@ An...the hospital just called... [p]
 Dr Quang passed away this morning in his sleep[p]
 [_tb_end_text]
 
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_scared.png"  ]
+[chara_hide  name="AnMum"  time="1000"  wait="true"  pos_mode="false"  ]
+[bg  time="1000"  method="crossfade"  storage="background/street_2.png"  ]
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=true]
 [layopt layer=message0 visible=false]
@@ -60,6 +67,7 @@ I can't stand losing anyone dear anymore, not like this.[p]
 [current layer="message0"]
 [_tb_end_tyrano_code]
 
+[bg  time="1000"  method="crossfade"  storage="background/hospital_outside.png"  ]
 [tb_start_text mode=1 ]
 #Security A
 Hold up...are you??[p]
@@ -81,6 +89,7 @@ Stop right there miss!!! You aren't allowed to be in here!![p]
 But i don't care. Despite the security's objection, i run toward dr Quang's room with full speed ahead[p]
 [_tb_end_text]
 
+[bg  time="1000"  method="crossfade"  storage="background/VIP_room.png"  ]
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=false]
 [layopt layer=message0 visible=true]
@@ -88,6 +97,7 @@ But i don't care. Despite the security's objection, i run toward dr Quang's room
 [current layer="message0"]
 [_tb_end_tyrano_code]
 
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_tears.png"  ]
 [tb_start_text mode=1 ]
 #An
 DR QUANG!!!![p]
@@ -109,6 +119,7 @@ W-Who are you? What are you doing here???[p]
 To my surprise, dr Quang isn't in the room. Staying there instead is a stranger who is just as confused as i am[p]
 [_tb_end_text]
 
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_scared.png"  ]
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=false]
 [layopt layer=message0 visible=true]
@@ -129,6 +140,7 @@ Get out of my room, get out!!![p]
 [current layer="message1"]
 [_tb_end_tyrano_code]
 
+[bg  time="1000"  method="crossfade"  storage="background/hospital_hall.png"  ]
 [tb_start_text mode=1 ]
 I leave the room shakingly[p]
 [_tb_end_text]

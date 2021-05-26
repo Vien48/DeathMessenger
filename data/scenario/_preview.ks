@@ -2,66 +2,64 @@
 
 [mask time=10]
 [mask_off time=10]
+[cm  ]
 [tb_start_tyrano_code]
 [position   layer="message0" frame="mCharacter.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
 [position   layer="message1" frame="mNarrator.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
 [_tb_end_tyrano_code]
 
-[cm  ]
-[bg  time="1000"  method="vanishIn"  storage="prologue_final.png"  ]
-[clickable  storage="prologue_anHouse.ks"  x="0"  y="0"  width="1334"  height="750"  target="*toAnRoom"  _clickable_img=""  ]
-[s  ]
-*toAnRoom
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
 
 [bg  time="1000"  method="crossfade"  storage="background/an_room.png"  ]
-[tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #Mother
-An! Wake up, wake up!! [p]
-[_tb_end_text]
-
-[chara_show  name="An"  time="1000"  wait="true"  storage="chara/1/An_small_smile.png"  width="610"  height="1086"  left="-56"  top="206"  reflect="false"  ]
-[tb_start_text mode=2 ]
-#An
-I'm coming mom.[l][r]
-Hi, my name's An[l][r]
-I'm 17 years old because today is my birthday[l][r]
-[_tb_end_text]
-
-[chara_mod  name="An"  time="100"  cross="true"  storage="chara/1/An_laugh.png"  ]
-[cm  ]
-[tb_start_text mode=2 ]
-Oh, this necklace? [l][r]
-It mysteriously appeared on my neck since i was born. [l][r]
-I consider it as a good luck charm now.[l][r]
+An...wake up, wake up!!![p]
+AN!!![p]
 [_tb_end_text]
 
 [cm  ]
-[chara_mod  name="An"  time="100"  cross="false"  storage="chara/1/An_small_smile.png"  ]
-[bg  time="1000"  method="crossfade"  storage="background/living_room.png"  ]
+[chara_show  name="An"  time="1000"  wait="true"  storage="chara/1/An_talk.png"  width="600"  height="1067"  left="-90"  top="139"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #An
-Mom, can I come along and help you at the hospital today?[p]
-
+Yes...mother?[p]
 [_tb_end_text]
 
-[chara_show  name="AnMum"  time="1000"  wait="true"  storage="chara/4/Ans_mother.png"  width="232"  height="765"  left="648"  top="39"  reflect="false"  ]
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=true]
+[layopt layer=message0 visible=false]
+
+[current layer="message1"]
+[_tb_end_tyrano_code]
+
+[chara_show  name="AnMum"  time="1000"  wait="true"  storage="chara/5/An_mum_cry.png"  width="228"  height="729"  left="635"  top="31"  reflect="false"  ]
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_concern.png"  ]
+[tb_start_text mode=2 ]
+It's still too early in the morning but the urgency in mother's voice atches my attention.[l][r]
+Her horrified face...something must have gone wrong[l][r]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
+
 [tb_start_text mode=1 ]
 #Mother
-Yeah, we're kind of busy these days after all.[p]
+An...the hospital just called... [p]
+Dr Quang passed away this morning in his sleep[p]
 [_tb_end_text]
 
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_scared.png"  ]
 [chara_hide  name="AnMum"  time="1000"  wait="true"  pos_mode="false"  ]
-[chara_mod  name="An"  time="100"  cross="false"  storage="chara/1/An_small_smile_blush.png"  ]
-[tb_start_text mode=1 ]
-#An
-My dad owns a small clinic. While my mom is a nurse at the City Hospital. Since I was little, mom always brought me along to work. Because she's so busy.[p]
-One day I'll become a nurse just like her.[p]
-
-[_tb_end_text]
-
-[bg  time="1000"  method="crossfade"  storage="background/kitchen_stairs.png"  ]
-[chara_mod  name="An"  time="100"  cross="false"  storage="chara/1/An_small_smile.png"  ]
+[bg  time="1000"  method="crossfade"  storage="background/street_2.png"  ]
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=true]
 [layopt layer=message0 visible=false]
@@ -70,12 +68,30 @@ One day I'll become a nurse just like her.[p]
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-
-I ran downstair and picked a slice of jam and butter bread for breakfast.[p]
-
+My heart stops.[p]
+I run to the hospital as fast as i can despite mother yelling from behind, as if my life depends on it.[p]
+No, it can't be. Please God no. Holding the amber necklace, i pray that everything is just a bad nightmare.[p]
+I can't stand losing anyone dear anymore, not like this.[p]
 [_tb_end_text]
 
-[chara_mod  name="An"  time="100"  cross="false"  storage="chara/1/An_talk.png"  ]
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
+
+[bg  time="1000"  method="crossfade"  storage="background/hospital_outside.png"  ]
+[tb_start_text mode=1 ]
+#Security A
+Hold up...are you??[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#Security B
+Stop right there miss!!! You aren't allowed to be in here!![p]
+[_tb_end_text]
+
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=true]
 [layopt layer=message0 visible=false]
@@ -84,157 +100,166 @@ I ran downstair and picked a slice of jam and butter bread for breakfast.[p]
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-
-Suddenly someone took the slice of bread from me.[p]
+But i don't care. Despite the security's objection, i run toward dr Quang's room with full speed ahead[p]
 [_tb_end_text]
 
-[chara_show  name="Khai"  time="1000"  wait="true"  storage="chara/3/Khai_final.png"  width="321"  height="750"  left="572"  top="59"  reflect="false"  ]
+[bg  time="1000"  method="crossfade"  storage="background/VIP_room.png"  ]
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
+
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_tears.png"  ]
 [tb_start_text mode=1 ]
-#Khai
-Yeah, I'll take that.[p]
+#An
+DR QUANG!!!![p]
 [_tb_end_text]
 
-[button  storage="prologue_anHouse.ks"  target="*curse"  graphic="YOU_MEANIE_BUTTON_UPDATE.png"  width="631"  height="92"  x="351"  y="127"  _clickable_img=""  name="img_18"  ]
-[button  storage="prologue_anHouse.ks"  target="*poute"  graphic="pouting_button.png"  width="631"  height="92"  x="353"  y="230"  _clickable_img=""  ]
+[tb_start_text mode=1 ]
+#Stranger A
+W-Who are you? What are you doing here???[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=true]
+[layopt layer=message0 visible=false]
+
+[current layer="message1"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+To my surprise, dr Quang isn't in the room. Staying there instead is a stranger who is just as confused as i am[p]
+[_tb_end_text]
+
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_scared.png"  ]
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+#Stranger A
+Wait, you're the cursed girl everyone talked about!!![p]
+Get out of my room, get out!!![p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=true]
+[layopt layer=message0 visible=false]
+
+[current layer="message1"]
+[_tb_end_tyrano_code]
+
+[bg  time="1000"  method="crossfade"  storage="background/hospital_hall.png"  ]
+[tb_start_text mode=1 ]
+I leave the room shakingly[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=2 ]
+#An
+What's going on? Where's doctor Quang? [l][r]
+What happened to him?[l][r]
+[_tb_end_text]
+
+[cm  ]
+[chara_show  name="AnMum"  time="1000"  wait="true"  storage="chara/5/An_mum_sad.png"  width="228"  height="729"  left="592"  top="75"  reflect="false"  ]
+[tb_start_text mode=1 ]
+#Mother
+An, what are you doing here? What are you talking about?[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=true]
+[layopt layer=message0 visible=false]
+
+[current layer="message1"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+Mother appears behind me, in a nurse outfit, clearly looks embarrassed. But i ran to here as fast as possible, how???[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+#An
+Mother...you told me dr Quang passed away this morning??[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#Mother
+I didn't even come home last night. I had a shift at the hospital, remember?"[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=true]
+[layopt layer=message0 visible=false]
+
+[current layer="message1"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+She looks even more embarrassed now. The people around us also look at me with annoyance on their face.[p]
+Have i been hallucinated this whole time? What happened?[p]
+[_tb_end_text]
+
+[chara_hide_all  time="1000"  wait="true"  ]
+[bg  time="1000"  method="crossfade"  storage="sequences/an_meets_kai.png"  ]
+[hidemessage  ]
+[tb_start_text mode=1 ]
+In that very moment, i meet someone i thought i could never meet again.[p]
+The boy with black wings, with an eye patch and doctor clothes on him.  He looked just like how i remember yet no one seems to be surprised by his presence, as if his wings doesn't exists.[p]
+He walks pass everyone, even mother to give me a hug and capturing my gaze with an immense amount of longing and happiness on his face. He whispers to my ears.[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=2 ]
+#Kai
+Found you...[l][r]
+Finally, i found you.[l][r]
+[_tb_end_text]
+
+[cm  ]
+[jump  storage="chapter_1_intro.ks"  target=""  ]
 [s  ]
-*curse
+[tb_start_tyrano_code]
+[position   layer="message0" frame="mCharacter.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
+[position   layer="message1" frame="mNarrator.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
+[_tb_end_tyrano_code]
 
-[cm  ]
-[chara_mod  name="An"  time="100"  cross="false"  storage="chara/1/An_pout.png"  ]
-[tb_start_text mode=1 ]
-#Khai
-Good morning shortie!!![p]
-[_tb_end_text]
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=true]
+[layopt layer=message0 visible=false]
 
-[tb_start_text mode=2 ]
-#An
-The big meanie said as he eats the bread in front of me.[l][r]
+[current layer="message1"]
+[_tb_end_tyrano_code]
 
-[_tb_end_text]
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
 
-[tb_start_text mode=2 ]
-#An
-This is Khai, my twin brother.[l][r]
-A smart guy that's good with everything except being nice with his little sister.[l][r]
-[_tb_end_text]
+[current layer="message0"]
+[_tb_end_tyrano_code]
 
-[cm  ]
-[chara_mod  name="An"  time="100"  cross="false"  storage="chara/1/An_talk.png"  ]
-[tb_start_text mode=2 ]
-#An
-He plans to become a doctor and has been  already welcomed [l][r]
-with schorlarship from many universities. [l][r]
-I'm a bit envious, if i must admit.[l][r]
-
-[_tb_end_text]
-
-[cm  ]
-[chara_mod  name="An"  time="100"  cross="false"  storage="chara/1/An_small_smile.png"  ]
-[tb_start_text mode=2 ]
-#Khai
-Well, today is our birthday.[l][r]
-What do you want to do?[l][r]
-[_tb_end_text]
-
-[cm  ]
-[tb_start_text mode=2 ]
-#An
-Let's go to the hospital.[l][r]
-I promised Mom to help her out.[l][r]
-[_tb_end_text]
-
-[cm  ]
-[tb_start_text mode=2 ]
-#Khai
-Great!.[l][r]
-I'm also having a class at the hospital too.[l][r]
-
-[_tb_end_text]
-
-[chara_mod  name="Khai"  time="100"  cross="false"  storage="chara/3/Khai_small_smile.png"  ]
-[cm  ]
-[tb_start_text mode=2 ]
-#Khai
-I'll pick you up at 5pm.[l][r]
-Then, we try the new ice cream flavour at B&A's  nearby.[l][r]
-[_tb_end_text]
-
-[cm  ]
-[tb_start_text mode=1 ]
-#An
-Yeah!![p]
-[_tb_end_text]
-
-[chara_hide  name="Khai"  time="100"  wait="true"  pos_mode="false"  ]
-[jump  storage="prologue_hospital.ks"  target=""  ]
-*poute
-
-[cm  ]
-[tb_start_text mode=1 ]
-#Khai
-Just kidding[p]
-[_tb_end_text]
-
-[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_pout.png"  ]
-[tb_start_text mode=2 ]
-#An
-The big meanie said as he returns the bread to me[l][r]
-
-[_tb_end_text]
-
-[tb_start_text mode=2 ]
-#An
-This is Khai, my twin brother.[l][r]
-A smart guy that's good with everything except being nice with his little sister.[l][r]
-[_tb_end_text]
-
-[cm  ]
-[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_talk.png"  ]
-[tb_start_text mode=1 ]
-#An
-He plans to become a doctor and has been  already welcomed [p]
-with schorlarship from many universities. [p]
-I'm a bit envious, if i must admit.[p]
-
-[_tb_end_text]
-
-[cm  ]
-[tb_start_text mode=2 ]
-#Khai
-Well, today is our birthday.[l][r]
-What do you want to do?[l][r]
-[_tb_end_text]
-
-[cm  ]
-[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_small_smile.png"  ]
-[tb_start_text mode=2 ]
-#An
-Let's go to the hospital.[l][r]
-I promised Mom to help her out.[l][r]
-[_tb_end_text]
-
-[cm  ]
-[tb_start_text mode=2 ]
-#Khai
-Great!.[l][r]
-I'm also having a class at the hospital too.[l][r]
-
-[_tb_end_text]
-
-[cm  ]
-[tb_start_text mode=2 ]
-#Khai
-I'll pick you up at 5pm.[l][r]
-Then, we try the new ice cream flavour at B&A's  nearby.[l][r]
-[_tb_end_text]
-
-[cm  ]
-[tb_start_text mode=1 ]
-#An
-Yeah!![p]
-[_tb_end_text]
-
-[chara_hide  name="Khai"  time="100"  wait="true"  pos_mode="true"  ]
-[jump  storage="prologue_hospital.ks"  target=""  ]
-[s  ]
-[chara_mod  name="An"  time="600"  cross="true"  ]

@@ -1,6 +1,6 @@
 ;=========キャラクター事前定義情報 
 ;An
-[chara_new  name="An"  jname="An"  storage="chara/1/An_concern.png"  ]
+[chara_new  name="An"  jname="An"  storage="chara/1/An_angry.png"  ]
 ;Kai
 [chara_new  name="Kai"  jname="Kai"  storage="chara/2/Kai_doctor_clothe.png"  ]
 ;Khai
@@ -15,6 +15,10 @@
 [chara_new  name="gangster1"  jname="gangster1"  storage="chara/7/gangster_1.png"  ]
 ;boss
 [chara_new  name="boss"  jname="boss"  storage="chara/8/boss.png"  ]
+;girlstalk
+[chara_new  name="girlstalk"  jname="girlstalk"  storage="chara/9/girls_talk.png"  ]
+;phone
+[chara_new  name="phone"  jname="phone"  storage="chara/10/phone_calling.png"  ]
 
 ;=========変数宣言部分 
 [iscript] 
