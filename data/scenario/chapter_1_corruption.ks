@@ -227,7 +227,6 @@ What's so good about wanting to live forever? To see all the things you love dis
 [s  ]
 *dontYouDare
 
-[tb_eval  exp="f.decider+='A1'"  name="decider"  cmd="+="  op="t"  val="A1"  val_2="undefined"  ]
 [cm  ]
 [tb_start_text mode=1 ]
 #An
@@ -313,7 +312,6 @@ I can't just give up like this, i'll make Lan undertsand, I'll help her as both 
 [s  ]
 *selfTalk
 
-[tb_eval  exp="f.decider+='A2'"  name="decider"  cmd="+="  op="t"  val="A2"  val_2="undefined"  ]
 [cm  ]
 [tb_start_text mode=1 ]
 #An
