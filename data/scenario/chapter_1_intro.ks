@@ -331,7 +331,7 @@ I come home from a long first day, completely exhausted. Khai greets me at the f
 [current layer="message0"]
 [_tb_end_tyrano_code]
 
-[chara_show  name="Khai"  time="1000"  wait="true"  storage="chara/3/Khai_final.png"  width="321"  height="750"  ]
+[chara_show  name="Khai"  time="1000"  wait="true"  storage="chara/3/Khai_final.png"  width="321"  height="750"  left="536"  top="30"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #Khai
 Congrats on the internship, An!! I just heard it from my fellow intern doctors.[p]
@@ -389,10 +389,7 @@ Forget it. It was nothing anyway.[l][r]
 
 [tb_start_text mode=1 ]
 I move past him and walk fast to the stairs.[p]
-So Khai already knew how horrible i was at work today and here i thought i could wait until i'm at least half decent to tell him.[p]
-I jumped into bed with disappointment filled in my heart.[p]
-Mother...she probably already knew it too. And yet she didn't come or say anything. Was she...ashamed of me?[p]
-Rolling in bed, i found a gift on my desk. There's a cute hair piece inside with a note "Thank you for trying your best on the first day" with a handwriting that i couldn't recognize. Maybe it was Khai's? Silly big brother. And yet i got mad at you...[p]
+
 [_tb_end_text]
 
 [tb_start_text mode=1 ]

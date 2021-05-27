@@ -2,19 +2,27 @@
 
 [cm  ]
 [tb_start_tyrano_code]
+[position   layer="message0" frame="mCharacter.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
+[position   layer="message1" frame="mNarrator.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
+[_tb_end_tyrano_code]
+
+[tb_start_tyrano_code]
 [layopt layer=message1 visible=true]
 [layopt layer=message0 visible=false]
 
 [current layer="message1"]
 [_tb_end_tyrano_code]
 
+[bg  time="1000"  method="crossfade"  storage="background/an_room.png"  ]
+[chara_show  name="An"  time="1000"  wait="true"  storage="chara/1/An_eyes_close.png"  width="553"  height="984"  left="-35"  top="190"  reflect="false"  ]
 [tb_start_text mode=1 ]
 Home...at last[p]
 [_tb_end_text]
 
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_concern.png"  ]
 [tb_start_text mode=1 ]
 I dropped myself into bed. Another exhausted day passed.[p]
-Urgh ...it's almost a month and i still suck so bad at work[p]
+Urgh ...it's almost 2 months and i still suck so bad at work[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -24,13 +32,15 @@ You have to follow the patient's conditions carefully and write it down in detai
 
 [_tb_end_text]
 
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_sad.png"  ]
 [tb_start_text mode=1 ]
 There's a huge traffic accident today. 20 people with heavy injuries were sent to the hospital.[p]
 Not only did i spend the entire days struggle with blood, moths and the scream from the patients. 3 of them died immediately and i had to take the 3 corpses straight to the morgue all by herself. [p]
 Carrying 3 corpses on a stretcher under the dim light of the morgue, i couldn't even begin to describe how scared i was.[p]
- Just when i arrived and started bringing the corpse out, a cold hand suddenly touched my and made my heart jumped out of my chest. Turned out it was just another corpse. I felt like i could have died right there.[p]
+Just when i arrived and started bringing the corpse out, a cold hand suddenly touched my and made my heart jumped out of my chest. Turned out it was just another corpse. I felt like i could have died right there.[p]
 [_tb_end_text]
 
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_haizz_smile.png"  ]
 [tb_start_text mode=1 ]
 On a brighter note, i find another gift on the table. Lately the gifts have always arrived when i come home after work.[p]
 Inside it was chocolate and a note. "Today was more busy than usual but you did great"[p]
@@ -43,16 +53,19 @@ Inside it was chocolate and a note. "Today was more busy than usual but you did 
 [current layer="message0"]
 [_tb_end_tyrano_code]
 
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_eyes_close.png"  ]
 [tb_start_text mode=1 ]
 #An
 Great? Depressingly bad more likely[p]
 [_tb_end_text]
 
+[chara_show  name="Kai"  time="1000"  wait="true"  storage="chara/2/Kai_pose_2_ai.png"  width="673"  height="1198"  left="414"  top="-200"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #Kai
 Do you want to find someone to talk with then?[p]
 [_tb_end_text]
 
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_scared.png"  ]
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=true]
 [layopt layer=message0 visible=false]
@@ -64,6 +77,7 @@ Do you want to find someone to talk with then?[p]
 I almost choke on chocolate when i turn around and find Kai sitting on my windows with his casual clothe. It's a miracle i didn't yell out of surprise.[p]
 [_tb_end_text]
 
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_pout.png"  ]
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=false]
 [layopt layer=message0 visible=true]
@@ -76,6 +90,7 @@ I almost choke on chocolate when i turn around and find Kai sitting on my window
 What are you doing here??[p]
 [_tb_end_text]
 
+[chara_mod  name="Kai"  time="600"  cross="true"  storage="chara/2/Kai_2_laugh.png"  ]
 [tb_start_text mode=1 ]
 #Kai
 I thought you were depressed?[p]
@@ -86,6 +101,8 @@ I thought you were depressed?[p]
 That's...that's none of your business[p]
 [_tb_end_text]
 
+[chara_mod  name="Kai"  time="600"  cross="true"  storage="chara/2/Kai_pose_2_ai.png"  ]
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_pout_blush.png"  ]
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=true]
 [layopt layer=message0 visible=false]
@@ -111,24 +128,28 @@ Anyway. Apparently in the reality that i changed[p]
 So do you want to come to the ball with me, An?[p]
 [_tb_end_text]
 
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_angry.png"  ]
 [tb_start_text mode=1 ]
 #An
 W-What??? Come to the ball with you like a fake girlfriend? No way!![p]
-What kind of an internship nurse would i look like if she started dating the head doctor in just a month into my job?[p]
+What kind of an internship nurse would i look like if i starts dating the head doctor in just 2 months into my job?[p]
 I know you only take care of me because of Dr Quang's wish but you've been doing a great job already, this is taking too far.[p]
 [_tb_end_text]
 
+[chara_mod  name="Kai"  time="600"  cross="true"  storage="chara/2/Kai_2_sad.png"  ]
 [tb_start_text mode=1 ]
 #Kai
 Fine, i will not come to the ball then[p]
 [_tb_end_text]
 
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_talk.png"  ]
 [tb_start_text mode=1 ]
 #An
 No you can't. You have to go. The ball is a very important event as not only he will meet your family but also business partners with the hospital.[p]
 If you only need a prom mate, i know for sure many other girls would agree, established girls that can fit with your status.[p]
 [_tb_end_text]
 
+[chara_mod  name="Kai"  time="600"  cross="true"  storage="chara/2/Kai_2_talk.png"  ]
 [tb_start_text mode=1 ]
 #Kai
 But i don't want to go with anyone but you.[p]
@@ -142,15 +163,22 @@ But i don't want to go with anyone but you.[p]
 [current layer="message1"]
 [_tb_end_tyrano_code]
 
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_pout_blush.png"  ]
 [tb_start_text mode=1 ]
-He says with such a matter- of - fact face. This..this guy can't be serious. He's so dense he can't be reasoned with urghhhhh[p]
+He says with such a matter- of - fact face. This..this guy can't be serious. [p]
+He's so dense he can't be reasoned with urghhhhh[p]
 
 [_tb_end_text]
 
+[chara_hide_all  time="1000"  wait="true"  ]
+[bg  time="1000"  method="crossfade"  storage="background/charity_fund_department_final.png"  ]
+[chara_show  name="An"  time="1000"  wait="true"  storage="chara/1/An_pout.png"  width="550"  height="978"  left="-44"  top="192"  reflect="false"  ]
 [tb_start_text mode=1 ]
 Right in the next day, i go to the hospital and tell Lan everything.[p]
 [_tb_end_text]
 
+[chara_show  name="Lan"  time="1000"  wait="true"  storage="chara/11/Lan_talk.png"  width="233"  height="669"  left="565"  top="91"  reflect="false"  ]
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_angry.png"  ]
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=false]
 [layopt layer=message0 visible=true]
@@ -171,10 +199,13 @@ How's crazy is that?[p]
 [current layer="message1"]
 [_tb_end_tyrano_code]
 
+[chara_mod  name="Lan"  time="600"  cross="true"  storage="chara/11/Lan_2_bruh_face.png"  ]
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_talk.png"  ]
 [tb_start_text mode=1 ]
 To my surprise, Lan gives me a very know- it- all face[p]
 [_tb_end_text]
 
+[chara_mod  name="Lan"  time="600"  cross="true"  storage="chara/11/Lan_2_laugh.png"  ]
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=false]
 [layopt layer=message0 visible=true]
@@ -193,6 +224,7 @@ Well...yeah, small presents. I thought it was my brother. But how did you know a
 
 [_tb_end_text]
 
+[chara_mod  name="Lan"  time="600"  cross="true"  storage="chara/11/Lan_lol.png"  ]
 [tb_start_text mode=1 ]
 #Lan
 Muah ha ha ha ha!!! [p]
@@ -210,10 +242,16 @@ He really took my advices serious, i can't believe it!![p]
 Lan suddenly bursts out laughing while i just stand there, not understanding a single thing.[p]
 [_tb_end_text]
 
+[chara_hide  name="Lan"  time="1000"  wait="true"  pos_mode="false"  ]
+[bg  time="1000"  method="crossfade"  storage="background/background_kitchen_stairs.png"  ]
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_pout.png"  ]
 [tb_start_text mode=1 ]
 That night when i home, i ask Khai about the gifts yet he doesn't know. Who could it be then?[p]
 [_tb_end_text]
 
+[chara_hide_all  time="1000"  wait="true"  ]
+[bg  time="1000"  method="crossfade"  storage="background/charity_fund_department_final.png"  ]
+[chara_show  name="Kai"  time="1000"  wait="true"  storage="chara/2/Kai_talking.png"  width="692"  height="930"  left="115"  top="-8"  reflect="false"  ]
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=false]
 [layopt layer=message0 visible=true]
@@ -226,6 +264,7 @@ That night when i home, i ask Khai about the gifts yet he doesn't know. Who coul
 Let's check your diagnose, Lan. You're still taking chemotherapy regularly right?[p]
 [_tb_end_text]
 
+[chara_show  name="Lan"  time="1000"  wait="true"  storage="chara/11/Lan_2_bruh_face.png"  width="233"  height="669"  left="803"  top="79"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #Lan
 Fu fu fu...Dr Quang... "that girl" you asked me for romance advice...[p]
@@ -237,37 +276,48 @@ i will support you two wholeheartedly.[p]
 ......................?![p]
 [_tb_end_text]
 
+[chara_hide_all  time="1000"  wait="true"  ]
+[bg  time="1000"  method="crossfade"  storage="background/surgery_room.png"  ]
+[chara_show  name="Lan"  time="1000"  wait="true"  storage="chara/11/Lan_2_cheer.png"  width="233"  height="669"  left="358"  top="88"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #Lan
 Dr Quang, can i go out to prepare for my wedding?[p]
 [_tb_end_text]
 
+[chara_show  name="Kai"  time="1000"  wait="true"  storage="chara/2/Kai_talking.png"  width="699"  height="940"  left="587"  top="-36"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #Kai
 No.[p]
 [_tb_end_text]
 
+[chara_mod  name="Lan"  time="600"  cross="true"  storage="chara/11/Lan_talk.png"  ]
 [tb_start_text mode=1 ]
 #Lan
 Please, it's a very very important day and i want to take care every detail myself[p]
 [_tb_end_text]
 
+[chara_mod  name="Kai"  time="600"  cross="true"  storage="chara/2/Kai_normal.png"  ]
 [tb_start_text mode=1 ]
 #Kai
 Your Sarcoma tumor came back after 2 operations because you ignored your own health. In the last operation, it weighted 5 kg.[p]
-Your body is still too weak and chemotherapy is still not working as effective as expected. In another word: no. You aren't going anywhere out of my watch and that's final.[p]
+Your body is still too weak and chemotherapy is still not working as effective as expected. [p]
+In another word: no. You aren't going anywhere out of my watch and that's final.[p]
 [_tb_end_text]
 
+[chara_mod  name="Lan"  time="600"  cross="true"  storage="chara/11/Lan_2_worried.png"  ]
 [tb_start_text mode=1 ]
 #Lan
 But my health is improving everyday and An will come with me as well to make sure everything is ok, right An?[p]
 [_tb_end_text]
 
+[chara_show  name="An"  time="1000"  wait="true"  storage="chara/1/An_talk.png"  width="555"  height="987"  left="-92"  top="209"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #An
 Yes! I'll do my best to make sure nothing will go wrong![p]
 [_tb_end_text]
 
+[chara_mod  name="Lan"  time="600"  cross="true"  storage="chara/11/Lan_2_bruh_face.png"  ]
+[chara_mod  name="Kai"  time="600"  cross="true"  storage="chara/2/Kai_normal_smile.png"  ]
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=true]
 [layopt layer=message0 visible=false]
@@ -287,26 +337,32 @@ Suddenly Kai and Lan exchange some deep meaningful look.[p]
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-#Kai
-...............[p]
-[_tb_end_text]
-
-[tb_start_text mode=1 ]
 #Lan
 .....................[p]
 [_tb_end_text]
 
+[chara_mod  name="Kai"  time="600"  cross="true"  storage="chara/2/Kai_blush.png"  ]
+[tb_start_text mode=1 ]
+#Kai
+...............[p]
+[_tb_end_text]
+
+[chara_mod  name="Kai"  time="600"  cross="true"  storage="chara/2/Kai_talking.png"  ]
 [tb_start_text mode=1 ]
 #Kai
 Fine. But you can only do it on my vacation because i'm coming along as well.[p]
 You will be sitting on a wheel chair and if i see you having any sign of exhausion we'll come back to the hospital immediately. Are we clear?[p]
 [_tb_end_text]
 
+[chara_mod  name="Lan"  time="600"  cross="true"  storage="chara/11/Lan_2_cheer.png"  ]
 [tb_start_text mode=1 ]
 #Lan
 Yay!![p]
 [_tb_end_text]
 
+[chara_hide_all  time="1000"  wait="true"  ]
+[bg  time="1000"  method="crossfade"  storage="background/hotel_door.png"  ]
+[chara_show  name="An"  time="1000"  wait="true"  storage="chara/1/An_small_smile.png"  width="532"  height="947"  left="-61"  top="211"  reflect="false"  ]
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=true]
 [layopt layer=message0 visible=false]
@@ -316,9 +372,16 @@ Yay!![p]
 
 [tb_start_text mode=1 ]
 The day finally comes. Me and Kai tag along with Lan and her fiance- Minh. They start with the wedding dress, the flowers,...and then the hotel where the wedding is gonna take place.[p]
+
+[_tb_end_text]
+
+[bg  time="1000"  method="crossfade"  storage="background/Mephisto_statue.png"  ]
+[hidemessage  ]
+[tb_start_text mode=1 ]
 At that place, there's a sculpture of a skeleton with black wings holding a sleeping man and giving him a kiss on a forehead.[p]
 [_tb_end_text]
 
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_talk.png"  ]
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=false]
 [layopt layer=message0 visible=true]
@@ -331,11 +394,13 @@ At that place, there's a sculpture of a skeleton with black wings holding a slee
 Mephisto and Faust from Faust of Goether.[p]
 [_tb_end_text]
 
+[chara_show  name="Kai"  time="1000"  wait="true"  storage="chara/2/Kai_pose_2_ai.png"  width="705"  height="1254"  left="616"  top="-210"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #Kai
 You know this story?[p]
 [_tb_end_text]
 
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_small_smile.png"  ]
 [tb_start_text mode=1 ]
 #An
 Yeah, it's a classic from Goether. The demon Mephisto made a bet with God that he would turn humainity's most representive individual known as Faust into the darkness way.[p]
@@ -344,16 +409,19 @@ He found lands and fought wars, went through tragedies and struggles like no one
 And in the end even though Faust made a lot of mistakes, he still kept his soul as Goether believed that humanity will always followe the right way regardless how they might have made mistakes.[p]
 [_tb_end_text]
 
+[chara_mod  name="Kai"  time="600"  cross="true"  storage="chara/2/Kai_2_laugh.png"  ]
 [tb_start_text mode=1 ]
 #Kai
 The story Goether told still missing some details[p]
 [_tb_end_text]
 
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_talk.png"  ]
 [tb_start_text mode=1 ]
 #An
 What's that?[p]
 [_tb_end_text]
 
+[chara_mod  name="Kai"  time="600"  cross="true"  storage="chara/2/Kai_pose_2_ai.png"  ]
 [tb_start_text mode=1 ]
 #Kai
 After throwing everything he had on Faust: all the tragedies, horrors, all the fame and wealth,... Mephisto decided to pull one last move: making Faust falling in love with him[p]
