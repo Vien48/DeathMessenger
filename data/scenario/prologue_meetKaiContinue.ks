@@ -1,9 +1,25 @@
 [_tb_system_call storage=system/_prologue_meetKaiContinue.ks]
 
 [cm  ]
+[bg  time="1000"  method="crossfade"  storage="background/hospital_hall.png"  ]
+[tb_start_tyrano_code]
+[position   layer="message0" frame="mCharacter.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
+[position   layer="message1" frame="mNarrator.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
+[_tb_end_tyrano_code]
+
+[chara_show  name="An"  time="1000"  wait="true"  storage="chara/1/An_talk.png"  width="552"  height="982"  left="-63"  top="196"  reflect="false"  ]
+[chara_show  name="AnMum"  time="1000"  wait="true"  storage="chara/5/An_mum_sad.png"  width="228"  height="729"  left="423"  top="24"  reflect="false"  ]
+[chara_show  name="Kai"  time="1000"  wait="true"  storage="chara/2/Kai_small_smile.png"  width="668"  height="898"  left="636"  top="-30"  reflect="false"  ]
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
+
 [tb_start_text mode=1 ]
 #Mother
-I'm sorry dr Quang, for how my daughter screamed your name in nonsense. [p]
+I'm sorry Dr Quang, for how my daughter screamed your name in nonsense. [p]
 I promise she usually isn't like this[p]
 [_tb_end_text]
 
@@ -32,12 +48,14 @@ This girl ran into the hospital without permission. [p]
 We'll escort her out[p]
 [_tb_end_text]
 
+[chara_mod  name="Kai"  time="600"  cross="true"  storage="chara/2/Kai_cheer.png"  ]
 [tb_start_text mode=1 ]
 #Kai
 No need. I think she's just a little bit confused.[p]
 A meeting with me in the office will probably solve this matter out[p]
 [_tb_end_text]
 
+[chara_mod  name="Kai"  time="600"  cross="true"  storage="chara/2/Kai_small_smile.png"  ]
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=true]
 [layopt layer=message0 visible=false]
@@ -61,11 +79,14 @@ He looks at me and smile[p]
 May i?[p]
 [_tb_end_text]
 
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_concern.png"  ]
 [tb_start_text mode=1 ]
 #An
 Y-Yes please[p]
 [_tb_end_text]
 
+[chara_hide  name="AnMum"  time="1000"  wait="true"  pos_mode="false"  ]
+[chara_move  name="Kai"  anim="true"  time="300"  effect="easeInQuad"  wait="true"  left="399"  top="-36"  width="668"  height="898"  ]
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=true]
 [layopt layer=message0 visible=false]
@@ -73,10 +94,12 @@ Y-Yes please[p]
 [current layer="message1"]
 [_tb_end_tyrano_code]
 
+[bg  time="1000"  method="crossfade"  storage="background/Kai_office.png"  ]
 [tb_start_text mode=1 ]
 Holding the amber necklace in my hand, i follow him to the head doctor's office. After the door behind us closes, he smiles gently at me[p]
 [_tb_end_text]
 
+[chara_mod  name="Kai"  time="600"  cross="true"  storage="chara/2/Kai_laugh.png"  ]
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=false]
 [layopt layer=message0 visible=true]
@@ -89,16 +112,19 @@ Holding the amber necklace in my hand, i follow him to the head doctor's office.
 It's been 5 years isn't it?[p]
 [_tb_end_text]
 
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_scared.png"  ]
 [tb_start_text mode=1 ]
 #An
 You...so it's really you. But- but then, Dr Quang...[p]
 [_tb_end_text]
 
+[chara_mod  name="Kai"  time="600"  cross="true"  storage="chara/2/Kai_normal_smile.png"  ]
 [tb_start_text mode=1 ]
 #Kai
 You can't see him anymore. He passed away this morning[p]
 [_tb_end_text]
 
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_tears.png"  ]
 [tb_start_text mode=1 ]
 #An
 ...![p]
@@ -127,6 +153,7 @@ The news hit me like a storm. Shaking, i fall down on the chair. Nothing makes s
 Why did everything happen this way? Who are you?[p]
 [_tb_end_text]
 
+[chara_mod  name="Kai"  time="600"  cross="true"  storage="chara/2/Kai_small_smile.png"  ]
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=true]
 [layopt layer=message0 visible=false]
@@ -175,6 +202,7 @@ Tears start flowing down, i speak with a broken voice[p]
 And with that, you made people forget about his death and all the memories they had with him?[p]
 [_tb_end_text]
 
+[chara_mod  name="Kai"  time="600"  cross="true"  storage="chara/2/Kai_normal_smile.png"  ]
 [tb_start_text mode=1 ]
 #Kai
 That's what he wished for. The man wasn't proud of the life he lived. [p]
@@ -227,6 +255,7 @@ Regardless, he still had to take responsible for the wish he made with the Death
 He reaches out his hand trying to calm me down but i shove it away. Kai says tenderly[p]
 [_tb_end_text]
 
+[chara_mod  name="Kai"  time="600"  cross="true"  storage="chara/2/Kai_small_smile.png"  ]
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=false]
 [layopt layer=message0 visible=true]
@@ -277,7 +306,8 @@ You don't have to say that to not make me feel bad, you know. You can take it on
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-Kai kneels down so he can look at me in the eyes. Now that i have the chance to watch his red eye and the eye patch again, was it because of me?[p]
+Kai kneels down so he can look at me in the eyes. [p]
+Now that i have the chance to watch his face again. That eyepatch, was it because of me?[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -287,11 +317,12 @@ Kai kneels down so he can look at me in the eyes. Now that i have the chance to 
 [current layer="message0"]
 [_tb_end_tyrano_code]
 
+[chara_mod  name="Kai"  time="600"  cross="true"  storage="chara/2/Kai_normal_smile.png"  ]
 [tb_start_text mode=1 ]
 #Kai
 I'm sorry that you have to hold the memories of your dear friend alone.[p]
 I can't bring him back. There are limits that even a Death's Messenger can't do.[p]
-ut please know that the old doctor truly loved you and proud of you. He wanted you to be happy, An. And i'm here to make sure that you will be happy.[p]
+But please know that the old doctor truly loved you and was proud of you. He wanted you to be happy, An. And i'm here to make sure that you will be happy.[p]
 Take all the time you need to heal, you can start working here when you feel ok enough, i already approved your internship. I'll make sure your dream will come true. I'll take care of you...[p]
 [_tb_end_text]
 
@@ -303,7 +334,7 @@ Take all the time you need to heal, you can start working here when you feel ok 
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-Kai starts to whisper, so tender An could barely hear it as if he has to try his best to control his emotions[p]
+Kai starts to whisper, so tender i could barely hear it as if he has to try his best to control his emotions[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -315,7 +346,7 @@ Kai starts to whisper, so tender An could barely hear it as if he has to try his
 
 [tb_start_text mode=1 ]
 #Kai
-...for it was not only the contract but my personal wish as well. You don't know...you will never know...just how much i waited, how much i long for this day[p]
+...for it was not only the contract but my personal wish as well. You don't know...you will never know...just how much i waited, how much i longed for this day[p]
 [_tb_end_text]
 
 [jump  storage="chapter_1_intro.ks"  target=""  ]

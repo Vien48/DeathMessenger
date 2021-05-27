@@ -6,4 +6,5 @@
 [preload  storage="./data/bgimage/background/VIP_room.png"  ]
 [preload  storage="./data/fgimage/chara/1/An_tears.png"  ]
 [preload  storage="./data/bgimage/background/hospital_hall.png"  ]
+[preload  storage="./data/bgimage/sequences/an_meets_kai.png"  ]
 [return]

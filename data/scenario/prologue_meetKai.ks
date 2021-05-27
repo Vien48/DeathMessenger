@@ -1,11 +1,23 @@
 [_tb_system_call storage=system/_prologue_meetKai.ks]
 
 [cm  ]
+[tb_start_tyrano_code]
+[position   layer="message0" frame="mCharacter.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
+[position   layer="message1" frame="mNarrator.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
+[_tb_end_tyrano_code]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
+
 [bg  time="1000"  method="crossfade"  storage="background/an_room.png"  ]
-[tb_start_text mode=2 ]
+[tb_start_text mode=1 ]
 #Mother
-An...wake up, wake up!!![l][r]
-AN!!![l][r]
+An...wake up, wake up!!![p]
+AN!!![p]
 [_tb_end_text]
 
 [cm  ]
@@ -159,6 +171,7 @@ What happened to him?[l][r]
 [_tb_end_text]
 
 [cm  ]
+[chara_show  name="AnMum"  time="1000"  wait="true"  storage="chara/5/An_mum_sad.png"  width="228"  height="729"  left="592"  top="75"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #Mother
 An, what are you doing here? What are you talking about?[p]
@@ -189,7 +202,7 @@ Mother...you told me dr Quang passed away this morning??[p]
 
 [tb_start_text mode=1 ]
 #Mother
-I didn't even come home last night. I had to stay guard at the hospital, remember?"[p]
+I didn't even come home last night. I had a shift at the hospital, remember?"[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -204,6 +217,9 @@ She looks even more embarrassed now. The people around us also look at me with a
 Have i been hallucinated this whole time? What happened?[p]
 [_tb_end_text]
 
+[chara_hide_all  time="1000"  wait="true"  ]
+[bg  time="1000"  method="crossfade"  storage="sequences/an_meets_kai.png"  ]
+[hidemessage  ]
 [tb_start_text mode=1 ]
 In that very moment, i meet someone i thought i could never meet again.[p]
 The boy with black wings, with an eye patch and doctor clothes on him.  He looked just like how i remember yet no one seems to be surprised by his presence, as if his wings doesn't exists.[p]
@@ -225,6 +241,17 @@ Finally, i found you.[l][r]
 
 [cm  ]
 [jump  storage="prologue_meetKaiContinue.ks"  target=""  ]
+=======[p]
+
+
+[jump  storage="chapter_1_intro.ks"  target=""  ]
+[tb_start_text mode=1 ]
+
+[_tb_end_text]
+
+>>>>>>> Stashed changes[p]
+
+
 [s  ]
 [tb_start_tyrano_code]
 [position   layer="message0" frame="mCharacter.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
