@@ -2,7 +2,7 @@
 ;An
 [chara_new  name="An"  jname="An"  storage="chara/1/An_angry.png"  ]
 ;Kai
-[chara_new  name="Kai"  jname="Kai"  storage="chara/2/Kai_2_laugh.png"  ]
+[chara_new  name="Kai"  jname="Kai"  storage="chara/2/Kai_2_chuckle.png"  ]
 ;Khai
 [chara_new  name="Khai"  jname="Khai"  storage="chara/3/Khai.png"  ]
 ;An'smother
@@ -20,7 +20,7 @@
 ;phone
 [chara_new  name="phone"  jname="phone"  storage="chara/10/phone_calling.png"  ]
 ;Lan
-[chara_new  name="Lan"  jname="Lan"  storage="chara/11/Lan_1_extreme_pain.png"  ]
+[chara_new  name="Lan"  jname="Lan"  storage="chara/11/Lan_1_annoyed.png"  ]
 ;Minh
 [chara_new  name="Minh"  jname="Minh"  storage="chara/12/Minh_smile.png"  ]
 
