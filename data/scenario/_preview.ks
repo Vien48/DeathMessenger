@@ -1,6 +1,7 @@
 [_tb_system_call storage=system/_preview.ks ]
 
 [mask time=10]
+[tb_show_message_window] 
 [mask_off time=10]
 [cm  ]
 [tb_start_tyrano_code]

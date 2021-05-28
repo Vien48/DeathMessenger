@@ -96,6 +96,7 @@ LOOK AT ME KAI!!! OPEN YOUR EYES!!! DON'T SCARE ME LIKE THIS!![p]
 
 [jump  storage="ending_2_sunFlowers.ks"  target=""  cond="f.decider=='B2C1'"  ]
 [jump  storage="ending_4_spiderLilies.ks"  target=""  cond="f.decider=='B2C2'"  ]
+[jump  storage="ending_1_rose.ks"  target=""  ]
 [s  ]
 [tb_start_tyrano_code]
 [position   layer="message0" frame="mCharacter.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
