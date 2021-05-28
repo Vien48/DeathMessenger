@@ -37,7 +37,7 @@ You have to follow the patient's conditions carefully and write it down in detai
 There's a huge traffic accident today. 20 people with heavy injuries were sent to the hospital.[p]
 Not only did i spend the entire days struggle with blood, moths and the scream from the patients. 3 of them died immediately and i had to take the 3 corpses straight to the morgue all by myself. [p]
 Carrying 3 corpses on a stretcher under the dim light of the morgue, i couldn't even begin to describe how scared i was.[p]
-Just when i arrived and started bringing the corpse out, a cold hand suddenly touched me and made my heart jumped out of my chest. Turned out it was just another corpse. I felt like i could have died right there.[p]
+Just when i arrived and started bringing the corpse out, a cold hand suddenly touched my and made my heart jumped out of my chest. Turned out it was just another corpse. I felt like i could have died right there.[p]
 [_tb_end_text]
 
 [chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_haizz_smile.png"  ]
@@ -460,11 +460,7 @@ Kai looks at the statue with a smile half sorrowful, half mocking[p]
 [current layer="message0"]
 [_tb_end_tyrano_code]
 
-[tb_start_text mode=1 ]
-TODO: jump to LOST node[p]
-[_tb_end_text]
-
-[jump  storage="chapter_1_church.ks"  target=""  ]
+[jump  storage="chapter_1_lost.ks"  target=""  ]
 [s  ]
 [tb_start_tyrano_code]
 [position   layer="message0" frame="mCharacter.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
