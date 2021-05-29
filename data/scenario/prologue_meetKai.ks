@@ -241,17 +241,6 @@ Finally, i found you.[l][r]
 
 [cm  ]
 [jump  storage="prologue_meetKaiContinue.ks"  target=""  ]
-=======[p]
-
-
-[jump  storage="chapter_1_intro.ks"  target=""  ]
-[tb_start_text mode=1 ]
-
-[_tb_end_text]
-
->>>>>>> Stashed changes[p]
-
-
 [s  ]
 [tb_start_tyrano_code]
 [position   layer="message0" frame="mCharacter.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]

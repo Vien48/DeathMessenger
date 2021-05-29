@@ -16,5 +16,4 @@
 [preload  storage="./data/fgimage/chara/11/Lan_1_smile.png"  ]
 [preload  storage="./data/fgimage/chara/11/Lan_1_bruh_talk.png"  ]
 [preload  storage="./data/fgimage/chara/11/Lan_1_annoyed.png"  ]
-[preload  storage="./data/fgimage/undefined"  ]
 [return]
