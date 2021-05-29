@@ -8,5 +8,4 @@
 [preload  storage="./data/fgimage/chara/1/An_talk.png"  ]
 [preload  storage="./data/fgimage/chara/1/An_pout.png"  ]
 [preload  storage="./data/fgimage/chara/3/Khai_small_smile.png"  ]
-[preload  storage="./data/fgimage/undefined"  ]
 [return]

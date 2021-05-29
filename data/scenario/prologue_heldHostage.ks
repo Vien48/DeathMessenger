@@ -1,6 +1,8 @@
 [_tb_system_call storage=system/_prologue_heldHostage.ks]
 
 [cm  ]
+[chara_hide_all  time="1000"  wait="true"  ]
+[tb_hide_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="telephone_1.png"  ]
 [clickable  storage="prologue_heldHostage.ks"  x="0"  y="0"  width="1334"  height="750"  target="*telephone_2"  _clickable_img=""  ]
 [s  ]
@@ -384,11 +386,6 @@ Twirling my eyeball with his finger, the boss laughs[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
-[position   layer="message0" frame="mCharacter.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
-[position   layer="message1" frame="mNarrator.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
-[_tb_end_tyrano_code]
-
-[tb_start_tyrano_code]
 [layopt layer=message1 visible=false]
 [layopt layer=message0 visible=true]
 
@@ -419,6 +416,13 @@ This is it. This is the ending of my life now.[l][r]
 [_tb_end_text]
 
 [cm  ]
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=true]
+[layopt layer=message0 visible=false]
+
+[current layer="message1"]
+[_tb_end_tyrano_code]
+
 [bg  time="1000"  method="crossfade"  storage="background.png"  ]
 [tb_start_text mode=1 ]
 When the tears and blood fall down on the necklace, it suddenly shines. [p]
@@ -432,13 +436,6 @@ A magic circle appears underneath me making all the kidnappers jump back in surp
 [clickable  storage="prologue_heldHostage.ks"  x="0"  y="0"  width="1334"  height="750"  target="*Kai_appear"  _clickable_img=""  ]
 [s  ]
 *Kai_appear
-
-[tb_start_tyrano_code]
-[layopt layer=message1 visible=true]
-[layopt layer=message0 visible=false]
-
-[current layer="message1"]
-[_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
 In the glow of the magic circle, a boy appears with black wings and striking red hair.[p]
@@ -460,3 +457,22 @@ In that very moment, those beautiful eyes in front of me glow in red[p]
 [cm  ]
 [jump  storage="prologue_fiveYearsLater.ks"  target=""  ]
 [s  ]
+[tb_start_tyrano_code]
+[position   layer="message0" frame="mCharacter.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
+[position   layer="message1" frame="mNarrator.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
+[_tb_end_tyrano_code]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=true]
+[layopt layer=message0 visible=false]
+
+[current layer="message1"]
+[_tb_end_tyrano_code]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
+

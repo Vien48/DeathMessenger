@@ -3,7 +3,67 @@
 [mask time=10]
 [tb_show_message_window] 
 [mask_off time=10]
-[cm  ]
+[tb_start_tyrano_code]
+[position   layer="message0" frame="mCharacter.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
+[position   layer="message1" frame="mNarrator.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
+[_tb_end_tyrano_code]
+
+[tb_hide_message_window  ]
+[bg  time="1000"  method="crossfade"  storage="telephone_1.png"  ]
+[clickable  storage="prologue_heldHostage.ks"  x="0"  y="0"  width="1334"  height="750"  target="*telephone_2"  _clickable_img=""  ]
+[s  ]
+*telephone_2
+
+[bg  time="1000"  method="crossfade"  storage="telephone_2.png"  ]
+[clickable  storage="prologue_heldHostage.ks"  x="0"  y="0"  width="1334"  height="750"  target="*telephone_3"  _clickable_img=""  ]
+[s  ]
+*telephone_3
+
+[bg  time="1000"  method="crossfade"  storage="telephone_3.png"  ]
+[clickable  storage="prologue_heldHostage.ks"  x="0"  y="0"  width="1334"  height="750"  target="*telephone_4"  _clickable_img=""  ]
+[s  ]
+*telephone_4
+
+[bg  time="1000"  method="crossfade"  storage="telephone_4.png"  ]
+[clickable  storage="prologue_heldHostage.ks"  x="0"  y="0"  width="1334"  height="750"  target="*telephone_5"  _clickable_img=""  ]
+[s  ]
+*telephone_5
+
+[bg  time="1000"  method="crossfade"  storage="telephone_5.png"  ]
+[clickable  storage="prologue_heldHostage.ks"  x="0"  y="0"  width="1334"  height="750"  target="*telephone_6"  _clickable_img=""  ]
+[s  ]
+*telephone_6
+
+[bg  time="1000"  method="crossfade"  storage="telephone_6.png"  ]
+[clickable  storage="prologue_heldHostage.ks"  x="0"  y="0"  width="1334"  height="750"  target="*telephone_7"  _clickable_img=""  ]
+[s  ]
+*telephone_7
+
+[bg  time="1000"  method="crossfade"  storage="telephone_7.png"  ]
+[clickable  storage="prologue_heldHostage.ks"  x="0"  y="0"  width="1334"  height="750"  target="*telephone_8"  _clickable_img=""  ]
+[s  ]
+*telephone_8
+
+[bg  time="1000"  method="crossfade"  storage="telephone_8.png"  ]
+[clickable  storage="prologue_heldHostage.ks"  x="0"  y="0"  width="1334"  height="750"  target="*telephone_9"  _clickable_img=""  ]
+[s  ]
+*telephone_9
+
+[bg  time="1000"  method="crossfade"  storage="telephone_9.png"  ]
+[clickable  storage="prologue_heldHostage.ks"  x="0"  y="0"  width="1334"  height="750"  target="*telephone_10"  _clickable_img=""  ]
+[s  ]
+*telephone_10
+
+[bg  time="1000"  method="crossfade"  storage="telephone_10.png"  ]
+[clickable  storage="prologue_heldHostage.ks"  x="0"  y="0"  width="1334"  height="750"  target="*at_Satan_church"  _clickable_img=""  ]
+[s  ]
+*at_Satan_church
+
+[bg  time="1000"  method="crossfade"  storage="newbackground/Satan_church.png"  ]
+[clickable  storage="prologue_heldHostage.ks"  x="0"  y="0"  width="1334"  height="750"  target="*An_woke_up"  _clickable_img=""  ]
+[s  ]
+*An_woke_up
+
 [tb_start_tyrano_code]
 [position   layer="message0" frame="mCharacter.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
 [position   layer="message1" frame="mNarrator.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
@@ -16,13 +76,73 @@
 [current layer="message1"]
 [_tb_end_tyrano_code]
 
-[bg  time="1000"  method="crossfade"  storage="background/church.png"  ]
-[chara_show  name="An"  time="1000"  wait="true"  storage="chara/1/An_small_smile.png"  width="563"  height="1002"  left="-87"  top="185"  reflect="false"  ]
-[tb_start_text mode=1 ]
-At the church, Lan and Minh practice their wedding ceremony. They say their oath "As God above witness, we'll stay together till death tear us apart"[p]
+[chara_show  name="An"  time="1000"  wait="true"  storage="chara/1/An_concern.png"  width="590"  height="1050"  left="-49"  top="149"  reflect="false"  ]
+[tb_start_text mode=2 ]
+When i open my eyes, both my hands and feet are tied. [l][r]
+My head hurts so bad, i can't see things clearly at first.[l][r]
 [_tb_end_text]
 
-[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_small_smile_blush.png"  ]
+[cm  ]
+[tb_start_text mode=2 ]
+Khai is tied at the opposite side.[l][r]
+Bruises all over his body. [l][r]
+We are held in an old, abandoned church.[l][r]
+I can't recognize the place.[l][r]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
+
+[chara_show  name="Khai"  time="1000"  wait="true"  storage="chara/3/Khai_worried.png"  width="321"  height="750"  left="598"  top="47"  reflect="false"  ]
+[tb_start_text mode=1 ]
+#Khai
+An, you're awake now!! [p]
+Are you ok?[p]
+[_tb_end_text]
+
+[chara_move  name="Khai"  anim="true"  time="300"  effect="easeInQuad"  wait="true"  left="390"  top="42"  width="321"  height="750"  ]
+[chara_show  name="gangster1"  time="1000"  wait="true"  storage="chara/7/gangster_1.png"  width="228"  height="838"  left="831"  top="4"  reflect="false"  ]
+[tb_start_text mode=1 ]
+#Kidnapper A
+Did we give you permission to talk?[p]
+[_tb_end_text]
+
+[tb_image_show  time="400"  storage="default/red.png"  width="1334"  height="750"  name="img_58"  ]
+[chara_mod  name="An"  time="100"  cross="false"  storage="chara/1/An_scared.png"  ]
+[quake  time="300"  count="3"  hmax="30"  wait="true"  ]
+[tb_image_hide  time="500"  ]
+[chara_hide  name="Khai"  time="1000"  wait="true"  pos_mode="false"  ]
+[chara_move  name="gangster1"  anim="true"  time="300"  effect="easeInQuad"  wait="true"  left="600"  top="-2"  width="228"  height="838"  ]
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=true]
+[layopt layer=message0 visible=false]
+
+[current layer="message1"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+The big man hit Khai with his gun.[p]
+I have to hold myself back from crying or screaming.[p]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=2 ]
+There are five of them, some even have guns.[l][r]
+How on Earth can we get away?[l][r]
+[_tb_end_text]
+
+[chara_hide  name="gangster1"  time="1000"  wait="true"  pos_mode="false"  ]
+[cm  ]
+[chara_show  name="Khai"  time="1000"  wait="true"  storage="chara/3/Khai_injured.png"  width="321"  height="750"  left="556"  top="5"  reflect="false"  ]
+[tb_start_text mode=1 ]
+With blood on his head. Khai looks at me with a warm smile[p]
+[_tb_end_text]
+
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=false]
 [layopt layer=message0 visible=true]
@@ -31,14 +151,17 @@ At the church, Lan and Minh practice their wedding ceremony. They say their oath
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-#An
-As God above witness...[p]
+#Khai
+Everything will be ok[p]
 [_tb_end_text]
 
-[chara_show  name="Kai"  time="1000"  wait="true"  storage="chara/2/Kai_pose_2_ai.png"  width="688"  height="1224"  left="435"  top="-185"  reflect="false"  ]
+[chara_mod  name="An"  time="100"  cross="false"  storage="chara/1/An_concern.png"  ]
+[chara_hide  name="Khai"  time="1000"  wait="true"  pos_mode="false"  ]
+[chara_show  name="boss"  time="1000"  wait="true"  storage="chara/8/boss.png"  width="496"  height="886"  left="404"  top="-50"  reflect="false"  ]
 [tb_start_text mode=1 ]
-#Kai
-...Till death tear us apart[p]
+#Kidnapper leader
+Great news boys!!! [p]
+The parents agreed to the ransom!![p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -48,10 +171,72 @@ As God above witness...[p]
 [current layer="message1"]
 [_tb_end_tyrano_code]
 
-[tb_start_text mode=1 ]
-There's a hint of jealousy in his voice.[p]
+[tb_start_text mode=2 ]
+A new guy comes in and announces.[l][r]
+The whole gang cheere and drink.[l][r]
 [_tb_end_text]
 
+[chara_hide  name="boss"  time="1000"  wait="true"  pos_mode="false"  ]
+[cm  ]
+[tb_start_text mode=1 ]
+That whole night, me and Khai can't sleep.[p]
+The kidnappers took turn to watch over us.[p]
+The next morning, Khai is released.[p]
+[_tb_end_text]
+
+[chara_mod  name="An"  time="100"  cross="false"  storage="chara/1/An_tears.png"  ]
+[tb_start_text mode=1 ]
+Sitting alone in the dark corner with all the creepy men surrounded.  I'm more scared than ever. [p]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=3 ]
+Will brother be ok? [r]
+Will I be ok?[r]
+Can mom and dad pay all the ransom?[r]
+
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+Will they do anything to me? [p]
+
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+God...Jesus...anyone...please...[p]
+[_tb_end_text]
+
+[chara_mod  name="An"  time="100"  cross="false"  storage="chara/1/An_pain.png"  ]
+[tb_start_text mode=1 ]
+Another horrible sleepless night. Tiredness, hunger, fear,...washes over me.[p]
+
+
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=3 ]
+I wish i could pass out. [r]
+
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+Yet all i could do is to count every tick on the clock and praying everything gonna be OK.[p]
+[_tb_end_text]
+
+[cm  ]
+[chara_mod  name="An"  time="100"  cross="false"  storage="chara/1/An_concern.png"  ]
+[tb_start_text mode=1 ]
+The morning finally comes.[p]
+The same guy that picked up Khai goes to pick up the money.[p]
+
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+Yet when the guy comes back. Fear painted all over his face as he screames[p]
+[_tb_end_text]
+
+[chara_show  name="gangster1"  time="1000"  wait="true"  storage="chara/7/gangster_1_angry.png"  width="228"  height="838"  left="579"  top="19"  reflect="false"  ]
+[cm  ]
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=false]
 [layopt layer=message0 visible=true]
@@ -59,12 +244,35 @@ There's a hint of jealousy in his voice.[p]
 [current layer="message0"]
 [_tb_end_tyrano_code]
 
-[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_laugh.png"  ]
-[tb_start_text mode=1 ]
-#An
-All these people praying for their happiness in a church, is this what it feels like when people trade their soul for a wish with you, Kai?[p]
+[chara_mod  name="An"  time="100"  cross="false"  storage="chara/1/An_scared.png"  ]
+[tb_start_text mode=3 ]
+#Kidnapper A
+The parents lied to us!! [r]
+They called the cops!! [r]
 [_tb_end_text]
 
+[tb_start_text mode=1 ]
+What's to do boss?[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[position   layer="message0" frame="mCharacter.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
+[position   layer="message1" frame="mNarrator.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
+[_tb_end_tyrano_code]
+
+[tb_start_tyrano_code]
+[position   layer="message0" frame="mCharacter.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
+[position   layer="message1" frame="mNarrator.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
+[_tb_end_tyrano_code]
+
+[chara_hide  name="gangster1"  time="1000"  wait="true"  pos_mode="false"  ]
+[chara_show  name="boss"  time="1000"  wait="true"  storage="chara/8/boss_angry.png"  width="496"  height="886"  left="392"  top="-21"  reflect="false"  ]
+[tb_start_text mode=1 ]
+#Leader
+FUCKKKKKKK[p]
+[_tb_end_text]
+
+[quake  time="300"  count="3"  hmax="30"  wait="true"  ]
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=true]
 [layopt layer=message0 visible=false]
@@ -72,13 +280,16 @@ All these people praying for their happiness in a church, is this what it feels 
 [current layer="message1"]
 [_tb_end_tyrano_code]
 
-[chara_mod  name="Kai"  time="600"  cross="true"  storage="chara/2/Kai_2_chuckle.png"  ]
-[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_talk.png"  ]
 [tb_start_text mode=1 ]
-He chuckles.[p]
+The boss let out a long scream before he starts smashing the furnitures around.[p]
+It isn't long before he throws a chair at me, grabs my hair and throws me in the middle of the church.[p]
 [_tb_end_text]
 
-[chara_mod  name="Kai"  time="600"  cross="true"  storage="chara/2/Kai_2_laugh.png"  ]
+[tb_image_show  time="300"  storage="default/red.png"  width="1334"  height="750"  name="img_112"  ]
+[quake  time="300"  count="2"  hmax="20"  wait="true"  ]
+[tb_image_hide  time="100"  ]
+[bg  time="1000"  method="crossfade"  storage="background_new.png"  ]
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_fear.png"  ]
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=false]
 [layopt layer=message0 visible=true]
@@ -87,133 +298,119 @@ He chuckles.[p]
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-#Kai
-No, i'm not that big of a thing. I'm not the All Mighty to save everyone.[p]
-The Death's Messenger's power is highly depends on the wish owner's soul, how pure they were, how strong their soul was. That's why a normal person wouldn't be able to ask me for world peace.[p]
-I can manipulate reality but only to an extend that his soul is capable of. [p]
-In very rare occasions, we can use the power stored in our body to complete wishes that overthrone the onwer soul's capability.[p]
-That's like one in a million though. [p]
-After all, it's pointless to capture a soul if in the end we have to waste our power to complete the wish. [p]
-I have more freedom since i already lived for quite long and have plenty of power myself. [p]
-Most Death Messengers can't do anything outside of the contract. [p]
-But unlike that statue over there, i can asure you once a Death's Messenger accepts the contract, they have to finish it.[p]
-Or else, punishments are await for them.[p]
+#Kidnapper A
+YOU WORTHLESS BITCH!!!! [p]
+SEE HOW NOT EVEN YOUR PARENTS CARE ABOUT YOU NOW?[p]
 [_tb_end_text]
 
+[chara_move  name="boss"  anim="true"  time="300"  effect="easeInQuad"  wait="true"  left="196"  top="-42"  width="496"  height="886"  ]
+[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_injured.png"  ]
+[chara_show  name="gangster1"  time="1000"  wait="true"  storage="chara/7/gangster_1_angry.png"  width="228"  height="838"  left="792"  top="-17"  reflect="false"  ]
+[quake  time="300"  count="2"  hmax="20"  wait="true"  ]
+[tb_image_show  time="300"  storage="default/red.png"  width="1334"  height="750"  name="img_123"  ]
+[tb_image_hide  time="100"  ]
 [tb_start_text mode=1 ]
-#An
-You receieve signs from God with the black feathers yet you still consider him as a statue?[p]
+#Kidnapper B
+HOW DOES IT FEELS TO BE LEFT OVER AFTER YOUR BROTHER HUH?!![p]
 [_tb_end_text]
 
-[chara_mod  name="Kai"  time="600"  cross="true"  storage="chara/2/Kai_pose_2_ai.png"  ]
+[quake  time="300"  count="2"  hmax="20"  wait="true"  ]
+[tb_image_show  time="300"  storage="default/red.png"  width="1334"  height="750"  name="img_127"  ]
+[tb_image_hide  time="100"  ]
+[tb_start_tyrano_code]
+[position   layer="message0" frame="mCharacter.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
+[position   layer="message1" frame="mNarrator.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
+[_tb_end_tyrano_code]
+
 [tb_start_text mode=1 ]
-#Kai
-What does God means to you then, my dear?[p]
+Those men push all their anger on me.[p]
+First it's a gun. The cold metal splits my head.[p]
+Then there's a table...Kicks...Punches.....[p]
+I can't feel anything anymore.[p]
 [_tb_end_text]
 
-[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_small_smile.png"  ]
+[quake  time="300"  count="2"  hmax="20"  wait="true"  ]
+[tb_image_show  time="300"  storage="default/red.png"  width="1334"  height="750"  name="img_132"  ]
+[tb_image_hide  time="100"  ]
 [tb_start_text mode=1 ]
-#An
-Well...i'm not really a religious person but many of my patients had God in their heart to believe in a better day and i thank him for that.[p]
-Also now that i met you. With all the magical things that happened around me it's hard to not believe in God.[p]
-[_tb_end_text]
-
-[chara_mod  name="Kai"  time="600"  cross="true"  storage="chara/2/Kai_2_laugh.png"  ]
-[tb_start_text mode=1 ]
-#Kai
-That's understandable. [p]
-Humans are weak with short life, when there's nothing else to rely on they will cling on some unknown power above to guide them.[p]
-[_tb_end_text]
-
-[tb_start_text mode=1 ]
-#Kai
-But don't you think the concept of God is kinda funny my dear? [p]
-Why would the Lord above help people to pass an exam or talk with their crush when there're 800 million people who are too poor to eat? Or kids dying everyday due to wars?[p]
-But the punch line is: even if even just one beats the odd among millions of other deaths, suddenly it's all God's miracle and everyone holds their belief again.[p]
-
-[_tb_end_text]
-
-[tb_start_text mode=1 ]
-#Kai
-So to answer your question - yes i do think that God exists.[p]
-If God is the one who others pray for and gives me order to reap souls with these feathers then God there is.[p]
-But unlike human, i am neither weak nor short life. [p]
-Even though long, very long ago i was also human.[p]
+The pain numbs my senses.[p]
+Everything are all getting blurry and all the insults keep getting far and further away.[p]
+The boss's hands are getting closer.[p]
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
-[bg  time="1000"  method="crossfade"  storage="sequences/road_to_hell.png"  ]
+[tb_hide_message_window  ]
+[bg  time="1000"  method="crossfade"  storage="sequences/eye_pulling_1.png"  ]
 [hidemessage  ]
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
+
 [tb_start_text mode=1 ]
- I was a black soul among all the other black souls sent to hell, forced to fight  and consume each others until we gain a human form.[p]
-That's how soul reapers are born and only the strongest among soul reapers can be called Death's messenger[p]
-Those who signed the contract with both heaven and hell to grant wishes to the good souls and punish the evil ones [p]
-Till the day they can make up to all the wrong things they did and be purified to another life.[p]
-And yet no one, in the thousands years of hell, has ever reached the purified state, not even our boss - the king.[p]
+#Leader
+This is a present for those who betray their promise[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-#Kai
-In human's point of view, i guess God used us like one of those "mysterious ways" he usually works.[p]
-But in the end it was the human's soul that made the Death's Messenger. We're like one last safety net that all the times they chose to do the right things in their life wouldn't go to waste.[p]
-Human have magic in themselves and i truly believe they can do much more by going out and fight instead of sitting in one place and pray. From my personal experience, praying doesn't save anyone.[p]
-No one prayed to God like the black souls that suffered through the "kill or be killed" circle in hell.[p]
-No one prayed to God like the reapers that been through hundreds years of nightmare to earn a body that can't feel pain anymore just to wish for death after the eternity of loneliness consumed them. God was there.[p]
-e saw it all, he just chose to do nothing.[p]
+The boss pulls my eyeball out of the socket [p]
 [_tb_end_text]
 
-[bg  time="1000"  method="crossfade"  storage="background/church.png"  ]
-[chara_show  name="Kai"  time="1000"  wait="true"  storage="chara/2/Kai_pose_2_ai.png"  width="604"  height="1075"  left="414"  top="-223"  reflect="false"  ]
-[chara_show  name="An"  time="1000"  wait="true"  storage="chara/1/An_concern.png"  width="525"  height="933"  left="-13"  top="107"  reflect="false"  ]
+[tb_hide_message_window  ]
+[quake  time="300"  count="2"  hmax="20"  wait="true"  ]
+[tb_image_show  time="300"  storage="default/red.png"  width="1334"  height="750"  name="img_144"  ]
+[tb_image_hide  time="100"  ]
+[bg  time="1000"  method="crossfade"  storage="sequences/eye_pulling_2.png"  ]
+[hidemessage  ]
+[chara_show  name="An"  time="1000"  wait="true"  storage="chara/1/An_lose_eye.png"  width="653"  height="1162"  left="-71"  top="117"  reflect="false"  ]
+[tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #An
-Kai, can i give you a hug?[p]
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA[p]
 [_tb_end_text]
 
-[chara_mod  name="Kai"  time="600"  cross="true"  storage="chara/2/Kai_2_laugh.png"  ]
+[quake  time="300"  count="7"  hmax="10"  wait="true"  ]
+[bg  time="1000"  method="crossfade"  storage="background_new.png"  ]
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=true]
+[layopt layer=message0 visible=false]
+
+[current layer="message1"]
+[_tb_end_tyrano_code]
+
 [tb_start_text mode=1 ]
-#Kai
-Of course. But why?[p]
+I scream with everything left inside of me.[p]
+The pain is overwhelming[p]
 [_tb_end_text]
 
-[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_sad.png"  ]
+[chara_show  name="boss"  time="1000"  wait="true"  storage="chara/8/boss.png"  width="496"  height="886"  left="426"  top="0"  reflect="false"  ]
+[chara_move  name="boss"  anim="true"  time="300"  effect="easeInQuad"  wait="true"  left="393"  top="-41"  width="496"  height="886"  ]
 [tb_start_text mode=1 ]
-#An
-Because i feel like you need one. You were in so much pain for so long.[p]
-You...aren't like those soul reapers that seeked death right?[p]
+Twirling my eyeball with his finger, the boss laughs[p]
 [_tb_end_text]
 
-[chara_mod  name="Kai"  time="600"  cross="true"  storage="chara/2/Kai_2_sad.png"  ]
+[tb_start_tyrano_code]
+[position   layer="message0" frame="mCharacter.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
+[position   layer="message1" frame="mNarrator.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
+[_tb_end_tyrano_code]
+
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
+
 [tb_start_text mode=1 ]
-#Kai
-...Sometimes i wish i was like them, feeling so empty you don't even know what does a broken heart means.[p]
-But no, not anymore. I have things to do in human world. [p]
-At one point, i truly clinged on that promise, worked harder than anyone else, became stronger than anyone else, did it all for a thousand of years.[p]
-But what else can a thousand years of no reward do to anyone.[p]
+#Leader
+Send this to her parents as the final warning for the ransom[p]
+
 [_tb_end_text]
 
-[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_haizz_smile.png"  ]
 [tb_start_text mode=1 ]
-#An
-How about right now? As you are here in the human world, can you do the things that you wanted to do?[p]
-[_tb_end_text]
-
-[chara_mod  name="Kai"  time="600"  cross="true"  storage="chara/2/Kai_pose_2_ai.png"  ]
-[tb_start_text mode=1 ]
-#Kai
-his is not the first time i played a human role, An.[p]
-But being in a fake identity, pretending to be someone else is completly different from having my own life. [p]
-This is what i was made to do, not what i wanted.[p]
-[_tb_end_text]
-
-[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_small_smile.png"  ]
-[tb_start_text mode=1 ]
-#An
-But you are you, not Dr Quang, not anyone else, at least for me.[p]
-I might not be able to fill in the eterity that you have. But please remember you can always be yourself in front of me. The human life that you want to have can start right now.[p]
-You saved me, maybe one day i can save you too. Beside, i don't think praying is such a waste of time when you're here to remind people that their good deeds are noticed.[p]
-Think of it as a way for people to say thank you. Don't ever think that all you have is emptyness or your pain doesn't matter.[p]
-For me, you're the biggest proof that God's miracles do happen afterall.[p]
+Or else this bitch is going to serve in the brothel a few days before i cut her down to sale her organs.[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -223,40 +420,26 @@ For me, you're the biggest proof that God's miracles do happen afterall.[p]
 [current layer="message1"]
 [_tb_end_tyrano_code]
 
-[chara_mod  name="Kai"  time="600"  cross="true"  storage="chara/2/Kai_2_laugh.png"  ]
-[tb_start_text mode=1 ]
-Suddenly Kai bursts out laughing.[p]
+[tb_start_text mode=2 ]
+Still being held on the floor, i break down in tears. [l][r]
+This is it. This is the ending of my life now.[l][r]
+
 [_tb_end_text]
 
-[tb_start_tyrano_code]
-[layopt layer=message1 visible=false]
-[layopt layer=message0 visible=true]
-
-[current layer="message0"]
-[_tb_end_tyrano_code]
-
-[chara_mod  name="Kai"  time="600"  cross="true"  storage="chara/2/Kai_2_chuckle.png"  ]
+[cm  ]
+[bg  time="1000"  method="crossfade"  storage="background.png"  ]
 [tb_start_text mode=1 ]
-#Kai
-Ahahaha. And yet you called me a bad flirter?[p]
+When the tears and blood fall down on the necklace, it suddenly shines. [p]
+A magic circle appears underneath me making all the kidnappers jump back in surprise[p]
 [_tb_end_text]
 
-[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_pout_blush.png"  ]
-[chara_mod  name="Kai"  time="600"  cross="true"  storage="chara/2/Kai_pose_2_ai.png"  ]
-[tb_start_text mode=1 ]
-#An
-Hey, i didn't mean it like that!!![p]
-[_tb_end_text]
-
-[tb_start_text mode=1 ]
-#Kai
-Is this really the small scared girl shaking like a twig when she first saw me with my black wings?[p]
-[_tb_end_text]
-
-[tb_start_text mode=1 ]
-#An
-I..i was just too surprised by then. Beside..[p]
-[_tb_end_text]
+[chara_hide_all  time="1000"  wait="true"  ]
+[tb_hide_message_window  ]
+[bg  time="1000"  method="crossfade"  storage="Kai_church_scene.png"  ]
+[hidemessage  ]
+[clickable  storage="prologue_heldHostage.ks"  x="0"  y="0"  width="1334"  height="750"  target="*Kai_appear"  _clickable_img=""  ]
+[s  ]
+*Kai_appear
 
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=true]
@@ -265,117 +448,25 @@ I..i was just too surprised by then. Beside..[p]
 [current layer="message1"]
 [_tb_end_tyrano_code]
 
-[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_embarrased.png"  ]
 [tb_start_text mode=1 ]
-No, no, this is getting too embarrassing already. Truth is i can't keep you out of my mind since the first day we met.[p]
-But there's no way i can admit that.[p]
+In the glow of the magic circle, a boy appears with black wings and striking red hair.[p]
 [_tb_end_text]
 
-[tb_start_tyrano_code]
-[layopt layer=message1 visible=false]
-[layopt layer=message0 visible=true]
-
-[current layer="message0"]
-[_tb_end_tyrano_code]
-
-[chara_move  name="Kai"  anim="false"  time="300"  effect="linear"  wait="true"  left="620"  top="-177"  width="604"  height="1075"  ]
-[chara_show  name="Lan"  time="1000"  wait="true"  storage="chara/11/Lan_1_bruh_face.png"  width="218"  height="672"  left="375"  top="1"  reflect="false"  ]
 [tb_start_text mode=1 ]
-#Lan
-You two love birds are getting close, i see[p]
+I'm so close of death in that very moment and yet never in my life did i see something so beautiful before.[p]
 [_tb_end_text]
 
-[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_talk.png"  ]
 [tb_start_text mode=1 ]
-#An
-Wh-what are you talking about?[p]
+He holds me in his arm so tenderly.[p]
+He releases all the ropes tying me, telling me "It's all going to be alright. I promise".[p]
 [_tb_end_text]
 
-[tb_start_tyrano_code]
-[layopt layer=message1 visible=true]
-[layopt layer=message0 visible=false]
-
-[current layer="message1"]
-[_tb_end_tyrano_code]
-
-[chara_mod  name="Lan"  time="600"  cross="true"  storage="chara/11/Lan_1_laugh.png"  ]
-[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_embarrased.png"  ]
 [tb_start_text mode=1 ]
-Lan appears out of nowhere and almost makes me jump in surprise. Both her and Minh burst out laughing.[p]
+In that very moment, those beautiful eyes in front of me glow in red[p]
 [_tb_end_text]
 
-[tb_start_tyrano_code]
-[layopt layer=message1 visible=false]
-[layopt layer=message0 visible=true]
-
-[current layer="message0"]
-[_tb_end_tyrano_code]
-
-[chara_hide  name="Kai"  time="1000"  wait="true"  pos_mode="false"  ]
-[chara_show  name="Minh"  time="1000"  wait="true"  storage="chara/12/Minh_smile.png"  width="302"  height="742"  left="680"  top="-19"  reflect="false"  ]
-[tb_start_text mode=1 ]
-#Minh
-We just finished the ceremony and everything[p]
-[_tb_end_text]
-
-[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_small_smile.png"  ]
-[chara_mod  name="Lan"  time="600"  cross="true"  storage="chara/11/Lan_1_smile.png"  ]
-[tb_start_text mode=1 ]
-#Lan
-Let's go grab dinner!!! I'm hungry!![p]
-[_tb_end_text]
-
-[chara_hide  name="Minh"  time="1000"  wait="true"  pos_mode="false"  ]
-[chara_show  name="Kai"  time="1000"  wait="true"  storage="chara/2/Kai_2_talk.png"  width="694"  height="1235"  left="581"  top="-262"  reflect="false"  ]
-[tb_start_text mode=1 ]
-#Kai
-Hold up, something's telling me you forgot that you just had half of your left colon and a part of your rhopectineal bursa cut in the last operation[p]
-[_tb_end_text]
-
-[chara_mod  name="Lan"  time="600"  cross="true"  storage="chara/11/Lan_1_bruh_talk.png"  ]
-[tb_start_text mode=1 ]
-#Lan
-Yes, yes, i know Doc. I'll just order a smoothie or something[p]
-[_tb_end_text]
-
-[chara_mod  name="Kai"  time="600"  cross="true"  storage="chara/2/Kai_pose_2_ai.png"  ]
-[tb_start_text mode=1 ]
-#Kai
-And that smoothie maker will have to answer 500 quiz with me before you could even think about drinking it[p]
-[_tb_end_text]
-
-[chara_mod  name="Lan"  time="600"  cross="true"  storage="chara/11/Lan_1_annoyed.png"  ]
-[tb_start_text mode=1 ]
-#Lan
-Urghhhh...when i'm done with cancer and open the restaurant, i'll make sure your meal is pure vegan on our big opening party, Dr Quang[p]
-[_tb_end_text]
-
-[chara_mod  name="Kai"  time="600"  cross="true"  storage="chara/2/Kai_2_laugh.png"  ]
-[tb_start_text mode=1 ]
-#Kai
-Considered how many hospital meals that i already gave you. Does that count as a win though?[p]
-[_tb_end_text]
-
-[tb_start_tyrano_code]
-[layopt layer=message1 visible=true]
-[layopt layer=message0 visible=false]
-
-[current layer="message1"]
-[_tb_end_tyrano_code]
-
-[chara_mod  name="An"  time="600"  cross="true"  storage="chara/1/An_laugh.png"  ]
-[tb_start_text mode=1 ]
-Lan whines again while me and Minh are laughing. Hanging out with friends and making jokes, i miss this feelings[p]
-[_tb_end_text]
-
-[tb_start_tyrano_code]
-[layopt layer=message1 visible=false]
-[layopt layer=message0 visible=true]
-
-[current layer="message0"]
-[_tb_end_tyrano_code]
-
-[jump  storage="chapter_1_kaiMonologue.ks"  target=""  ]
+[cm  ]
+[jump  storage="prologue_fiveYearsLater.ks"  target=""  ]
 [s  ]
 [tb_start_tyrano_code]
 [position   layer="message0" frame="mCharacter.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
@@ -396,4 +487,3 @@ Lan whines again while me and Minh are laughing. Hanging out with friends and ma
 [current layer="message0"]
 [_tb_end_tyrano_code]
 
-[chara_mod  name="An"  time="600"  cross="true"  ]

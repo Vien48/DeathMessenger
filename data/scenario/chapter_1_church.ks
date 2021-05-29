@@ -393,4 +393,3 @@ Lan whines again while me and Minh are laughing. Hanging out with friends and ma
 [current layer="message0"]
 [_tb_end_tyrano_code]
 
-[chara_mod  name="An"  time="600"  cross="true"  ]
