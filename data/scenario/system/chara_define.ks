@@ -2,7 +2,7 @@
 ;An
 [chara_new  name="An"  jname="An"  storage="chara/1/An_angry.png"  ]
 ;Kai
-[chara_new  name="Kai"  jname="Kai"  storage="chara/2/Kai_2_chuckle.png"  ]
+[chara_new  name="Kai"  jname="Kai"  storage="chara/2/Kai_2_blush.png"  ]
 ;Khai
 [chara_new  name="Khai"  jname="Khai"  storage="chara/3/Khai.png"  ]
 ;An'smother

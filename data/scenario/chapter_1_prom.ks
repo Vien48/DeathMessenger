@@ -1,6 +1,8 @@
 [_tb_system_call storage=system/_chapter_1_prom.ks]
 
 [cm  ]
+[bg  time="1000"  method="crossfade"  storage="background/an_room.png"  ]
+[chara_show  name="An"  time="1000"  wait="true"  storage="chara/1/An_talk.png"  width="558"  height="992"  left="-93"  top="187"  reflect="false"  ]
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=true]
 [layopt layer=message0 visible=false]
@@ -9,14 +11,26 @@
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-At home, i find a new present on my desk: a beautiful ball gown and heels. Haizz, just like i thought, it was him all along.[p]
-put out my phone and text Kai that i'll come to the ball with him as long as we can come together as friends, not lovers, so he doesn't have to keep sending me presents like this.[p]
+At home, i find a new present on my desk: a beautiful ball gown and heels. [p]
+
 [_tb_end_text]
 
+[chara_mod  name="An"  time="100"  cross="false"  storage="chara/1/An_haizz_smile.png"  ]
+[tb_start_text mode=1 ]
+Haizz, just like i thought, it was him all along.[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+I put out my phone and text Kai that i'll come to the ball with him as long as we can come together as friends, not lovers, so he doesn't have to keep sending me presents like this.[p]
+[_tb_end_text]
+
+[chara_hide_all  time="1000"  wait="true"  ]
+[bg  time="1000"  method="crossfade"  storage="black.png"  ]
 [tb_start_text mode=1 ]
 The next day[p]
 [_tb_end_text]
 
+[bg  time="1000"  method="crossfade"  storage="background/reception.png"  ]
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=false]
 [layopt layer=message0 visible=true]
@@ -29,6 +43,7 @@ The next day[p]
 Dr Quang, are you going to change your mind about not coming to the ball?[p]
 [_tb_end_text]
 
+[chara_show  name="Kai"  time="1000"  wait="true"  storage="chara/2/Kai_small_smile.png"  width="745"  height="1002"  left="354"  top="-38"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #Kai
 Yes, i already found a partner to come with me[p]
@@ -39,11 +54,14 @@ Yes, i already found a partner to come with me[p]
 Really? But you turned down every single invitation before[p]
 [_tb_end_text]
 
+[chara_mod  name="Kai"  time="100"  cross="false"  storage="chara/2/Kai_laugh.png"  ]
 [tb_start_text mode=1 ]
 #Kai
 I don't want to come with anyone if it isn't her[p]
 [_tb_end_text]
 
+[chara_hide_all  time="1000"  wait="true"  ]
+[chara_show  name="An"  time="1000"  wait="true"  storage="chara/1/An_embarrased.png"  width="572"  height="1017"  left="-100"  top="172"  reflect="false"  ]
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=true]
 [layopt layer=message0 visible=false]
@@ -52,9 +70,11 @@ I don't want to come with anyone if it isn't her[p]
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-Having heard all of that, my cheeks turn bright red like a tomato. Going back to the charity fund department, i tell Lan everything.[p]
+Having heard all of that from a corner, my cheeks turn bright red like a tomato. Going back to the charity fund department, i tell Lan everything.[p]
 [_tb_end_text]
 
+[bg  time="1000"  method="crossfade"  storage="background/charity_fund_department_final.png"  ]
+[chara_show  name="Lan"  time="1000"  wait="true"  storage="chara/11/Lan_2_cheer.png"  width="233"  height="669"  left="539"  top="89"  reflect="false"  ]
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=false]
 [layopt layer=message0 visible=true]
@@ -67,12 +87,16 @@ Having heard all of that, my cheeks turn bright red like a tomato. Going back to
 So you're coming to the ball with dr Quang. Isn't that wonderful?!![p]
 [_tb_end_text]
 
+[chara_mod  name="An"  time="100"  cross="false"  storage="chara/1/An_haizz_smile.png"  ]
 [tb_start_text mode=1 ]
 #An
-Well...to be honest i only did it for Dr Quang. I don't want to go to a ball where everyone would side eye me and she can't get along.[p]
+Well...to be honest i only did it for Dr Quang. I don't want to go to a ball where everyone will side eye me and i can't fit in.[p]
 But Dr Quang did so much for me and i owe him this much[p]
 [_tb_end_text]
 
+[chara_hide_all  time="1000"  wait="true"  ]
+[bg  time="1000"  method="crossfade"  storage="background/an_room.png"  ]
+[chara_show  name="An"  time="1000"  wait="true"  storage="chara/1/An_small_smile.png"  width="589"  height="1047"  left="-108"  top="163"  reflect="false"  ]
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=true]
 [layopt layer=message0 visible=false]
@@ -84,10 +108,24 @@ But Dr Quang did so much for me and i owe him this much[p]
 The ball date finally comes.[p]
 [_tb_end_text]
 
+[chara_mod  name="An"  time="100"  cross="true"  storage="chara/1/An_talk.png"  ]
 [tb_start_text mode=1 ]
-That sound, it must be Kai's limousine. I rush down the stairs but to my surprise, mother and Khai are already at the doors, a wave of shock appear on their face. Shoot, i forgot to tell them.[p]
+That sound, it must be Kai's limousine.[p]
 [_tb_end_text]
 
+[bg  time="1000"  method="crossfade"  storage="background/background_kitchen_stairs.png"  ]
+[tb_start_text mode=1 ]
+ I rush down the stairs but to my surprise, mother and Khai are already at the doors, a wave of shock appear on their face. [p]
+[_tb_end_text]
+
+[chara_mod  name="An"  time="100"  cross="false"  storage="chara/1/An_bruh.png"  ]
+[tb_start_text mode=1 ]
+Shoot, i forgot to tell them.[p]
+[_tb_end_text]
+
+[bg  time="1000"  method="crossfade"  storage="background/living_room.png"  ]
+[chara_show  name="AnMum"  time="1000"  wait="true"  storage="chara/5/An_mum_talk.png"  width="228"  height="750"  left="452"  top="11"  reflect="false"  ]
+[chara_show  name="Khai"  time="1000"  wait="true"  storage="chara/3/Khai_surprise.png"  width="321"  height="750"  left="703"  top="36"  reflect="false"  ]
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=false]
 [layopt layer=message0 visible=true]
@@ -100,6 +138,7 @@ That sound, it must be Kai's limousine. I rush down the stairs but to my surpris
 I'm sorry, but Dr Quang did you really just say you're here to take An on a date?[p]
 [_tb_end_text]
 
+[chara_mod  name="An"  time="100"  cross="false"  storage="chara/1/An_embarrased.png"  ]
 [tb_start_text mode=1 ]
 #An
 It's not a date mother!!! And i'll be back early i promise!![p]
@@ -114,6 +153,14 @@ It's not a date mother!!! And i'll be back early i promise!![p]
 
 [tb_start_text mode=1 ]
 They become even more shock seeing how i dress.[p]
+
+[_tb_end_text]
+
+[chara_hide  name="An'smother"  time="1000"  wait="true"  pos_mode="false"  ]
+[chara_hide  name="Khai"  time="1000"  wait="true"  pos_mode="false"  ]
+[bg  time="1000"  method="crossfade"  storage="background/background_street_1.png"  ]
+[chara_show  name="Kai"  time="1000"  wait="true"  storage="chara/2/Kai_pose_2_ai.png"  width="780"  height="1387"  left="364"  top="-233"  reflect="false"  ]
+[tb_start_text mode=1 ]
 I can clearly see Kai holding back his laughter when i pull his hand and rush into the limousine.[p]
 [_tb_end_text]
 
@@ -124,21 +171,25 @@ I can clearly see Kai holding back his laughter when i pull his hand and rush in
 [current layer="message0"]
 [_tb_end_tyrano_code]
 
+[chara_mod  name="Kai"  time="100"  cross="false"  storage="chara/2/Kai_2_laugh.png"  ]
 [tb_start_text mode=1 ]
 #Kai
 You could have let me explain with your mother[p]
 [_tb_end_text]
 
+[chara_mod  name="An"  time="100"  cross="false"  storage="chara/1/An_angry.png"  ]
 [tb_start_text mode=1 ]
 #An
 No way. She will start her endless question sessions and next thing you know she'll already have our wedding planned out.[p]
 [_tb_end_text]
 
+[chara_mod  name="Kai"  time="100"  cross="false"  storage="chara/2/Kai_pose_2_ai.png"  ]
 [tb_start_text mode=1 ]
 #Kai
 Oh?[p]
 [_tb_end_text]
 
+[chara_mod  name="An"  time="100"  cross="false"  storage="chara/1/An_pout_blush.png"  ]
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=true]
 [layopt layer=message0 visible=false]
