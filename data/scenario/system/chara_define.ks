@@ -22,7 +22,13 @@
 ;Lan
 [chara_new  name="Lan"  jname="Lan"  storage="chara/11/Lan_1_annoyed.png"  ]
 ;Minh
-[chara_new  name="Minh"  jname="Minh"  storage="chara/12/Minh_smile.png"  ]
+[chara_new  name="Minh"  jname="Minh"  storage="chara/12/Minh_cry.png"  ]
+;Linh
+[chara_new  name="Linh"  jname="Linh"  storage="chara/13/Dr_Linh.png"  ]
+;Lanblackfeathers
+[chara_new  name="Lanblackfeathers"  jname="Lanblackfeathers"  storage="chara/14/Lan_black_feathers_smile.png"  ]
+;Kaideath
+[chara_new  name="Kaideath"  jname="Kaideath"  storage="chara/15/Kai_normal_death.png"  ]
 
 ;=========変数宣言部分 
 [iscript] 
