@@ -155,7 +155,7 @@ Hoang wipes his face and tells us[p]
 Then...for my final wish. I want you two to always remember that i love you both, so much.[p]
 Thank you for picking me up that day. [p]
 Thank you for being my friends, for taking care of me, for all the kind words,...I've always...always jealous of other kids for having their parents pick them up from school or take them to the amusement park.[p]
- Thank you...for making me feel normal again...[p]
+Thank you...for making me feel normal again...[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]

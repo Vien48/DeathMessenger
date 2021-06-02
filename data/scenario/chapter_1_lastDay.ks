@@ -358,8 +358,7 @@ We already did everything we could. Lan is not going to make it this time[p]
 [chara_mod  name="An"  time="100"  cross="true"  storage="chara/1/An_sad.png"  ]
 [button  storage="chapter_1_lastDay.ks"  target="*watchKai"  graphic="watch_Kai_BUTTON.png"  width="642"  height="92"  name="img_95"  x="311"  y="166"  _clickable_img=""  ]
 [button  storage="chapter_1_lastDay.ks"  target="*begKai"  graphic="Beg_Kai_BUTTON.png"  width="642"  height="92"  name="img_94"  x="295"  y="290"  _clickable_img=""  ]
-[glink  color="black"  storage="chapter_1_lastDay.ks"  size="20"  target="*watchKai"  text="watch&nbsp;kai"  ]
-[glink  color="black"  storage="chapter_1_lastDay.ks"  size="20"  text="beg&nbsp;Kai"  target="*begKai"  ]
+[s  ]
 *watchKai
 
 [tb_eval  exp="f.decider+='B1'"  name="decider"  cmd="+="  op="t"  val="B1"  val_2="undefined"  ]
@@ -950,8 +949,6 @@ Suddenly all of Lan's words come back to me.[p]
 
 [button  storage="chapter_1_iLoveYou.ks"  target=""  graphic="i_love_you_BUTTON.png"  width="642"  height="92"  x="357"  y="108"  _clickable_img=""  name="img_259"  ]
 [button  storage="chapter_1_notTheTimeYet.ks"  target=""  graphic="not_the_time_BUTTON.png"  width="642"  height="92"  x="348"  y="217"  _clickable_img=""  name="img_260"  ]
-[glink  color="black"  storage="chapter_1_iLoveYou.ks"  size="20"  text="I&nbsp;love&nbsp;you"  ]
-[glink  color="black"  storage="chapter_1_notTheTimeYet.ks"  size="20"  text="Maybe&nbsp;It&nbsp;not&nbsp;time&nbsp;yet"  ]
 [s  ]
 *begKai
 
