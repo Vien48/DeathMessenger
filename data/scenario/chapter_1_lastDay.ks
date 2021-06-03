@@ -350,14 +350,9 @@ The operation takes 2 hours until Kai stops time.[p]
 We already did everything we could. Lan is not going to make it this time[p]
 [_tb_end_text]
 
-[tb_start_tyrano_code]
-[position   layer="message0" frame="mCharacter.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
-[position   layer="message1" frame="mNarrator.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
-[_tb_end_tyrano_code]
-
 [chara_mod  name="An"  time="100"  cross="true"  storage="chara/1/An_sad.png"  ]
 [button  storage="chapter_1_lastDay.ks"  target="*watchKai"  graphic="watch_Kai_BUTTON.png"  width="642"  height="92"  name="img_95"  x="311"  y="166"  _clickable_img=""  ]
-[button  storage="chapter_1_lastDay.ks"  target="*begKai"  graphic="Beg_Kai_BUTTON.png"  width="642"  height="92"  name="img_94"  x="295"  y="290"  _clickable_img=""  ]
+[button  storage="chapter_1_lastDay.ks"  target="*begKai"  graphic="Beg_Kai_BUTTON.png"  width="642"  height="92"  name="img_96"  x="295"  y="290"  _clickable_img=""  ]
 [s  ]
 *watchKai
 
@@ -377,6 +372,7 @@ I take a deep breath. No, this isn't the time to cry yet.[p]
 
 [_tb_end_text]
 
+[chara_mod  name="An"  time="100"  cross="true"  storage="chara/1/An_concern.png"  ]
 [tb_start_text mode=1 ]
 Then please...send her away.[p]
 [_tb_end_text]
@@ -389,8 +385,8 @@ The scene slowly changes to white, everyone disappeared except Kai, Lan and me.[
 Kai is now in his Death's Messenger form, exactly how i first met him and Lan slowly opens her eyes.[p]
 [_tb_end_text]
 
-[chara_move  name="Kaideath"  anim="false"  time="300"  effect="linear"  wait="true"  left="664"  top="-30"  width="653"  height="878"  ]
-[chara_show  name="Lanblackfeathers"  time="1000"  wait="true"  storage="chara/14/Lan_talk_feather.png"  width="366"  height="669"  left="221"  top="110"  reflect="false"  ]
+[chara_move  name="Kaideath"  anim="true"  time="300"  effect="easeInQuad"  wait="true"  left="664"  top="-30"  width="653"  height="878"  ]
+[chara_show  name="Lanblackfeathers"  time="1000"  wait="true"  storage="chara/14/Lan_talk_feather.png"  width="366"  height="669"  left="346"  top="74"  reflect="false"  ]
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=false]
 [layopt layer=message0 visible=true]
@@ -401,7 +397,7 @@ Kai is now in his Death's Messenger form, exactly how i first met him and Lan sl
 [tb_start_text mode=1 ]
 #Lan
 Was it over? Where are everyone? [p]
-Dr Quang what happened to you??? The wings, that horns,...[p]
+Dr Quang what happened to you??? The wings...[p]
 [_tb_end_text]
 
 [chara_mod  name="Lanblackfeathers"  time="100"  cross="true"  storage="chara/14/Lan_hmm_feathers.png"  ]
@@ -526,7 +522,7 @@ Then Minh came to the orphanage after his parents got death sentence for murder.
 #Lan
 We cleaned the kitchen together because we were the eldest. The two kids no one wanted to talk with, dreaming about a day when we can run far away from this place[p]
 open a restaurant where we can cook everything we want and never get hungry again.[p]
-I always love his food and Minh said i had a much bigger appetite than what i looked like[p]
+I always love his food and Minh said i had a much bigger appetite than how i looked like[p]
 [_tb_end_text]
 
 [bg  time="1000"  method="crossfade"  storage="sequences/forever_love_2.png"  ]
@@ -621,9 +617,9 @@ Lan wipes her tears[p]
 
 [tb_start_text mode=1 ]
 #Lan
-Hold up.!!![p]
+Hold up!![p]
 This isn't part of my wish but you two take care alright?[p]
-Especially you, An, take care of your own health before anyone else. Kai, you have to take care of her too.[p]
+Especially you, An, take care of your own health, don't overwork yourself. Kai, you have to take care of her too.[p]
 You were strict and an ass at times but still a good friend that saved my life once.[p]
 That's why i hereby entrust my best friend to you. Don't ever make her sad.[p]
 Value every moment you have with each others because who knows what would happen in the future. And...and..[p]
@@ -723,6 +719,11 @@ Yeah. It's over now[p]
 [bg  time="1000"  method="crossfade"  storage="background/surgery_room.png"  ]
 [tb_start_text mode=1 ]
 The scene turns back to reality. Time starts again.[p]
+
+[_tb_end_text]
+
+[bg  time="1000"  method="crossfade"  storage="background/hospital_hall.png"  ]
+[tb_start_text mode=1 ]
 We go out of the operation room and hold Minh in our arms when we announce that we did everything we could.[p]
 Kai says as he places Lan's ring on Minh's hand[p]
 [_tb_end_text]
@@ -734,10 +735,9 @@ Kai says as he places Lan's ring on Minh's hand[p]
 [current layer="message0"]
 [_tb_end_tyrano_code]
 
-[bg  time="1000"  method="crossfade"  storage="background/hospital_hall.png"  ]
 [chara_mod  name="An"  time="100"  cross="true"  storage="chara/1/An_sad.png"  ]
 [chara_mod  name="Kai"  time="100"  cross="true"  storage="chara/2/Kai_talking.png"  ]
-[chara_move  name="Kai"  anim="false"  time="300"  effect="linear"  wait="true"  left="259"  top="-38"  width="740"  height="995"  ]
+[chara_move  name="Kai"  anim="true"  time="300"  effect="easeInQuad"  wait="true"  left="259"  top="-38"  width="740"  height="995"  ]
 [chara_show  name="Minh"  time="1000"  wait="true"  storage="chara/12/Minh_cry.png"  width="302"  height="742"  left="958"  top="34"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #Kai
@@ -777,7 +777,7 @@ When i'm back in my room, i noticed someone was already there.[p]
 Can you just use the doors? What are you doing here?[p]
 [_tb_end_text]
 
-[chara_show  name="Kai"  time="1000"  wait="true"  storage="chara/2/Kai_normal.png"  width="992"  height="1334"  left="398"  top="-17"  reflect="false"  ]
+[chara_show  name="Kai"  time="1000"  wait="true"  storage="chara/2/Kai_normal.png"  width="756"  height="1017"  left="368"  top="-16"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #Kai
 I just thought that you might be crying now[p]

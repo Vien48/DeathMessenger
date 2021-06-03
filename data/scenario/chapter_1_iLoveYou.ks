@@ -1,7 +1,10 @@
 [_tb_system_call storage=system/_chapter_1_iLoveYou.ks]
 
 [cm  ]
+[chara_hide_all  time="1000"  wait="true"  ]
 [tb_eval  exp="f.decider+='C1'"  name="decider"  cmd="+="  op="t"  val="C1"  val_2="undefined"  ]
+[bg  time="1000"  method="crossfade"  storage="sequences/AN_confession_1.png"  ]
+[hidemessage  ]
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=true]
 [layopt layer=message0 visible=false]
@@ -13,6 +16,8 @@
 I hug him, hiding my burning cheeks. He chuckles.[p]
 [_tb_end_text]
 
+[bg  time="1000"  method="crossfade"  storage="sequences/An_confession_2.png"  ]
+[hidemessage  ]
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=false]
 [layopt layer=message0 visible=true]
@@ -37,11 +42,13 @@ Kai... i love you[p]
 [current layer="message1"]
 [_tb_end_tyrano_code]
 
+[bg  time="1000"  method="crossfade"  storage="sequences/An_confession_3.png"  ]
 [tb_start_text mode=1 ]
 Dead silence fall between us, the only thing can be heard is my pounding heart.[p]
 Kai didn't even move. I...i knew it. This's definitely a bad idea.[p]
 [_tb_end_text]
 
+[hidemessage  ]
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=false]
 [layopt layer=message0 visible=true]
@@ -91,6 +98,8 @@ Kai, no matter what happened, i feel like i'm the best version of myself next to
 [current layer="message1"]
 [_tb_end_tyrano_code]
 
+[bg  time="1000"  method="crossfade"  storage="sequences/An_confession_4.png"  ]
+[hidemessage  ]
 [tb_start_text mode=1 ]
 The awkward silence comes back. Right before i die from embarrassment Kai suddenly hugs me, so tight it surprises me.[p]
 He's shaking. Broken words come out like Kai is trying to tell me something but couldn't find the word to do so.[p]
