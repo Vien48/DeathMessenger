@@ -2,7 +2,7 @@
 ;An
 [chara_new  name="An"  jname="An"  storage="chara/1/An_angry.png"  ]
 ;Kai
-[chara_new  name="Kai"  jname="Kai"  storage="chara/2/Kai_2_blush.png"  ]
+[chara_new  name="Kai"  jname="Kai"  storage="chara/2/Kai_1_bruh_face.png"  ]
 ;Khai
 [chara_new  name="Khai"  jname="Khai"  storage="chara/3/Khai.png"  ]
 ;An'smother
@@ -29,6 +29,10 @@
 [chara_new  name="Lanblackfeathers"  jname="Lanblackfeathers"  storage="chara/14/Lan_black_feathers_smile.png"  ]
 ;Kaideath
 [chara_new  name="Kaideath"  jname="Kaideath"  storage="chara/15/Kai_normal_death.png"  ]
+;Hoang
+[chara_new  name="Hoang"  jname="Hoang"  storage="chara/16/Hoang_angry.png"  ]
+;Hoangdad
+[chara_new  name="Hoangdad"  jname="Hoangdad"  storage="chara/17/Hoang_dad.png"  ]
 
 ;=========変数宣言部分 
 [iscript] 

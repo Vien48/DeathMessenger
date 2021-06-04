@@ -1,6 +1,12 @@
 [_tb_system_call storage=system/_chapter_2_theRain.ks]
 
+[chara_hide_all  time="1000"  wait="true"  ]
 [cm  ]
+[tb_start_tyrano_code]
+[position   layer="message0" frame="mCharacter.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
+[position   layer="message1" frame="mNarrator.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
+[_tb_end_tyrano_code]
+
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=true]
 [layopt layer=message0 visible=false]
@@ -8,8 +14,10 @@
 [current layer="message1"]
 [_tb_end_tyrano_code]
 
+[bg  time="1000"  method="crossfade"  storage="sequences/rain.png"  ]
+[hidemessage  ]
 [tb_start_text mode=1 ]
-Suddenly it started raining so i and Kai find somewhere to hide. When they're alone, Kai started treating the wound on her face with magic. [p]
+Suddenly it starts raining so Kai and i find somewhere to hide. When we're alone, Kai starts  treating the wound on my face with magic. [p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
