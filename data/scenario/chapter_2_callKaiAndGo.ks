@@ -1,6 +1,11 @@
 [_tb_system_call storage=system/_chapter_2_callKaiAndGo.ks]
 
 [cm  ]
+[tb_start_tyrano_code]
+[position   layer="message0" frame="mCharacter.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
+[position   layer="message1" frame="mNarrator.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
+[_tb_end_tyrano_code]
+
 [bg  time="1000"  method="crossfade"  storage="background/background_kitchen_stairs.png"  ]
 [chara_show  name="An"  time="1000"  wait="true"  storage="chara/1/An_concern.png"  width="606"  height="1077"  left="-116"  top="175"  reflect="false"  ]
 [chara_show  name="Kai"  time="1000"  wait="true"  storage="chara/2/Kai_angry.png"  width="766"  height="1030"  left="355"  top="-5"  reflect="false"  ]
@@ -529,7 +534,7 @@ Kai gives him a cold chuckle[p]
 BANG!!! The gun fired straight to his head.[p]
 [_tb_end_text]
 
-[bg  time="1000"  method="crossfade"  ]
+[bg  time="500"  method="crossfade"  storage="background/piano_room.png"  ]
 [tb_start_tyrano_code]
 [layopt layer=message1 visible=false]
 [layopt layer=message0 visible=true]

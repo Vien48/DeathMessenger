@@ -41,7 +41,7 @@ SHUT UP!!! What do you even know about me?![p]
 #Hell King
 Let me tell you the truth, Kai. I put that curse on you because just from one look i knew that you loved that exorcist girl.[p]
 You, the strongest Death's Messenger, the Bloody Prince of Hell. You killed her entire family because you considered those feelings as weakness yet still spared the girl.[p]
- That's why i forced you to keep her image in mind forever so you won't be able to end innocent lives so easily anymore...[p]
+That's why i forced you to keep her image in mind forever so you won't be able to end innocent lives so easily anymore...[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -100,8 +100,9 @@ Ha ha and now you're showing mercy after being called out?[p]
 
 [tb_start_text mode=1 ]
 #Hell King
-You won't harm innocent people anymore, not when you want to protect her world. The last few months already proved that keeping the curse on you will only provide the opposite effect.[p]
-Tell An everything and move on, Kai. You can't continue to pull up lies after lies like this. Both for her and your own sake.[p]
+You won't harm innocent people anymore, not when you want to protect her world. [p]
+The last few months already proved that keeping the curse on you will only provide the opposite effect. Tell An everything and move on, Kai. [p]
+You can't continue to pull up lies after lies like this. Both for her and your own sake.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -136,7 +137,8 @@ Why?[p]
 #Hell King
 Because in our days together, Faust, i broke him beyond redemption.[p]
 That man was simply so lonely he fall for the very demon that made his life hell, his only companion. Can you even call it love? [p]
-There's no point saving our relationship so i decided to protect his dream and his world instead. Beside, it was because of me that God managed to create the Death's Messengers.[p]
+There's no point saving our relationship so i decided to protect his dream and his world instead. [p]
+Beside, it was because of me that God managed to create the Death's Messengers.[p]
 So it's my job to take care of you guys. You're different, Kai. You can have a better conclusion than i did. Go back and fight Kai, fight for the human life that you've always wanted.[p]
 [_tb_end_text]
 

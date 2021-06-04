@@ -1,6 +1,15 @@
 [_tb_system_call storage=system/_chapter_1_kaiMonologue.ks]
 
 [cm  ]
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
+
+[tb_hide_message_window  ]
+[chara_hide_all  time="1000"  wait="true"  ]
 [bg  time="1000"  method="crossfade"  storage="sequences/Kai_memory_1.png"  ]
 [hidemessage  ]
 [bg  time="1000"  method="crossfade"  storage="sequences/Kai_memory_2.png"  ]

@@ -26,5 +26,4 @@
 [preload  storage="./data/bgimage/sequences/corpse_over_me.png"  ]
 [preload  storage="./data/bgimage/red.png"  ]
 [preload  storage="./data/fgimage/chara/2/Kai_normal_bloody.png"  ]
-[preload  storage="./data/bgimage/undefined"  ]
 [return]

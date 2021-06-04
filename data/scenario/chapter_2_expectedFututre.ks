@@ -268,13 +268,7 @@ We find Hoang in his old burned house. Sleeping in the place that's supposed to 
 With black feathers around him.[p]
 [_tb_end_text]
 
-[tb_start_tyrano_code]
-[layopt layer=message1 visible=false]
-[layopt layer=message0 visible=true]
-
-[current layer="message0"]
-[_tb_end_tyrano_code]
-
+[s  ]
 [jump  storage="chapter_2_yourWish.ks"  target=""  ]
 [s  ]
 [tb_start_tyrano_code]

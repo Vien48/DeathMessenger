@@ -1,6 +1,14 @@
 [_tb_system_call storage=system/_chapter_2_intro.ks]
 
 [cm  ]
+[tb_start_tyrano_code]
+[layopt layer=message1 visible=false]
+[layopt layer=message0 visible=true]
+
+[current layer="message0"]
+[_tb_end_tyrano_code]
+
+[tb_hide_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="sequences/Hoang_1.png"  ]
 [hidemessage  ]
 [bg  time="1000"  method="crossfade"  storage="sequences/Hoang_2.png"  ]
@@ -35,6 +43,11 @@
 [hidemessage  ]
 [bg  time="1000"  method="crossfade"  storage="sequences/Hoang_17.png"  ]
 [hidemessage  ]
+[tb_start_tyrano_code]
+[position   layer="message0" frame="mCharacter.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
+[position   layer="message1" frame="mNarrator.png" marginl="130" marginr="70" margint="60" marginb="10" left="300" top="458" width="1000" height="247"]
+[_tb_end_tyrano_code]
+
 [jump  storage="chapter_2_encounter.ks"  target=""  ]
 [s  ]
 [tb_start_tyrano_code]
