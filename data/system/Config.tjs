@@ -78,3 +78,9 @@
 ;defaultLinkColor=0x0080ff
 ;defaultLinkOpacity=64
 ;vertical=false
+;use3D=false
+;vchat=false
+;vchatMenuVisible=false
+;defaultChEffect=none
+;defaultChEffectSpeed=0.2s
+;version=5.00

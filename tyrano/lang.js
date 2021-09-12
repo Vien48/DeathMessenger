@@ -11,7 +11,7 @@ window.tyrano_lang = {
         "label_double":"has more than one occurrence in the scene file",
         "save_file_violation_1":"Modified save data detected. Game start-up will be aborted.",
         "save_file_violation_2":"Start-up aborted. Please delete the save data and restart.",
-
+		 "reload":"reload",
     },
 
     novel : {
